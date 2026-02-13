@@ -391,7 +391,11 @@ class ChartRenderer {
     createSVGElement(type, attrs) {
         const elem = document.createElementNS('http://www.w3.org/2000/svg', type);
         Object.entries(attrs).forEach(([key, value]) => {
-            elem.setAttribute(key, value);
+            if (key === 'class') {
+                elem.setAttribute('class', value);
+            } else {
+                elem.setAttribute(key, value);
+            }
         });
         return elem;
     }
@@ -585,7 +589,7 @@ class DashboardApp {
             wrapper.appendChild(title);
             
             const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-            svg.className = 'chart-svg';
+            svg.setAttribute('class', 'chart-svg');
             wrapper.appendChild(svg);
             
             // Render chart based on type
