@@ -26,6 +26,7 @@ logger = logging.getLogger(__name__)
 # Constants
 OUT_DATA_DIR = Path("out/data")
 OUT_SPEC_DIR = Path("out/spec")
+SEED_DATA_DIR = Path("data/seed")
 
 
 class SpecBuilder:
@@ -36,21 +37,33 @@ class SpecBuilder:
         self.districts = []
 
     def load_data(self):
-        """Load normalized data."""
+        """Load normalized data, falling back to seed data if empty."""
         assessments_file = OUT_DATA_DIR / "assessments.csv"
         levy_file = OUT_DATA_DIR / "levy.csv"
+        seed_assessments = SEED_DATA_DIR / "assessments.csv"
+        seed_levy = SEED_DATA_DIR / "levy.csv"
         
         if assessments_file.exists():
             self.assessments_df = pd.read_csv(assessments_file)
         else:
             self.assessments_df = pd.DataFrame()
-            logger.warning("No assessments.csv found")
+        
+        if self.assessments_df.empty and seed_assessments.exists():
+            logger.info("No fetched assessment data; using seed data")
+            self.assessments_df = pd.read_csv(seed_assessments)
+        elif self.assessments_df.empty:
+            logger.warning("No assessments.csv found and no seed data available")
         
         if levy_file.exists():
             self.levy_df = pd.read_csv(levy_file)
         else:
             self.levy_df = pd.DataFrame()
-            logger.warning("No levy.csv found")
+        
+        if self.levy_df.empty and seed_levy.exists():
+            logger.info("No fetched levy data; using seed data")
+            self.levy_df = pd.read_csv(seed_levy)
+        elif self.levy_df.empty:
+            logger.warning("No levy.csv found and no seed data available")
 
     def build_proficiency_chart(self, district: str) -> Dict:
         """Build proficiency trends chart spec."""

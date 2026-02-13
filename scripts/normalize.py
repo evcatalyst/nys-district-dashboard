@@ -29,6 +29,7 @@ logger = logging.getLogger(__name__)
 # Constants
 CACHE_DIR = Path("cache")
 OUT_DATA_DIR = Path("out/data")
+SEED_DATA_DIR = Path("data/seed")
 
 
 class DataNormalizer:
@@ -232,7 +233,7 @@ class DataNormalizer:
                 self.parse_budget_html(filepath, district, url)
 
     def save_data(self):
-        """Save normalized data to CSV and JSON."""
+        """Save normalized data to CSV and JSON, falling back to seed data if empty."""
         # Assessments
         if self.assessments:
             df = pd.DataFrame(self.assessments)
@@ -242,11 +243,16 @@ class DataNormalizer:
             df.to_json(json_path, orient='records', indent=2)
             logger.info(f"Saved {len(self.assessments)} assessment records")
         else:
-            logger.warning("No assessment data found")
-            # Create empty files
-            pd.DataFrame(columns=['district', 'year', 'subject', 'grade_band', 
-                                 'proficient_pct', 'tested_n', 'source_url']).to_csv(
-                OUT_DATA_DIR / "assessments.csv", index=False)
+            logger.warning("No assessment data parsed from fetched files")
+            seed_csv = SEED_DATA_DIR / "assessments.csv"
+            if seed_csv.exists():
+                logger.info("Copying seed assessments data as fallback")
+                import shutil
+                shutil.copy2(seed_csv, OUT_DATA_DIR / "assessments.csv")
+            else:
+                pd.DataFrame(columns=['district', 'year', 'subject', 'grade_band', 
+                                     'proficient_pct', 'tested_n', 'source_url']).to_csv(
+                    OUT_DATA_DIR / "assessments.csv", index=False)
         
         # Enrollments
         if self.enrollments:
@@ -271,10 +277,16 @@ class DataNormalizer:
             df.to_json(json_path, orient='records', indent=2)
             logger.info(f"Saved {len(self.levies)} levy records")
         else:
-            logger.warning("No levy data found")
-            pd.DataFrame(columns=['district', 'fiscal_year', 'levy_pct_change',
-                                 'levy_limit', 'proposed_levy', 'source_url']).to_csv(
-                OUT_DATA_DIR / "levy.csv", index=False)
+            logger.warning("No levy data parsed from fetched files")
+            seed_csv = SEED_DATA_DIR / "levy.csv"
+            if seed_csv.exists():
+                logger.info("Copying seed levy data as fallback")
+                import shutil
+                shutil.copy2(seed_csv, OUT_DATA_DIR / "levy.csv")
+            else:
+                pd.DataFrame(columns=['district', 'fiscal_year', 'levy_pct_change',
+                                     'levy_limit', 'proposed_levy', 'source_url']).to_csv(
+                    OUT_DATA_DIR / "levy.csv", index=False)
         
         # Copy sources.json
         sources_src = CACHE_DIR / "sources.json"
@@ -282,6 +294,13 @@ class DataNormalizer:
         if sources_src.exists():
             sources_dst.write_text(sources_src.read_text())
             logger.info("Copied sources.json to out/data/")
+        else:
+            seed_sources = SEED_DATA_DIR / "sources.json"
+            if seed_sources.exists():
+                logger.info("Copying seed sources.json as fallback")
+                sources_dst.write_text(seed_sources.read_text())
+            else:
+                logger.warning("No sources.json available")
 
 
 def main():
