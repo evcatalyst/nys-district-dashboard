@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYS District Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>NYS District Dashboard</h1>
+            <p class="subtitle">Assessment & Budget Data Visualization</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>About This Dashboard</h2>
+            <p>
+                This dashboard presents publicly available data from New York State Education Department (NYSED)
+                and school district budget notices. It displays assessment proficiency trends alongside
+                budget levy changes for selected districts.
+            </p>
+            <div class="disclaimer">
+                <strong>Important:</strong> This dashboard makes <strong>no causal claims</strong>. 
+                Data is presented side-by-side for informational purposes only. 
+                No inference should be made about causation between test scores and budget decisions.
+            </div>
+        </section>
+
+        <section class="controls">
+            <h2>Select District</h2>
+            <div class="district-selector">
+                <select id="districtSelect">
+                    <option value="">Loading districts...</option>
+                </select>
+            </div>
+        </section>
+
+        <section id="charts" class="charts-container">
+            <!-- Charts will be rendered here by app.js -->
+        </section>
+
+        <section class="sources">
+            <h2>Data Sources</h2>
+            <p>All data is fetched from public sources. Last update: <span id="lastUpdate">Loading...</span></p>
+            <div id="sourcesList" class="sources-list">
+                <!-- Sources will be loaded here by app.js -->
+            </div>
+        </section>
+
+        <section class="info">
+            <h2>How to Use</h2>
+            <ul>
+                <li>Select a district from the dropdown above</li>
+                <li>View proficiency trends for ELA and Math assessments</li>
+                <li>View budget levy percentage changes over time</li>
+                <li>Check the Data Sources section for upstream data links</li>
+            </ul>
+            <p>
+                <strong>Note:</strong> Data availability varies by district and year. 
+                Missing data points indicate information was not available or could not be parsed from source pages.
+            </p>
+        </section>
+
+        <section class="methodology">
+            <h2>Data Collection Methodology</h2>
+            <p>
+                This dashboard is fully automated. The pipeline:
+            </p>
+            <ol>
+                <li>Fetches NYSED assessment and enrollment data via public web pages</li>
+                <li>Fetches district budget/levy notices from official district websites</li>
+                <li>Parses HTML to extract relevant metrics (proficiency %, levy % change, etc.)</li>
+                <li>Normalizes data to structured CSV/JSON formats</li>
+                <li>Generates visualization specifications (ChartSpec JSON)</li>
+                <li>Renders charts using vanilla JavaScript and SVG</li>
+            </ol>
+            <p>
+                The entire process runs nightly via GitHub Actions and publishes updated data to GitHub Pages.
+                All source code is available in the repository.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>
+                Built with public data from NYSED and school districts. 
+                <a href="https://github.com/evcatalyst/nys-district-dashboard" target="_blank">View Source on GitHub</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

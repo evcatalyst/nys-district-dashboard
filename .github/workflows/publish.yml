@@ -1,0 +1,78 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:  # Manual trigger
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '0 6 * * *'  # Nightly at 06:00 UTC
+
+# Sets permissions of the GITHUB_TOKEN
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Cache fetched data
+        uses: actions/cache@v3
+        with:
+          path: cache/
+          key: data-cache-${{ github.run_id }}
+          restore-keys: |
+            data-cache-
+      
+      - name: Fetch data sources
+        run: |
+          python scripts/fetch_sources.py
+      
+      - name: Normalize data
+        run: |
+          python scripts/normalize.py
+      
+      - name: Build chart specifications
+        run: |
+          python scripts/build_specs.py
+      
+      - name: Build static site
+        run: |
+          python scripts/build_site.py
+      
+      - name: Configure Pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'out'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

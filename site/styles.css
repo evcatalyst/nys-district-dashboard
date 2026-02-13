@@ -1,0 +1,294 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+header .subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Main Content */
+main {
+    padding: 2rem 0;
+}
+
+section {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #667eea;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    border-bottom: 2px solid #667eea;
+    padding-bottom: 0.5rem;
+}
+
+/* Disclaimer */
+.disclaimer {
+    background: #fff3cd;
+    border-left: 4px solid #ffc107;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.disclaimer strong {
+    color: #856404;
+}
+
+/* Controls */
+.controls {
+    background: #f8f9fa;
+}
+
+.district-selector {
+    margin-top: 1rem;
+}
+
+#districtSelect {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 2px solid #667eea;
+    border-radius: 4px;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#districtSelect:hover {
+    border-color: #764ba2;
+}
+
+#districtSelect:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+}
+
+/* Charts Container */
+.charts-container {
+    min-height: 200px;
+}
+
+.chart-wrapper {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background: #fafafa;
+}
+
+.chart-title {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.chart-svg {
+    width: 100%;
+    height: 400px;
+    background: white;
+    border-radius: 4px;
+}
+
+.chart-annotation {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+.no-data {
+    padding: 2rem;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Sources */
+.sources-list {
+    margin-top: 1rem;
+}
+
+.source-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border-left: 3px solid #667eea;
+}
+
+.source-item a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.source-item a:hover {
+    text-decoration: underline;
+}
+
+.source-meta {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+.source-status {
+    display: inline-block;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+
+.source-status.success {
+    background: #d4edda;
+    color: #155724;
+}
+
+.source-status.failed {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+/* Info and Methodology */
+.info ul, .methodology ol {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.info li, .methodology li {
+    margin-bottom: 0.5rem;
+}
+
+.methodology p {
+    margin-bottom: 1rem;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+footer a {
+    color: #667eea;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    header .subtitle {
+        font-size: 1rem;
+    }
+    
+    section {
+        padding: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .chart-svg {
+        height: 300px;
+    }
+}
+
+/* SVG Chart Styles */
+.axis-line {
+    stroke: #333;
+    stroke-width: 2;
+}
+
+.axis-text {
+    font-size: 12px;
+    fill: #333;
+}
+
+.axis-label {
+    font-size: 14px;
+    font-weight: 600;
+    fill: #333;
+}
+
+.grid-line {
+    stroke: #e0e0e0;
+    stroke-width: 1;
+    stroke-dasharray: 2,2;
+}
+
+.data-point {
+    r: 4;
+}
+
+.data-line {
+    fill: none;
+    stroke-width: 2;
+}
+
+.data-bar {
+    stroke: none;
+}
+
+.legend-item {
+    cursor: default;
+}
+
+.legend-text {
+    font-size: 13px;
+    fill: #333;
+}
+
+.legend-rect {
+    stroke: none;
+}
