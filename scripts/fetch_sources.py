@@ -76,9 +76,10 @@ class DataFetcher:
                      etag: Optional[str] = None, last_modified: Optional[str] = None,
                      sha256: Optional[str] = None):
         """Record metadata about a fetched source."""
+        from datetime import timezone
         self.sources.append({
             "url": url,
-            "fetched_at": datetime.utcnow().isoformat() + "Z",
+            "fetched_at": datetime.now(timezone.utc).isoformat(),
             "status": status,
             "filepath": filepath,
             "etag": etag,
