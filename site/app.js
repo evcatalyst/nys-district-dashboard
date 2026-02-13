@@ -27,17 +27,19 @@ class ChartRenderer {
         const xValues = data.map(d => d[xAxis.field]);
         const xMin = Math.min(...xValues);
         const xMax = Math.max(...xValues);
+        const xRange = xMax - xMin;
         
         const yMin = yAxis.min !== undefined ? yAxis.min : 0;
         const yMax = yAxis.max !== undefined ? yAxis.max : 100;
+        const yRange = yMax - yMin;
 
         // Create scales
         const xScale = (value) => {
-            return this.margin.left + (value - xMin) / (xMax - xMin || 1) * chartWidth;
+            return this.margin.left + (value - xMin) / (xRange || 1) * chartWidth;
         };
 
         const yScale = (value) => {
-            return this.height - this.margin.bottom - (value - yMin) / (yMax - yMin || 1) * chartHeight;
+            return this.height - this.margin.bottom - (value - yMin) / (yRange || 1) * chartHeight;
         };
 
         // Clear SVG
@@ -127,10 +129,11 @@ class ChartRenderer {
         const yValues = data.map(d => d[series[0].field]);
         const yMin = yAxis.min !== undefined ? yAxis.min : Math.min(0, ...yValues);
         const yMax = yAxis.max !== undefined ? yAxis.max : Math.max(...yValues);
+        const yRange = yMax - yMin;
 
         // Create scale
         const yScale = (value) => {
-            return this.height - this.margin.bottom - (value - yMin) / (yMax - yMin || 1) * chartHeight;
+            return this.height - this.margin.bottom - (value - yMin) / (yRange || 1) * chartHeight;
         };
 
         // Clear SVG

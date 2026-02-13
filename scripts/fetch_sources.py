@@ -14,7 +14,7 @@ import json
 import logging
 import os
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 from urllib.parse import urlparse
@@ -76,7 +76,6 @@ class DataFetcher:
                      etag: Optional[str] = None, last_modified: Optional[str] = None,
                      sha256: Optional[str] = None):
         """Record metadata about a fetched source."""
-        from datetime import timezone
         self.sources.append({
             "url": url,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
