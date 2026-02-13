@@ -13,6 +13,7 @@ Reads from cache/ and produces:
 import json
 import logging
 import re
+import shutil
 from pathlib import Path
 from typing import List, Dict, Optional
 
@@ -247,7 +248,6 @@ class DataNormalizer:
             seed_csv = SEED_DATA_DIR / "assessments.csv"
             if seed_csv.exists():
                 logger.info("Copying seed assessments data as fallback")
-                import shutil
                 shutil.copy2(seed_csv, OUT_DATA_DIR / "assessments.csv")
             else:
                 pd.DataFrame(columns=['district', 'year', 'subject', 'grade_band', 
@@ -281,7 +281,6 @@ class DataNormalizer:
             seed_csv = SEED_DATA_DIR / "levy.csv"
             if seed_csv.exists():
                 logger.info("Copying seed levy data as fallback")
-                import shutil
                 shutil.copy2(seed_csv, OUT_DATA_DIR / "levy.csv")
             else:
                 pd.DataFrame(columns=['district', 'fiscal_year', 'levy_pct_change',
