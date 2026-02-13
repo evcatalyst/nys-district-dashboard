@@ -1,0 +1,56 @@
+[
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=441101060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=010306060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=441201060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://www.niskyschools.org/domain/96",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://www.bethlehemschools.org/district/budget-vote",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://www.shenet.org/domain/58",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  }
+]
