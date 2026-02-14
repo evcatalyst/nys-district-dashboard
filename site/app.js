@@ -707,12 +707,12 @@ class ChartRenderer {
             // Click opens URL in new tab if present
             if (ann.url) {
                 anchor.addEventListener('click', () => {
-                    window.open(ann.url, '_blank', 'noopener');
+                    window.open(ann.url, '_blank', 'noopener,noreferrer');
                 });
                 anchor.addEventListener('keydown', (e) => {
                     if (e.key === 'Enter' || e.key === ' ') {
                         e.preventDefault();
-                        window.open(ann.url, '_blank', 'noopener');
+                        window.open(ann.url, '_blank', 'noopener,noreferrer');
                     }
                 });
             }
@@ -739,7 +739,7 @@ class ChartRenderer {
             const link = document.createElement('a');
             link.href = sourceUrl;
             link.target = '_blank';
-            link.rel = 'noopener';
+            link.rel = 'noopener noreferrer';
             link.textContent = 'Source \u2192';
             link.style.color = '#5dade2';
             link.style.fontSize = '11px';

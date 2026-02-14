@@ -197,9 +197,22 @@
             transparency_portal_url: "Transparency"
         };
 
-        function linkCell(url, label) {
-            if (!url) return '<span class="empty-cell">\u2014</span>';
-            return '<a href="' + url + '" target="_blank" rel="noopener">' + label + '</a>';
+        function createLinkCell(url, label) {
+            var td = document.createElement("td");
+            if (!url) {
+                var span = document.createElement("span");
+                span.className = "empty-cell";
+                span.textContent = "\u2014";
+                td.appendChild(span);
+            } else {
+                var a = document.createElement("a");
+                a.href = url;
+                a.target = "_blank";
+                a.rel = "noopener noreferrer";
+                a.textContent = label;
+                td.appendChild(a);
+            }
+            return td;
         }
 
         function render() {
@@ -216,16 +229,21 @@
             });
 
             var tbody = document.querySelector("#resourcesTable tbody");
-            tbody.innerHTML = filtered.map(function (d) {
-                return "<tr>" +
-                    "<td>" + d.name + "</td>" +
-                    "<td>" + (d.boces || "\u2014") + "</td>" +
-                    "<td>" + linkCell(d.website_url, "Visit") + "</td>" +
-                    "<td>" + linkCell(d.board_docs_url, "Docs") + "</td>" +
-                    "<td>" + linkCell(d.budget_url, "Budget") + "</td>" +
-                    "<td>" + linkCell(d.transparency_portal_url, "Portal") + "</td>" +
-                    "</tr>";
-            }).join("");
+            tbody.innerHTML = "";
+            filtered.forEach(function (d) {
+                var tr = document.createElement("tr");
+                var tdName = document.createElement("td");
+                tdName.textContent = d.name;
+                tr.appendChild(tdName);
+                var tdBoces = document.createElement("td");
+                tdBoces.textContent = d.boces || "\u2014";
+                tr.appendChild(tdBoces);
+                tr.appendChild(createLinkCell(d.website_url, "Visit"));
+                tr.appendChild(createLinkCell(d.board_docs_url, "Docs"));
+                tr.appendChild(createLinkCell(d.budget_url, "Budget"));
+                tr.appendChild(createLinkCell(d.transparency_portal_url, "Portal"));
+                tbody.appendChild(tr);
+            });
 
             // Update sort arrows
             document.querySelectorAll("#resourcesTable th").forEach(function (th) {
