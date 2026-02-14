@@ -6,35 +6,39 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f5f5f5;
+    color: #E0E0E0;
+    background-color: #0A0A0A;
+    letter-spacing: normal;
 }
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 24px;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #00A3FF 0%, #0A0A0A 100%);
     color: white;
     padding: 2rem 0;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 0.5rem;
     font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 header .subtitle {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     opacity: 0.9;
+    color: #E0E0E0;
 }
 
 /* Main Content */
@@ -43,37 +47,45 @@ main {
 }
 
 section {
-    background: white;
-    border-radius: 8px;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    background: #1A1A1A;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    border: 1px solid #333333;
 }
 
 h2 {
-    color: #667eea;
+    color: #FFFFFF;
     margin-bottom: 1rem;
-    font-size: 1.8rem;
-    border-bottom: 2px solid #667eea;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-bottom: 2px solid #00A3FF;
     padding-bottom: 0.5rem;
+    letter-spacing: 0.02em;
+}
+
+p {
+    color: #E0E0E0;
+    font-size: 0.95rem;
 }
 
 /* Disclaimer */
 .disclaimer {
-    background: #fff3cd;
-    border-left: 4px solid #ffc107;
-    padding: 1rem;
+    background: rgba(255, 77, 77, 0.1);
+    border-left: 4px solid #FF4D4D;
+    padding: 16px;
     margin-top: 1rem;
     border-radius: 4px;
 }
 
 .disclaimer strong {
-    color: #856404;
+    color: #FF4D4D;
 }
 
 /* Controls */
 .controls {
-    background: #f8f9fa;
+    background: #1A1A1A;
 }
 
 .district-selector {
@@ -84,7 +96,8 @@ h2 {
     display: block;
     margin-bottom: 0.25rem;
     font-weight: 600;
-    color: #333;
+    color: #E0E0E0;
+    font-size: 0.875rem;
 }
 
 #districtSelect, #bocesFilter {
@@ -92,44 +105,53 @@ h2 {
     max-width: 400px;
     padding: 0.75rem;
     font-size: 1rem;
-    border: 2px solid #667eea;
+    border: 1px solid #333333;
     border-radius: 4px;
-    background: white;
+    background: #0A0A0A;
+    color: #E0E0E0;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in-out;
+}
+
+#districtSelect option, #bocesFilter option {
+    background: #1A1A1A;
+    color: #E0E0E0;
 }
 
 #districtSelect:hover, #bocesFilter:hover {
-    border-color: #764ba2;
+    border-color: #00A3FF;
 }
 
 #districtSelect:focus, #bocesFilter:focus {
     outline: none;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+    border-color: #00A3FF;
+    box-shadow: 0 0 0 3px rgba(0, 163, 255, 0.2);
 }
 
 .cluster-controls {
-    margin-top: 1rem;
+    margin-top: 16px;
     display: flex;
-    gap: 0.75rem;
+    gap: 12px;
     flex-wrap: wrap;
 }
 
 .btn-cluster {
-    padding: 0.6rem 1.2rem;
+    padding: 8px 16px;
     font-size: 0.95rem;
     font-weight: 600;
-    border: 2px solid #667eea;
+    border: 2px solid #00A3FF;
     border-radius: 4px;
-    background: #667eea;
+    background: #00A3FF;
     color: white;
     cursor: pointer;
-    transition: all 0.3s ease;
+    transition: all 0.2s ease-in-out;
+    min-height: 40px;
 }
 
 .btn-cluster:hover:not(:disabled) {
-    background: #764ba2;
-    border-color: #764ba2;
+    background: #33B8FF;
+    border-color: #33B8FF;
+    transform: scale(1.05);
 }
 
 .btn-cluster:disabled {
@@ -138,12 +160,12 @@ h2 {
 }
 
 .btn-cluster.btn-secondary {
-    background: white;
-    color: #667eea;
+    background: transparent;
+    color: #00A3FF;
 }
 
 .btn-cluster.btn-secondary:hover {
-    background: #667eea;
+    background: #00A3FF;
     color: white;
 }
 
@@ -153,16 +175,16 @@ h2 {
 }
 
 .chart-wrapper {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    background: #fafafa;
+    margin-bottom: 32px;
+    padding: 24px;
+    border: 1px solid #333333;
+    border-radius: 4px;
+    background: #1A1A1A;
 }
 
 .chart-title {
-    font-size: 1.3rem;
-    color: #333;
+    font-size: 1.25rem;
+    color: #FFFFFF;
     margin-bottom: 1rem;
     font-weight: 600;
 }
@@ -170,21 +192,21 @@ h2 {
 .chart-svg {
     width: 100%;
     height: 400px;
-    background: white;
+    background: #0A0A0A;
     border-radius: 4px;
 }
 
 .chart-annotation {
     margin-top: 0.5rem;
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 0.85rem;
+    color: #A0A0A0;
     font-style: italic;
 }
 
 .no-data {
     padding: 2rem;
     text-align: center;
-    color: #666;
+    color: #666666;
     font-style: italic;
 }
 
@@ -194,26 +216,27 @@ h2 {
 }
 
 .source-item {
-    padding: 0.75rem;
-    margin-bottom: 0.5rem;
-    background: #f8f9fa;
+    padding: 12px;
+    margin-bottom: 8px;
+    background: #0A0A0A;
     border-radius: 4px;
-    border-left: 3px solid #667eea;
+    border-left: 3px solid #00A3FF;
 }
 
 .source-item a {
-    color: #667eea;
+    color: #00A3FF;
     text-decoration: none;
     font-weight: 500;
 }
 
 .source-item a:hover {
+    color: #33B8FF;
     text-decoration: underline;
 }
 
 .source-meta {
-    font-size: 0.85rem;
-    color: #666;
+    font-size: 0.8rem;
+    color: #A0A0A0;
     margin-top: 0.25rem;
 }
 
@@ -221,18 +244,18 @@ h2 {
     display: inline-block;
     padding: 0.2rem 0.5rem;
     border-radius: 3px;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     margin-left: 0.5rem;
 }
 
 .source-status.success {
-    background: #d4edda;
-    color: #155724;
+    background: rgba(0, 204, 102, 0.15);
+    color: #00CC66;
 }
 
 .source-status.failed {
-    background: #f8d7da;
-    color: #721c24;
+    background: rgba(255, 77, 77, 0.15);
+    color: #FF4D4D;
 }
 
 /* Info and Methodology */
@@ -243,6 +266,7 @@ h2 {
 
 .info li, .methodology li {
     margin-bottom: 0.5rem;
+    color: #E0E0E0;
 }
 
 .methodology p {
@@ -251,26 +275,28 @@ h2 {
 
 /* Footer */
 footer {
-    background: #333;
-    color: white;
+    background: #1A1A1A;
+    color: #E0E0E0;
     padding: 1.5rem 0;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 48px;
+    border-top: 1px solid #333333;
 }
 
 footer a {
-    color: #667eea;
+    color: #00A3FF;
     text-decoration: none;
 }
 
 footer a:hover {
+    color: #33B8FF;
     text-decoration: underline;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     
     header .subtitle {
@@ -278,11 +304,11 @@ footer a:hover {
     }
     
     section {
-        padding: 1.5rem;
+        padding: 16px;
     }
     
     h2 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
     
     .chart-svg {
@@ -292,23 +318,23 @@ footer a:hover {
 
 /* SVG Chart Styles */
 .axis-line {
-    stroke: #333;
+    stroke: #666666;
     stroke-width: 2;
 }
 
 .axis-text {
     font-size: 12px;
-    fill: #333;
+    fill: #A0A0A0;
 }
 
 .axis-label {
     font-size: 14px;
     font-weight: 600;
-    fill: #333;
+    fill: #E0E0E0;
 }
 
 .grid-line {
-    stroke: #e0e0e0;
+    stroke: #333333;
     stroke-width: 1;
     stroke-dasharray: 2,2;
 }
@@ -332,7 +358,7 @@ footer a:hover {
 
 .legend-text {
     font-size: 13px;
-    fill: #333;
+    fill: #E0E0E0;
 }
 
 .legend-rect {
