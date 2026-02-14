@@ -1,0 +1,658 @@
+[
+  {
+    "name": "Niskayuna",
+    "website_url": "https://www.niskyschools.org",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "https://www.niskyschools.org/domain/96",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Shenendehowa",
+    "website_url": "https://www.shenet.org",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "https://www.shenet.org/domain/58",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Burnt Hills-Ballston Lake",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Schenectady",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Mohonasen",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Guilderland",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Bethlehem",
+    "website_url": "https://www.bethlehemschools.org",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "https://www.bethlehemschools.org/district/budget-vote",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "East Greenbush",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Averill Park",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Ravena-Coeymans-Selkirk",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Great Neck",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Garden City",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Manhasset",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Jericho",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Syosset",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Hicksville",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Rockville Centre",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Freeport",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Plainview-Old Bethpage",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Bethpage",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "East Meadow",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Levittown",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Smithtown",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Commack",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Sachem",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Patchogue-Medford",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Huntington",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Half Hollow Hills",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "West Islip",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Northport-East Northport",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Scarsdale",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Mamaroneck",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Rye",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "White Plains",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Yorktown",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Lakeland",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Mahopac",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Brewster",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Wappingers",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Arlington",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Poughkeepsie",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Spackenkill",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Warwick Valley",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Goshen",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Monroe-Woodbury",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Valley Central",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Pittsford",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Brighton",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Penfield",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Fairport",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Webster",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Hilton",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Spencerport",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Greece",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Williamsville",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Clarence",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Orchard Park",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Hamburg",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Fayetteville-Manlius",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Baldwinsville",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "West Genesee",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Liverpool",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Vestal",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Maine-Endwell",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Johnson City",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Owego-Apalachin",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Kingston",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "New Paltz",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Saugerties",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Highland",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Victor",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Canandaigua",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Palmyra-Macedon",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Geneva",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Corning-Painted Post",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Horseheads",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Elmira",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Ithaca",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Plattsburgh",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Queensbury",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Glens Falls",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  },
+  {
+    "name": "Saranac Lake",
+    "website_url": "",
+    "board_docs_url": "",
+    "board_meetings_url": "",
+    "budget_url": "",
+    "transparency_portal_url": ""
+  }
+]
