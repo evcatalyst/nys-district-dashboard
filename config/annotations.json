@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ngls_ela_rollout",
+    "scope": "statewide",
+    "district": null,
+    "axis": "year",
+    "x": 2017,
+    "category": "Curriculum",
+    "label": "Next Gen ELA standards begin rollout",
+    "detail": "New York adopted Next Generation ELA Learning Standards, phasing in across grade bands.",
+    "url": "https://www.nysed.gov/next-generation-learning-standards",
+    "charts": ["proficiency"]
+  },
+  {
+    "id": "ngls_math_rollout",
+    "scope": "statewide",
+    "district": null,
+    "axis": "year",
+    "x": 2017,
+    "category": "Curriculum",
+    "label": "Next Gen Math standards begin rollout",
+    "detail": "New York adopted Next Generation Mathematics Learning Standards alongside ELA.",
+    "url": "https://www.nysed.gov/next-generation-learning-standards",
+    "charts": ["proficiency"]
+  },
+  {
+    "id": "covid_closures",
+    "scope": "statewide",
+    "district": null,
+    "axis": "year",
+    "x": 2020,
+    "category": "Assessment Policy",
+    "label": "COVID-19: 2020 assessments cancelled",
+    "detail": "NYS cancelled Grades 3-8 assessments and Regents exams for the 2019-20 school year due to COVID-19 pandemic closures.",
+    "url": "https://www.nysed.gov/news/2020/state-education-department-issues-guidance-april-2020-regents-examinations",
+    "charts": ["proficiency", "graduation"]
+  },
+  {
+    "id": "regents_waiver_2021",
+    "scope": "statewide",
+    "district": null,
+    "axis": "year",
+    "x": 2021,
+    "category": "Graduation Policy",
+    "label": "Regents exam waivers extended",
+    "detail": "NYS extended Regents exam exemptions for eligible students through January 2022.",
+    "url": "https://www.nysed.gov/state-assessment/regents-examinations",
+    "charts": ["graduation"]
+  },
+  {
+    "id": "tax_cap_enacted",
+    "scope": "statewide",
+    "district": null,
+    "axis": "fiscal_year",
+    "x": "2012-2013",
+    "category": "Budget Policy",
+    "label": "NYS property tax cap enacted",
+    "detail": "Chapter 97 of the Laws of 2011 established a property tax levy limit (tax cap) for school districts, generally capping increases at 2% or CPI, whichever is less.",
+    "url": "https://www.osc.ny.gov/local-government/property-tax-cap",
+    "charts": ["levy"]
+  }
+]
