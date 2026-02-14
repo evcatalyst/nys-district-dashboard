@@ -79,6 +79,21 @@ class SpecBuilder:
         elif self.levy_df.empty:
             logger.warning("No levy.csv found and no seed data available")
 
+        # Load expenditures
+        expenditures_file = OUT_DATA_DIR / "expenditures.csv"
+        seed_expenditures = SEED_DATA_DIR / "expenditures.csv"
+
+        if expenditures_file.exists():
+            self.expenditures_df = pd.read_csv(expenditures_file)
+        else:
+            self.expenditures_df = pd.DataFrame()
+
+        if self.expenditures_df.empty and seed_expenditures.exists():
+            logger.info("No fetched expenditure data; using seed data")
+            self.expenditures_df = pd.read_csv(seed_expenditures)
+        elif self.expenditures_df.empty:
+            logger.warning("No expenditures.csv found and no seed data available")
+
     def build_proficiency_chart(self, district: str) -> Dict:
         """Build proficiency trends chart spec."""
         if self.assessments_df.empty:
@@ -204,13 +219,81 @@ class SpecBuilder:
             "annotation": "Budget levy changes. No causal claim is made."
         }
 
+    def build_expenditure_chart(self, district: str) -> Dict:
+        """Build per-pupil expenditure chart spec."""
+        empty_chart = {
+            "type": "line",
+            "title": f"{district} - Per Pupil Expenditures (NYSED Fiscal Profiles)",
+            "data": [],
+            "xAxis": {"label": "School Year", "field": "school_year"},
+            "yAxis": {"label": "Per Pupil ($)"},
+            "series": [],
+            "annotation": (
+                "Educational = Instructional expenditures incl. fringe (IE2). "
+                "Administrative = Board of Education + Central Administration. "
+                "Capital = Debt service principal + interest + transfers to capital fund. "
+                "Operational = Total expenditures minus the other three categories (residual). "
+                "Denominator: DCAADM. No causal claim is made."
+            )
+        }
+
+        if self.expenditures_df.empty:
+            return empty_chart
+
+        district_data = self.expenditures_df[self.expenditures_df['district'] == district]
+
+        if district_data.empty:
+            logger.warning(f"No expenditure data for {district}")
+            return empty_chart
+
+        data = []
+        for _, row in district_data.iterrows():
+            if pd.notna(row.get('per_pupil')) and row['per_pupil'] != '':
+                data.append({
+                    "school_year": str(row['school_year']),
+                    "category": row['category'],
+                    "per_pupil": float(row['per_pupil'])
+                })
+
+        categories = ["Educational", "Administrative", "Capital", "Operational"]
+        colors = {"Educational": "#1f77b4", "Administrative": "#ff7f0e",
+                  "Capital": "#2ca02c", "Operational": "#d62728"}
+
+        series = []
+        for cat in categories:
+            cat_data = [d for d in data if d['category'] == cat]
+            if cat_data:
+                series.append({
+                    "name": cat,
+                    "field": "per_pupil",
+                    "filter": {"category": cat},
+                    "color": colors[cat]
+                })
+
+        return {
+            "type": "line",
+            "title": f"{district} - Per Pupil Expenditures (NYSED Fiscal Profiles)",
+            "data": data,
+            "xAxis": {"label": "School Year", "field": "school_year"},
+            "yAxis": {"label": "Per Pupil ($)"},
+            "series": series,
+            "annotation": (
+                "Educational = Instructional expenditures incl. fringe (IE2). "
+                "Administrative = Board of Education + Central Administration. "
+                "Capital = Debt service principal + interest + transfers to capital fund. "
+                "Operational = Total expenditures minus the other three categories (residual). "
+                "Denominator: DCAADM. No causal claim is made."
+            )
+        }
+
     def build_district_spec(self, district: str) -> Dict:
         """Build complete spec for a district."""
         return {
             "district": district,
             "charts": [
                 self.build_proficiency_chart(district),
-                self.build_levy_chart(district)
+                self.build_levy_chart(district),
+                self.build_expenditure_chart(district)
             ],
             "metadata": {
                 "generated_at": pd.Timestamp.now().isoformat(),
