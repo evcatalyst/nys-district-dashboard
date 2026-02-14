@@ -94,6 +94,44 @@ class SpecBuilder:
         elif self.expenditures_df.empty:
             logger.warning("No expenditures.csv found and no seed data available")
 
+        # Load graduation
+        graduation_file = OUT_DATA_DIR / "graduation.csv"
+        seed_graduation = SEED_DATA_DIR / "graduation.csv"
+
+        if graduation_file.exists():
+            self.graduation_df = pd.read_csv(graduation_file)
+        else:
+            self.graduation_df = pd.DataFrame()
+
+        if self.graduation_df.empty and seed_graduation.exists():
+            logger.info("No fetched graduation data; using seed data")
+            self.graduation_df = pd.read_csv(seed_graduation)
+        elif self.graduation_df.empty:
+            logger.warning("No graduation.csv found and no seed data available")
+
+        # Load pathways
+        pathways_file = OUT_DATA_DIR / "pathways.csv"
+        seed_pathways = SEED_DATA_DIR / "pathways.csv"
+
+        if pathways_file.exists():
+            self.pathways_df = pd.read_csv(pathways_file)
+        else:
+            self.pathways_df = pd.DataFrame()
+
+        if self.pathways_df.empty and seed_pathways.exists():
+            logger.info("No fetched pathways data; using seed data")
+            self.pathways_df = pd.read_csv(seed_pathways)
+        elif self.pathways_df.empty:
+            logger.warning("No pathways.csv found and no seed data available")
+
+        # Load annotations
+        annotations_file = CONFIG_DIR / "annotations.json"
+        if annotations_file.exists():
+            with open(annotations_file) as f:
+                self.annotations = json.load(f)
+        else:
+            self.annotations = []
+
     def build_proficiency_chart(self, district: str) -> Dict:
         """Build proficiency trends chart spec."""
         if self.assessments_df.empty:
@@ -286,15 +324,165 @@ class SpecBuilder:
             )
         }
 
+    def build_graduation_chart(self, district: str) -> Dict:
+        """Build graduation rate trend chart spec."""
+        empty_chart = {
+            "type": "line",
+            "title": f"{district} - Graduation Rate Trend",
+            "data": [],
+            "xAxis": {"label": "Year", "field": "year"},
+            "yAxis": {"label": "Graduation Rate %", "min": 0, "max": 100},
+            "series": [],
+            "annotation": "Graduation rates by cohort. No causal claim is made."
+        }
+
+        if self.graduation_df.empty:
+            return empty_chart
+
+        district_data = self.graduation_df[self.graduation_df['district'] == district]
+
+        if district_data.empty:
+            logger.warning(f"No graduation data for {district}")
+            return empty_chart
+
+        data = []
+        for _, row in district_data.iterrows():
+            if pd.notna(row.get('value_pct')) and row['value_pct'] != '':
+                data.append({
+                    "year": int(row['year']),
+                    "metric": row['metric'],
+                    "value_pct": float(row['value_pct'])
+                })
+
+        metric_labels = {
+            "grad_4yr_aug": "4-Year (Aug)",
+            "grad_5yr": "5-Year",
+            "grad_6yr": "6-Year"
+        }
+        metric_colors = {
+            "grad_4yr_aug": "#1f77b4",
+            "grad_5yr": "#ff7f0e",
+            "grad_6yr": "#2ca02c"
+        }
+
+        series = []
+        for metric, label in metric_labels.items():
+            metric_data = [d for d in data if d['metric'] == metric]
+            if metric_data:
+                series.append({
+                    "name": label,
+                    "field": "value_pct",
+                    "filter": {"metric": metric},
+                    "color": metric_colors[metric]
+                })
+
+        return {
+            "type": "line",
+            "title": f"{district} - Graduation Rate Trend",
+            "data": data,
+            "xAxis": {"label": "Year", "field": "year"},
+            "yAxis": {"label": "Graduation Rate %", "min": 0, "max": 100},
+            "series": series,
+            "annotation": "Graduation rates by cohort. No causal claim is made."
+        }
+
+    def build_pathways_chart(self, district: str) -> Dict:
+        """Build graduation pathways chart spec."""
+        empty_chart = {
+            "type": "line",
+            "title": f"{district} - Graduation Pathways",
+            "data": [],
+            "xAxis": {"label": "Year", "field": "year"},
+            "yAxis": {"label": "Pathway %", "min": 0, "max": 100},
+            "series": [],
+            "annotation": "Graduation pathways. No causal claim is made."
+        }
+
+        if self.pathways_df.empty:
+            return empty_chart
+
+        district_data = self.pathways_df[self.pathways_df['district'] == district]
+
+        if district_data.empty:
+            logger.warning(f"No pathways data for {district}")
+            return empty_chart
+
+        data = []
+        for _, row in district_data.iterrows():
+            if pd.notna(row.get('value_pct')) and row['value_pct'] != '':
+                data.append({
+                    "year": int(row['year']),
+                    "pathway": row['pathway'],
+                    "value_pct": float(row['value_pct'])
+                })
+
+        pathway_names = ["Regents", "Advanced Regents", "Local", "CDOS"]
+        pathway_colors = {
+            "Regents": "#1f77b4",
+            "Advanced Regents": "#ff7f0e",
+            "Local": "#2ca02c",
+            "CDOS": "#d62728"
+        }
+
+        series = []
+        for pw in pathway_names:
+            pw_data = [d for d in data if d['pathway'] == pw]
+            if pw_data:
+                series.append({
+                    "name": pw,
+                    "field": "value_pct",
+                    "filter": {"pathway": pw},
+                    "color": pathway_colors[pw]
+                })
+
+        return {
+            "type": "line",
+            "title": f"{district} - Graduation Pathways",
+            "data": data,
+            "xAxis": {"label": "Year", "field": "year"},
+            "yAxis": {"label": "Pathway %", "min": 0, "max": 100},
+            "series": series,
+            "annotation": "Graduation pathways. No causal claim is made."
+        }
+
+    def attach_annotations(self, chart: Dict, chart_id: str, district: str = None):
+        """Attach relevant annotations to a chart spec."""
+        if not self.annotations:
+            return
+        matching = []
+        for ann in self.annotations:
+            if chart_id not in ann.get("charts", []):
+                continue
+            if ann["scope"] == "district" and ann.get("district") != district:
+                continue
+            matching.append(ann)
+        if matching:
+            chart["annotations"] = matching
+
     def build_district_spec(self, district: str) -> Dict:
         """Build complete spec for a district."""
+        proficiency = self.build_proficiency_chart(district)
+        self.attach_annotations(proficiency, "proficiency", district)
+        levy = self.build_levy_chart(district)
+        self.attach_annotations(levy, "levy", district)
+        expenditures = self.build_expenditure_chart(district)
+        self.attach_annotations(expenditures, "expenditures", district)
+
+        charts = [proficiency, levy, expenditures]
+
+        if not self.graduation_df.empty:
+            graduation = self.build_graduation_chart(district)
+            self.attach_annotations(graduation, "graduation", district)
+            charts.append(graduation)
+
+        if not self.pathways_df.empty:
+            pathways = self.build_pathways_chart(district)
+            self.attach_annotations(pathways, "pathways", district)
+            charts.append(pathways)
+
         return {
             "district": district,
-            "charts": [
-                self.build_proficiency_chart(district),
-                self.build_levy_chart(district),
-                self.build_expenditure_chart(district)
-            ],
+            "charts": charts,
             "metadata": {
                 "generated_at": pd.Timestamp.now().isoformat(),
                 "disclaimer": "No causal claim: This dashboard presents public data side-by-side but makes no claims about causation between test scores and budget decisions."
@@ -331,6 +519,21 @@ class SpecBuilder:
                 benchmarks.setdefault(boces_name, {})['levy'] = [
                     {"fiscal_year": str(r['fiscal_year']),
                      "levy_pct_change": round(float(r['levy_pct_change']), 2)}
+                    for _, r in agg.iterrows()
+                ]
+
+        if not self.graduation_df.empty:
+            df = self.graduation_df.copy()
+            df['boces'] = df['district'].map(self.boces_map)
+            df = df.dropna(subset=['boces'])
+            df['value_pct'] = pd.to_numeric(df['value_pct'], errors='coerce')
+            df = df.dropna(subset=['value_pct'])
+
+            for boces_name, group in df.groupby('boces'):
+                agg = group.groupby(['year', 'metric'])['value_pct'].mean().reset_index()
+                benchmarks.setdefault(boces_name, {})['graduation'] = [
+                    {"year": int(r['year']), "metric": r['metric'],
+                     "value_pct": round(float(r['value_pct']), 1)}
                     for _, r in agg.iterrows()
                 ]
 
@@ -437,6 +640,70 @@ class SpecBuilder:
                     "annotation": "Dashed lines show BOCES regional average. No causal claim is made."
                 })
 
+        # Graduation comparison chart
+        if not self.graduation_df.empty:
+            boces_grad = self.graduation_df[
+                self.graduation_df['district'].isin(district_names)
+            ]
+            if not boces_grad.empty:
+                colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728',
+                          '#9467bd', '#8c564b', '#e377c2', '#7f7f7f']
+                boces_grad = boces_grad.copy()
+                boces_grad['value_pct'] = pd.to_numeric(boces_grad['value_pct'], errors='coerce')
+                boces_grad = boces_grad.dropna(subset=['value_pct'])
+
+                data = []
+                for _, row in boces_grad.iterrows():
+                    data.append({
+                        "district": row['district'],
+                        "year": int(row['year']),
+                        "metric": row['metric'],
+                        "value_pct": round(float(row['value_pct']), 1)
+                    })
+
+                bench_grad = benchmarks.get(boces_name, {}).get('graduation', [])
+                for b in bench_grad:
+                    data.append({
+                        "district": f"{boces_name} Avg",
+                        "year": b['year'],
+                        "metric": b['metric'],
+                        "value_pct": b['value_pct']
+                    })
+
+                metric_labels = {
+                    "grad_4yr_aug": "4-Year (Aug)",
+                    "grad_5yr": "5-Year",
+                    "grad_6yr": "6-Year"
+                }
+                series = []
+                all_names = sorted(district_names) + [f"{boces_name} Avg"]
+                for i, dn in enumerate(all_names):
+                    is_bench = dn.endswith(' Avg')
+                    for metric, label in metric_labels.items():
+                        series.append({
+                            "name": f"{dn} {label}",
+                            "field": "value_pct",
+                            "filter": {"district": dn, "metric": metric},
+                            "color": colors[i % len(colors)],
+                            "dashStyle": "dashed" if is_bench else "solid"
+                        })
+
+                charts.append({
+                    "type": "line",
+                    "title": f"{boces_name} — Graduation Rate Comparison",
+                    "data": data,
+                    "xAxis": {"label": "Year", "field": "year"},
+                    "yAxis": {"label": "Graduation Rate %", "min": 0, "max": 100},
+                    "series": series,
+                    "annotation": "Dashed lines show BOCES regional average. No causal claim is made."
+                })
+
+        # Attach annotations to all charts
+        chart_ids = ["proficiency", "levy", "graduation"]
+        for idx, chart in enumerate(charts):
+            cid = chart_ids[idx] if idx < len(chart_ids) else "unknown"
+            self.attach_annotations(chart, cid)
+
         return {
             "boces": boces_name,
             "districts": sorted(district_names),
@@ -457,6 +724,12 @@ class SpecBuilder:
         
         if not self.levy_df.empty:
             districts.update(self.levy_df['district'].unique())
+
+        if not self.graduation_df.empty:
+            districts.update(self.graduation_df['district'].unique())
+
+        if not self.pathways_df.empty:
+            districts.update(self.pathways_df['district'].unique())
         
         # Also add districts from config even if no data
         config_file = CONFIG_DIR / "districts.json"
