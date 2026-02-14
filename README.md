@@ -22,7 +22,14 @@ This project implements a fully automated pipeline that:
 - **Regional Benchmarks**: Dashed benchmark lines showing BOCES regional averages
 - **Automated Data Collection**: Nightly updates from public NYSED sources
 - **Proficiency Trends**: ELA and Math assessment data over time
+- **Graduation Rate Trends**: 4-year, 5-year, and 6-year cohort graduation rates over time
+- **Graduation Pathways**: Regents, Advanced Regents, Local, and CDOS diploma breakdowns
+- **Per-Pupil Expenditure Composition**: Instructional, administrative, and capital spending per pupil
 - **Budget Analysis**: School district levy percentage changes
+- **Annotation System**: Hand-curated vertical line markers highlighting policy and curriculum inflection points on charts
+- **Interactive Legend Toggles & Tooltips**: Click legend items to show/hide series; hover data points for detailed tooltips
+- **District Snapshot Header**: At-a-glance summary of the latest key metrics for each district
+- **District Resources Page**: Appendix page with links to official district websites, board docs, and budget pages
 - **No Causal Claims**: Data is presented side-by-side for informational purposes only
 - **Full Transparency**: All data sources documented with timestamps and links
 - **Integrity Verification**: SHA256 hashes for all generated artifacts
@@ -32,7 +39,10 @@ This project implements a fully automated pipeline that:
 ```
 .
 ├── config/
-│   └── districts.json          # District configuration (instid, budget URLs)
+│   ├── districts.json          # District configuration (instid, budget URLs)
+│   ├── annotations.json        # Chart annotation markers (policy/curriculum events)
+│   ├── resources.json          # District resource links (websites, board docs)
+│   └── settings.json           # Year range settings for data fetching
 ├── scripts/
 │   ├── fetch_sources.py        # Download public data sources
 │   ├── normalize.py            # Transform to normalized CSV/JSON
@@ -40,6 +50,7 @@ This project implements a fully automated pipeline that:
 │   └── build_site.py           # Build static site + manifest
 ├── site/
 │   ├── index.html              # Dashboard HTML
+│   ├── resources.html          # District resources appendix page
 │   ├── app.js                  # Chart renderer (vanilla JS)
 │   └── styles.css              # Styling
 ├── out/                        # Generated site (published to Pages)
@@ -81,7 +92,7 @@ pip install pytest
 python -m pytest tests/ -v
 ```
 
-The test suite includes:
+The test suite includes 122+ tests covering:
 - **Configuration tests**: Validate districts.json structure, BOCES assignments, instid format
 - **Seed data tests**: Validate CSV/JSON data files for completeness and correctness
 - **Build specs tests**: Verify BOCES benchmarks, cluster specs, and district spec generation
@@ -156,11 +167,70 @@ To add a new district to the dashboard:
 
 4. Re-run the pipeline scripts (or wait for the nightly automated run)
 
+## Annotations
+
+Annotations are hand-curated vertical line markers displayed on charts to highlight important policy, curriculum, or assessment inflection points (e.g., COVID-19 assessment cancellations, Next Generation Learning Standards rollout).
+
+- Annotations are stored in [`config/annotations.json`](config/annotations.json)
+- Each annotation specifies an `id`, `x` position (year or fiscal year), `category`, `label`, `detail`, and which `charts` it applies to
+- Annotations can be scoped `"statewide"` or to a specific `"district"`
+
+### Schema
+
+| Field      | Description                                              |
+|------------|----------------------------------------------------------|
+| `id`       | Unique identifier for the annotation                     |
+| `scope`    | `"statewide"` or `"district"`                            |
+| `district` | District name (if scope is `"district"`, else `null`)    |
+| `axis`     | `"year"` or `"fiscal_year"`                              |
+| `x`        | The x-axis position (e.g., `2020` or `"2012-2013"`)     |
+| `category` | Category label (e.g., `"Curriculum"`, `"Budget Policy"`) |
+| `label`    | Short label shown on the chart                           |
+| `detail`   | Longer description shown in tooltips                     |
+| `url`      | Source URL for the event                                 |
+| `charts`   | Array of chart types: `"proficiency"`, `"graduation"`, `"levy"` |
+
+### Adding a New Annotation
+
+1. Edit `config/annotations.json` and add a new entry following the schema above
+2. Run the pipeline locally to verify the annotation renders correctly
+3. Submit a pull request
+
+## District Resources
+
+The dashboard includes a **District Resources** appendix page at `/resources.html` that provides quick links to official district websites, board documents, and budget pages.
+
+- Resource links are stored in [`config/resources.json`](config/resources.json)
+- Each entry contains the district `name` and optional URLs: `website_url`, `board_docs_url`, `board_meetings_url`, `budget_url`, `transparency_portal_url`
+
+### Contributing District Links
+
+1. Edit `config/resources.json` and fill in any missing URLs for a district
+2. Run the pipeline locally to verify the resources page renders correctly
+3. Submit a pull request
+
+## Configurable Year Ranges
+
+The file [`config/settings.json`](config/settings.json) controls the year ranges used when fetching and processing data:
+
+| Setting                  | Description                                                  |
+|--------------------------|--------------------------------------------------------------|
+| `assessments_start_year` | First year of ELA/Math assessment data to fetch              |
+| `assessments_end_year`   | Last year of ELA/Math assessment data to fetch               |
+| `graduation_start_year`  | First year of graduation rate data to fetch                  |
+| `graduation_end_year`    | Last year of graduation rate data to fetch                   |
+| `expenditures_start_year`| First year of per-pupil expenditure data to fetch            |
+| `expenditures_end_year`  | Last year of per-pupil expenditure data to fetch             |
+
+To adjust the range of data collected, edit `config/settings.json` and re-run the pipeline.
+
 ## Data Sources
 
 All data is sourced from public websites:
 
 - **NYSED Assessment Data**: https://data.nysed.gov/assessment38.php
+- **NYSED Graduation Rate Data**: https://data.nysed.gov/gradrate.php
+- **NYSED Fiscal Profiles (Expenditures)**: https://data.nysed.gov/fiscal.php
 - **NYSED Enrollment Data**: https://data.nysed.gov/enrollment.php
 - **District Budget Pages**: Official district websites (URLs in config)
 
@@ -241,7 +311,9 @@ Data sourced from public websites remains subject to their respective terms of u
 
 ## Disclaimer
 
-**This dashboard makes no causal claims.** It presents publicly available assessment and budget data side-by-side for informational purposes only. No inference should be made about causation between test scores and budget decisions.
+> **⚠️ No causal claims.** This dashboard does NOT claim or imply any cause-and-effect relationship between metrics.
+
+It presents publicly available assessment, graduation, expenditure, and budget data side-by-side for informational purposes only. No inference should be made about causation between test scores, graduation rates, and budget decisions.
 
 The dashboard is maintained independently and is not affiliated with or endorsed by:
 - New York State Education Department (NYSED)

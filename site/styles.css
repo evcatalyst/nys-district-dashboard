@@ -353,7 +353,7 @@ footer a:hover {
 }
 
 .legend-item {
-    cursor: default;
+    cursor: pointer;
 }
 
 .legend-text {
@@ -363,4 +363,62 @@ footer a:hover {
 
 .legend-rect {
     stroke: none;
+}
+
+/* Chart tooltip (data point hover) */
+.chart-tooltip {
+    position: absolute;
+    background: #1a1a2e;
+    color: #E0E0E0;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+    max-width: 220px;
+}
+
+/* Annotation styles */
+.annotation-line {
+    pointer-events: none;
+}
+.annotation-marker {
+    transition: transform 0.15s;
+    transform-origin: center;
+}
+.annotation-marker:hover {
+    transform: scale(1.4);
+}
+
+/* Snapshot header */
+.snapshot-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 24px;
+    padding: 16px;
+    background: #12121a;
+    border-radius: 8px;
+    border: 1px solid #222;
+}
+.snapshot-card {
+    flex: 1 1 120px;
+    text-align: center;
+    padding: 10px 8px;
+}
+.snapshot-value {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #00A3FF;
+}
+.snapshot-label {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-top: 2px;
+}
+.snapshot-year {
+    font-size: 0.7rem;
+    color: #666;
 }

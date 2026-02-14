@@ -98,6 +98,29 @@ class TestAppJSStructure:
     def test_back_btn_event_listener(self, js_content):
         assert "showDistrictBtn" in js_content
 
+    def test_has_render_annotations(self, js_content):
+        assert "renderAnnotations" in js_content
+
+    def test_has_interactive_legend(self, js_content):
+        assert "drawInteractiveLegend" in js_content
+
+    def test_has_tooltip(self, js_content):
+        assert "showTooltip" in js_content
+
+    def test_has_render_snapshot(self, js_content):
+        assert "renderSnapshot" in js_content
+
+
+class TestResourcesPage:
+    """Validate resources.html exists and has expected structure."""
+
+    def test_resources_page_exists(self):
+        assert Path("site/resources.html").exists()
+
+    def test_resources_has_table(self):
+        content = Path("site/resources.html").read_text()
+        assert "<table" in content
+
 
 class TestStylesCSS:
     """Validate styles.css has necessary rules."""
@@ -123,3 +146,12 @@ class TestStylesCSS:
 
     def test_has_data_line_styles(self, css_content):
         assert ".data-line" in css_content
+
+    def test_has_annotation_styles(self, css_content):
+        assert ".annotation-line" in css_content
+
+    def test_has_tooltip_styles(self, css_content):
+        assert ".chart-tooltip" in css_content
+
+    def test_has_snapshot_styles(self, css_content):
+        assert ".snapshot-header" in css_content

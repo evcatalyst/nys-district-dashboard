@@ -22,6 +22,7 @@ logger = logging.getLogger(__name__)
 # Constants
 SITE_DIR = Path("site")
 OUT_DIR = Path("out")
+CONFIG_DIR = Path("config")
 
 
 class SiteBuilder:
@@ -76,12 +77,41 @@ class SiteBuilder:
         
         logger.info(f"Generated manifest with {len(self.manifest)} files")
 
+    def build_resources(self):
+        """Merge config/resources.json with BOCES info and write to out/data/resources.json."""
+        resources_cfg = CONFIG_DIR / "resources.json"
+        districts_cfg = CONFIG_DIR / "districts.json"
+        if not resources_cfg.exists():
+            logger.warning("config/resources.json not found, skipping resources build")
+            return
+
+        with open(resources_cfg) as f:
+            resources = json.load(f)
+        boces_map: Dict[str, str] = {}
+        if districts_cfg.exists():
+            with open(districts_cfg) as f:
+                for d in json.load(f):
+                    boces_map[d["name"]] = d.get("boces", "")
+
+        for entry in resources:
+            entry.setdefault("boces", boces_map.get(entry["name"], ""))
+
+        data_dir = OUT_DIR / "data"
+        data_dir.mkdir(parents=True, exist_ok=True)
+        dest = data_dir / "resources.json"
+        with open(dest, "w") as f:
+            json.dump(resources, f, indent=2)
+        logger.info("Generated out/data/resources.json with %d districts", len(resources))
+
     def build(self):
         """Run the full build process."""
         logger.info("Building static site...")
         
         # Copy site files
         self.copy_site_files()
+
+        # Build resources data
+        self.build_resources()
         
         # Generate manifest
         self.generate_manifest()

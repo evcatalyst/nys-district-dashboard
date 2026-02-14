@@ -6,6 +6,13 @@ class ChartRenderer {
         this.margin = { top: 40, right: 80, bottom: 60, left: 60 };
         this.width = 800;
         this.height = 400;
+        this.hiddenSeries = new Set();
+
+        // Create tooltip div for data point hover
+        this.tooltip = document.createElement('div');
+        this.tooltip.className = 'chart-tooltip';
+        this.tooltip.style.display = 'none';
+        document.body.appendChild(this.tooltip);
     }
 
     /**
@@ -78,6 +85,9 @@ class ChartRenderer {
             this.drawCategoryAxes(svg, chartWidth, chartHeight, uniqueXValues, yMin, yMax, xAxis, yAxis);
         }
 
+        // Track elements per series for interactive legend
+        const seriesElements = [];
+
         // Draw series
         series.forEach((s, idx) => {
             const seriesData = data.filter(d => {
@@ -85,7 +95,10 @@ class ChartRenderer {
                 return Object.entries(s.filter).every(([key, val]) => d[key] === val);
             });
 
-            if (seriesData.length === 0) return;
+            if (seriesData.length === 0) {
+                seriesElements.push({ paths: [], circles: [] });
+                return;
+            }
 
             // Sort by x value
             if (isNumericX) {
@@ -97,7 +110,10 @@ class ChartRenderer {
             // Draw line
             const points = seriesData.map(d => ({
                 x: xScale(d[xAxis.field]),
-                y: yScale(d[s.field])
+                y: yScale(d[s.field]),
+                xVal: d[xAxis.field],
+                yVal: d[s.field],
+                source_url: d.source_url || null
             }));
 
             const pathData = points.map((p, i) => 
@@ -110,25 +126,44 @@ class ChartRenderer {
                 stroke: s.color || '#1f77b4',
                 'stroke-width': s.dashStyle === 'dashed' ? 2.5 : 2,
                 'stroke-dasharray': s.dashStyle === 'dashed' ? '6,3' : 'none',
-                fill: 'none'
+                fill: 'none',
+                'data-series-index': idx
             });
             svg.appendChild(path);
 
-            // Draw data points
+            // Draw data points with tooltips
+            const circles = [];
             points.forEach(p => {
                 const circle = this.createSVGElement('circle', {
                     cx: p.x,
                     cy: p.y,
                     r: 4,
                     fill: s.color || '#1f77b4',
-                    class: 'data-point'
+                    class: 'data-point',
+                    'data-series-index': idx
                 });
+
+                circle.addEventListener('mouseenter', (e) => {
+                    this.showTooltip(e, `${s.name}: ${p.yVal}`, `${xAxis.label}: ${p.xVal}`, p.source_url);
+                });
+                circle.addEventListener('mouseleave', () => {
+                    this.hideTooltip();
+                });
+
                 svg.appendChild(circle);
+                circles.push(circle);
             });
+
+            seriesElements.push({ paths: [path], circles: circles });
         });
 
-        // Draw legend
-        this.drawLegend(svg, series, this.width - this.margin.right - 10);
+        // Draw interactive legend
+        this.drawInteractiveLegend(svg, series, this.width - this.margin.right - 10, seriesElements);
+
+        // Draw annotations if present
+        if (spec.annotations) {
+            this.renderAnnotations(svg, spec.annotations, xAxis, xScale, chartHeight, isNumericX, uniqueXValues);
+        }
     }
 
     /**
@@ -208,6 +243,17 @@ class ChartRenderer {
             label.textContent = value.toFixed(1) + '%';
             svg.appendChild(label);
         });
+
+        // Draw annotations if present
+        if (spec.annotations) {
+            const xLabels = data.map(d => d[xAxis.field]);
+            const barXScale = (value) => {
+                const i = xLabels.indexOf(value);
+                if (i < 0) return this.margin.left;
+                return this.margin.left + i * barSpacing + barSpacing / 2;
+            };
+            this.renderAnnotations(svg, spec.annotations, xAxis, barXScale, chartHeight, false, xLabels);
+        }
     }
 
     /**
@@ -462,6 +508,254 @@ class ChartRenderer {
             text.textContent = s.name;
             svg.appendChild(text);
         });
+    }
+
+    /**
+     * Draw interactive legend with click-to-toggle and hover-to-highlight
+     */
+    drawInteractiveLegend(svg, series, x, seriesElements) {
+        let y = this.margin.top;
+
+        series.forEach((s, i) => {
+            const legendY = y + i * 25;
+
+            const group = this.createSVGElement('g', {
+                class: 'legend-item',
+                'data-series-index': i,
+                style: 'cursor: pointer;'
+            });
+
+            const rect = this.createSVGElement('rect', {
+                x: x - 60,
+                y: legendY - 10,
+                width: 15,
+                height: 15,
+                fill: s.color || '#1f77b4',
+                class: 'legend-rect'
+            });
+            group.appendChild(rect);
+
+            const text = this.createSVGElement('text', {
+                x: x - 40,
+                y: legendY,
+                class: 'legend-text'
+            });
+            text.textContent = s.name;
+            group.appendChild(text);
+
+            // Click to toggle series visibility
+            group.addEventListener('click', () => {
+                const elems = seriesElements[i];
+                if (!elems) return;
+                const isHidden = this.hiddenSeries.has(i);
+                if (isHidden) {
+                    this.hiddenSeries.delete(i);
+                    elems.paths.forEach(p => p.style.display = '');
+                    elems.circles.forEach(c => c.style.display = '');
+                    rect.setAttribute('opacity', '1');
+                    text.setAttribute('opacity', '1');
+                } else {
+                    this.hiddenSeries.add(i);
+                    elems.paths.forEach(p => p.style.display = 'none');
+                    elems.circles.forEach(c => c.style.display = 'none');
+                    rect.setAttribute('opacity', '0.3');
+                    text.setAttribute('opacity', '0.3');
+                }
+            });
+
+            // Hover to highlight corresponding series
+            group.addEventListener('mouseenter', () => {
+                seriesElements.forEach((elems, j) => {
+                    if (!elems) return;
+                    const dim = j !== i;
+                    elems.paths.forEach(p => { p.style.opacity = dim ? '0.2' : '1'; });
+                    elems.circles.forEach(c => { c.style.opacity = dim ? '0.2' : '1'; });
+                });
+            });
+            group.addEventListener('mouseleave', () => {
+                seriesElements.forEach((elems, j) => {
+                    if (!elems) return;
+                    const hidden = this.hiddenSeries.has(j);
+                    elems.paths.forEach(p => { p.style.opacity = hidden ? '0' : '1'; });
+                    elems.circles.forEach(c => { c.style.opacity = hidden ? '0' : '1'; });
+                });
+            });
+
+            svg.appendChild(group);
+        });
+    }
+
+    /**
+     * Render annotation markers on the chart
+     */
+    renderAnnotations(svg, annotations, xAxis, xScale, chartHeight, isNumericX, uniqueXValues) {
+        if (!annotations || annotations.length === 0) return;
+
+        annotations.forEach(ann => {
+            const xPos = xScale(ann.x);
+            if (xPos === undefined || isNaN(xPos)) return;
+
+            // Dashed vertical line
+            const line = this.createSVGElement('line', {
+                x1: xPos,
+                y1: this.margin.top,
+                x2: xPos,
+                y2: this.height - this.margin.bottom,
+                stroke: '#FF4D4D',
+                'stroke-opacity': '0.4',
+                'stroke-width': '1.5',
+                'stroke-dasharray': '5,4',
+                class: 'annotation-line'
+            });
+            svg.appendChild(line);
+
+            // Marker circle wrapped in accessible <a> element
+            const anchor = this.createSVGElement('a', {
+                tabindex: '0',
+                role: 'button',
+                'aria-label': ann.label || 'Annotation'
+            });
+
+            const marker = this.createSVGElement('circle', {
+                cx: xPos,
+                cy: this.margin.top - 6,
+                r: 5,
+                fill: '#FF4D4D',
+                class: 'annotation-marker',
+                style: 'cursor: pointer;'
+            });
+            anchor.appendChild(marker);
+
+            // Tooltip group (hidden by default)
+            const tipWidth = 200;
+            const tipX = Math.min(xPos - tipWidth / 2, this.width - tipWidth - 10);
+            const tipGroup = this.createSVGElement('g', {
+                class: 'annotation-tooltip',
+                style: 'display: none;'
+            });
+
+            const tipBg = this.createSVGElement('rect', {
+                x: tipX,
+                y: this.margin.top - 70,
+                width: tipWidth,
+                height: 58,
+                rx: 4,
+                fill: '#1a1a2e',
+                stroke: '#FF4D4D',
+                'stroke-width': '0.5',
+                opacity: '0.95'
+            });
+            tipGroup.appendChild(tipBg);
+
+            let textY = this.margin.top - 55;
+            if (ann.label) {
+                const labelText = this.createSVGElement('text', {
+                    x: tipX + 8,
+                    y: textY,
+                    fill: '#ffffff',
+                    'font-size': '11px',
+                    'font-weight': 'bold'
+                });
+                labelText.textContent = ann.label;
+                tipGroup.appendChild(labelText);
+                textY += 14;
+            }
+            if (ann.detail) {
+                const detailText = this.createSVGElement('text', {
+                    x: tipX + 8,
+                    y: textY,
+                    fill: '#cccccc',
+                    'font-size': '10px'
+                });
+                detailText.textContent = ann.detail;
+                tipGroup.appendChild(detailText);
+                textY += 13;
+            }
+            if (ann.category) {
+                const catText = this.createSVGElement('text', {
+                    x: tipX + 8,
+                    y: textY,
+                    fill: '#aaaaaa',
+                    'font-size': '9px'
+                });
+                catText.textContent = ann.category;
+                tipGroup.appendChild(catText);
+                textY += 13;
+            }
+            if (ann.url) {
+                const linkText = this.createSVGElement('text', {
+                    x: tipX + 8,
+                    y: textY,
+                    fill: '#5dade2',
+                    'font-size': '10px',
+                    style: 'cursor: pointer;'
+                });
+                linkText.textContent = 'Open source \u2192';
+                tipGroup.appendChild(linkText);
+            }
+
+            svg.appendChild(tipGroup);
+
+            // Show/hide tooltip on hover and focus
+            const showTip = () => { tipGroup.style.display = ''; };
+            const hideTip = () => { tipGroup.style.display = 'none'; };
+            anchor.addEventListener('mouseenter', showTip);
+            anchor.addEventListener('mouseleave', hideTip);
+            anchor.addEventListener('focus', showTip);
+            anchor.addEventListener('blur', hideTip);
+
+            // Click opens URL in new tab if present
+            if (ann.url) {
+                anchor.addEventListener('click', () => {
+                    window.open(ann.url, '_blank', 'noopener,noreferrer');
+                });
+                anchor.addEventListener('keydown', (e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        e.preventDefault();
+                        window.open(ann.url, '_blank', 'noopener,noreferrer');
+                    }
+                });
+            }
+
+            svg.appendChild(anchor);
+        });
+    }
+
+    /**
+     * Show data point tooltip
+     */
+    showTooltip(event, valueLine, xLine, sourceUrl) {
+        this.tooltip.innerHTML = '';
+        const val = document.createElement('div');
+        val.style.fontWeight = 'bold';
+        val.textContent = valueLine;
+        this.tooltip.appendChild(val);
+
+        const xInfo = document.createElement('div');
+        xInfo.textContent = xLine;
+        this.tooltip.appendChild(xInfo);
+
+        if (sourceUrl) {
+            const link = document.createElement('a');
+            link.href = sourceUrl;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.textContent = 'Source \u2192';
+            link.style.color = '#5dade2';
+            link.style.fontSize = '11px';
+            this.tooltip.appendChild(link);
+        }
+
+        this.tooltip.style.display = 'block';
+        this.tooltip.style.left = (event.pageX + 12) + 'px';
+        this.tooltip.style.top = (event.pageY - 30) + 'px';
+    }
+
+    /**
+     * Hide data point tooltip
+     */
+    hideTooltip() {
+        this.tooltip.style.display = 'none';
     }
 
     /**
@@ -760,6 +1054,9 @@ class DashboardApp {
     renderCharts(spec) {
         const container = document.getElementById('charts');
         container.innerHTML = '';
+
+        // Render district snapshot header if data available
+        this.renderSnapshot(spec);
         
         if (!spec.charts || spec.charts.length === 0) {
             container.innerHTML = '<p class="no-data">No charts available for this district.</p>';
@@ -796,6 +1093,100 @@ class DashboardApp {
             
             container.appendChild(wrapper);
         });
+    }
+
+    /**
+     * Render a snapshot header with key district metrics
+     */
+    renderSnapshot(spec) {
+        // Remove any existing snapshot
+        const existing = document.getElementById('districtSnapshot');
+        if (existing) existing.remove();
+
+        if (!spec.charts || spec.charts.length === 0) return;
+
+        const metrics = [];
+
+        // Helper: find latest data point from a chart by title pattern
+        const findLatest = (titlePattern, seriesField) => {
+            const chart = spec.charts.find(c => titlePattern.test(c.title));
+            if (!chart || !chart.data || chart.data.length === 0) return null;
+            const field = chart.xAxis && chart.xAxis.field;
+            if (!field) return null;
+            const sorted = [...chart.data].sort((a, b) => {
+                const av = a[field], bv = b[field];
+                return typeof av === 'number' ? bv - av : String(bv).localeCompare(String(av));
+            });
+            const latest = sorted[0];
+            const sField = seriesField || (chart.series && chart.series[0] && chart.series[0].field);
+            if (!sField || latest[sField] === undefined) return null;
+            return { value: latest[sField], year: latest[field] };
+        };
+
+        // ELA proficiency
+        const ela = findLatest(/proficiency/i, 'ela');
+        if (ela) metrics.push({ label: 'ELA Proficiency', value: ela.value + '%', year: ela.year });
+
+        // Math proficiency
+        const math = findLatest(/proficiency/i, 'math');
+        if (math) metrics.push({ label: 'Math Proficiency', value: math.value + '%', year: math.year });
+
+        // Graduation rate
+        const grad = findLatest(/graduation/i, null);
+        if (grad) metrics.push({ label: 'Graduation Rate', value: grad.value + '%', year: grad.year });
+
+        // Total per-pupil spending (sum of categories for latest year)
+        const expChart = spec.charts.find(c => /expenditure|spending/i.test(c.title));
+        if (expChart && expChart.data && expChart.data.length > 0 && expChart.series) {
+            const xField = expChart.xAxis && expChart.xAxis.field;
+            if (xField) {
+                const years = [...new Set(expChart.data.map(d => d[xField]))].sort((a, b) => {
+                    return typeof a === 'number' ? b - a : String(b).localeCompare(String(a));
+                });
+                const latestYear = years[0];
+                const latestRows = expChart.data.filter(d => d[xField] === latestYear);
+                let total = 0;
+                expChart.series.forEach(s => {
+                    latestRows.forEach(r => { if (r[s.field] !== undefined) total += Number(r[s.field]) || 0; });
+                });
+                if (total > 0) metrics.push({ label: 'Per-Pupil Spending', value: '$' + total.toLocaleString(), year: latestYear });
+            }
+        }
+
+        // Levy % change
+        const levy = findLatest(/levy/i, null);
+        if (levy) metrics.push({ label: 'Levy Change', value: levy.value + '%', year: levy.year });
+
+        if (metrics.length === 0) return;
+
+        const container = document.getElementById('charts');
+        const section = document.createElement('div');
+        section.id = 'districtSnapshot';
+        section.className = 'snapshot-header';
+
+        metrics.forEach(m => {
+            const card = document.createElement('div');
+            card.className = 'snapshot-card';
+
+            const val = document.createElement('div');
+            val.className = 'snapshot-value';
+            val.textContent = m.value;
+            card.appendChild(val);
+
+            const lbl = document.createElement('div');
+            lbl.className = 'snapshot-label';
+            lbl.textContent = m.label;
+            card.appendChild(lbl);
+
+            const yr = document.createElement('div');
+            yr.className = 'snapshot-year';
+            yr.textContent = m.year;
+            card.appendChild(yr);
+
+            section.appendChild(card);
+        });
+
+        container.insertBefore(section, container.firstChild);
     }
 
     clearCharts() {

@@ -1,0 +1,1477 @@
+district,year,metric,value_pct,cohort_n,source_url
+Niskayuna,2019,grad_4yr_aug,86.2,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2019
+Niskayuna,2019,grad_5yr,89.6,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2019
+Niskayuna,2019,grad_6yr,98.4,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2019
+Niskayuna,2020,grad_4yr_aug,96.4,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2020
+Niskayuna,2020,grad_5yr,77.1,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2020
+Niskayuna,2020,grad_6yr,81.0,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2020
+Niskayuna,2021,grad_4yr_aug,91.1,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2021
+Niskayuna,2021,grad_5yr,85.7,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2021
+Niskayuna,2021,grad_6yr,82.2,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2021
+Niskayuna,2022,grad_4yr_aug,91.2,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2022
+Niskayuna,2022,grad_5yr,97.9,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2022
+Niskayuna,2022,grad_6yr,83.9,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2022
+Niskayuna,2023,grad_4yr_aug,87.3,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2023
+Niskayuna,2023,grad_5yr,94.8,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2023
+Niskayuna,2023,grad_6yr,89.5,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2023
+Niskayuna,2024,grad_4yr_aug,86.1,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2024
+Niskayuna,2024,grad_5yr,87.0,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2024
+Niskayuna,2024,grad_6yr,86.2,1654,https://data.nysed.gov/gradrate.php?instid=441101060000&year=2024
+Shenendehowa,2019,grad_4yr_aug,90.8,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2019
+Shenendehowa,2019,grad_5yr,94.1,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2019
+Shenendehowa,2019,grad_6yr,94.1,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2019
+Shenendehowa,2020,grad_4yr_aug,76.0,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2020
+Shenendehowa,2020,grad_5yr,81.1,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2020
+Shenendehowa,2020,grad_6yr,94.6,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2020
+Shenendehowa,2021,grad_4yr_aug,79.1,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2021
+Shenendehowa,2021,grad_5yr,76.2,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2021
+Shenendehowa,2021,grad_6yr,98.7,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2021
+Shenendehowa,2022,grad_4yr_aug,75.1,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2022
+Shenendehowa,2022,grad_5yr,89.8,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2022
+Shenendehowa,2022,grad_6yr,84.9,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2022
+Shenendehowa,2023,grad_4yr_aug,88.2,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2023
+Shenendehowa,2023,grad_5yr,96.6,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2023
+Shenendehowa,2023,grad_6yr,92.8,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2023
+Shenendehowa,2024,grad_4yr_aug,90.3,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2024
+Shenendehowa,2024,grad_5yr,83.8,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2024
+Shenendehowa,2024,grad_6yr,95.5,686,https://data.nysed.gov/gradrate.php?instid=441201060000&year=2024
+Burnt Hills-Ballston Lake,2019,grad_4yr_aug,81.4,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2019
+Burnt Hills-Ballston Lake,2019,grad_5yr,97.0,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2019
+Burnt Hills-Ballston Lake,2019,grad_6yr,93.8,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2019
+Burnt Hills-Ballston Lake,2020,grad_4yr_aug,90.0,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2020
+Burnt Hills-Ballston Lake,2020,grad_5yr,96.3,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2020
+Burnt Hills-Ballston Lake,2020,grad_6yr,93.1,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2020
+Burnt Hills-Ballston Lake,2021,grad_4yr_aug,70.5,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2021
+Burnt Hills-Ballston Lake,2021,grad_5yr,77.5,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2021
+Burnt Hills-Ballston Lake,2021,grad_6yr,97.3,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2021
+Burnt Hills-Ballston Lake,2022,grad_4yr_aug,94.1,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2022
+Burnt Hills-Ballston Lake,2022,grad_5yr,93.1,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2022
+Burnt Hills-Ballston Lake,2022,grad_6yr,88.7,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2022
+Burnt Hills-Ballston Lake,2023,grad_4yr_aug,86.1,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2023
+Burnt Hills-Ballston Lake,2023,grad_5yr,87.6,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2023
+Burnt Hills-Ballston Lake,2023,grad_6yr,92.6,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2023
+Burnt Hills-Ballston Lake,2024,grad_4yr_aug,81.8,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2024
+Burnt Hills-Ballston Lake,2024,grad_5yr,78.6,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2024
+Burnt Hills-Ballston Lake,2024,grad_6yr,84.9,632,https://data.nysed.gov/gradrate.php?instid=441301060000&year=2024
+Schenectady,2019,grad_4yr_aug,75.8,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2019
+Schenectady,2019,grad_5yr,81.8,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2019
+Schenectady,2019,grad_6yr,79.2,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2019
+Schenectady,2020,grad_4yr_aug,82.6,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2020
+Schenectady,2020,grad_5yr,99.0,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2020
+Schenectady,2020,grad_6yr,81.3,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2020
+Schenectady,2021,grad_4yr_aug,96.0,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2021
+Schenectady,2021,grad_5yr,98.9,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2021
+Schenectady,2021,grad_6yr,96.8,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2021
+Schenectady,2022,grad_4yr_aug,79.5,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2022
+Schenectady,2022,grad_5yr,87.4,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2022
+Schenectady,2022,grad_6yr,86.0,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2022
+Schenectady,2023,grad_4yr_aug,87.0,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2023
+Schenectady,2023,grad_5yr,82.4,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2023
+Schenectady,2023,grad_6yr,96.6,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2023
+Schenectady,2024,grad_4yr_aug,96.1,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2024
+Schenectady,2024,grad_5yr,84.8,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2024
+Schenectady,2024,grad_6yr,95.8,1886,https://data.nysed.gov/gradrate.php?instid=530600010000&year=2024
+Mohonasen,2019,grad_4yr_aug,96.2,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2019
+Mohonasen,2019,grad_5yr,77.2,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2019
+Mohonasen,2019,grad_6yr,98.2,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2019
+Mohonasen,2020,grad_4yr_aug,78.0,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2020
+Mohonasen,2020,grad_5yr,88.8,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2020
+Mohonasen,2020,grad_6yr,93.5,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2020
+Mohonasen,2021,grad_4yr_aug,92.3,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2021
+Mohonasen,2021,grad_5yr,86.3,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2021
+Mohonasen,2021,grad_6yr,97.3,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2021
+Mohonasen,2022,grad_4yr_aug,87.5,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2022
+Mohonasen,2022,grad_5yr,96.5,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2022
+Mohonasen,2022,grad_6yr,86.6,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2022
+Mohonasen,2023,grad_4yr_aug,88.6,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2023
+Mohonasen,2023,grad_5yr,78.2,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2023
+Mohonasen,2023,grad_6yr,82.8,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2023
+Mohonasen,2024,grad_4yr_aug,85.5,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2024
+Mohonasen,2024,grad_5yr,88.6,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2024
+Mohonasen,2024,grad_6yr,98.5,782,https://data.nysed.gov/gradrate.php?instid=530501060000&year=2024
+Guilderland,2019,grad_4yr_aug,74.0,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2019
+Guilderland,2019,grad_5yr,81.5,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2019
+Guilderland,2019,grad_6yr,81.3,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2019
+Guilderland,2020,grad_4yr_aug,96.8,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2020
+Guilderland,2020,grad_5yr,79.1,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2020
+Guilderland,2020,grad_6yr,87.9,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2020
+Guilderland,2021,grad_4yr_aug,97.3,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2021
+Guilderland,2021,grad_5yr,84.4,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2021
+Guilderland,2021,grad_6yr,97.1,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2021
+Guilderland,2022,grad_4yr_aug,84.1,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2022
+Guilderland,2022,grad_5yr,95.6,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2022
+Guilderland,2022,grad_6yr,85.6,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2022
+Guilderland,2023,grad_4yr_aug,73.7,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2023
+Guilderland,2023,grad_5yr,85.8,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2023
+Guilderland,2023,grad_6yr,98.8,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2023
+Guilderland,2024,grad_4yr_aug,79.1,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2024
+Guilderland,2024,grad_5yr,95.2,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2024
+Guilderland,2024,grad_6yr,78.4,1168,https://data.nysed.gov/gradrate.php?instid=010503060000&year=2024
+Bethlehem,2019,grad_4yr_aug,70.1,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2019
+Bethlehem,2019,grad_5yr,94.5,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2019
+Bethlehem,2019,grad_6yr,82.6,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2019
+Bethlehem,2020,grad_4yr_aug,94.0,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2020
+Bethlehem,2020,grad_5yr,75.3,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2020
+Bethlehem,2020,grad_6yr,92.2,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2020
+Bethlehem,2021,grad_4yr_aug,97.3,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2021
+Bethlehem,2021,grad_5yr,83.9,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2021
+Bethlehem,2021,grad_6yr,89.0,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2021
+Bethlehem,2022,grad_4yr_aug,84.1,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2022
+Bethlehem,2022,grad_5yr,93.9,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2022
+Bethlehem,2022,grad_6yr,91.6,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2022
+Bethlehem,2023,grad_4yr_aug,88.1,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2023
+Bethlehem,2023,grad_5yr,96.1,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2023
+Bethlehem,2023,grad_6yr,91.5,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2023
+Bethlehem,2024,grad_4yr_aug,78.2,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2024
+Bethlehem,2024,grad_5yr,90.9,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2024
+Bethlehem,2024,grad_6yr,87.3,1399,https://data.nysed.gov/gradrate.php?instid=010306060000&year=2024
+East Greenbush,2019,grad_4yr_aug,89.7,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2019
+East Greenbush,2019,grad_5yr,94.5,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2019
+East Greenbush,2019,grad_6yr,98.9,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2019
+East Greenbush,2020,grad_4yr_aug,71.4,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2020
+East Greenbush,2020,grad_5yr,96.6,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2020
+East Greenbush,2020,grad_6yr,87.5,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2020
+East Greenbush,2021,grad_4yr_aug,97.7,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2021
+East Greenbush,2021,grad_5yr,77.1,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2021
+East Greenbush,2021,grad_6yr,87.9,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2021
+East Greenbush,2022,grad_4yr_aug,87.0,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2022
+East Greenbush,2022,grad_5yr,78.4,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2022
+East Greenbush,2022,grad_6yr,88.0,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2022
+East Greenbush,2023,grad_4yr_aug,75.8,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2023
+East Greenbush,2023,grad_5yr,86.5,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2023
+East Greenbush,2023,grad_6yr,93.4,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2023
+East Greenbush,2024,grad_4yr_aug,93.8,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2024
+East Greenbush,2024,grad_5yr,75.7,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2024
+East Greenbush,2024,grad_6yr,89.8,1515,https://data.nysed.gov/gradrate.php?instid=490301060000&year=2024
+Averill Park,2019,grad_4yr_aug,87.0,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2019
+Averill Park,2019,grad_5yr,91.6,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2019
+Averill Park,2019,grad_6yr,89.3,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2019
+Averill Park,2020,grad_4yr_aug,88.5,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2020
+Averill Park,2020,grad_5yr,85.3,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2020
+Averill Park,2020,grad_6yr,82.6,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2020
+Averill Park,2021,grad_4yr_aug,91.4,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2021
+Averill Park,2021,grad_5yr,96.0,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2021
+Averill Park,2021,grad_6yr,78.6,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2021
+Averill Park,2022,grad_4yr_aug,85.3,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2022
+Averill Park,2022,grad_5yr,86.1,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2022
+Averill Park,2022,grad_6yr,89.4,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2022
+Averill Park,2023,grad_4yr_aug,75.8,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2023
+Averill Park,2023,grad_5yr,97.8,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2023
+Averill Park,2023,grad_6yr,80.1,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2023
+Averill Park,2024,grad_4yr_aug,77.3,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2024
+Averill Park,2024,grad_5yr,81.7,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2024
+Averill Park,2024,grad_6yr,94.3,1085,https://data.nysed.gov/gradrate.php?instid=490601060000&year=2024
+Ravena-Coeymans-Selkirk,2019,grad_4yr_aug,88.6,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2019
+Ravena-Coeymans-Selkirk,2019,grad_5yr,78.2,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2019
+Ravena-Coeymans-Selkirk,2019,grad_6yr,78.1,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2019
+Ravena-Coeymans-Selkirk,2020,grad_4yr_aug,74.8,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2020
+Ravena-Coeymans-Selkirk,2020,grad_5yr,78.5,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2020
+Ravena-Coeymans-Selkirk,2020,grad_6yr,79.9,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2020
+Ravena-Coeymans-Selkirk,2021,grad_4yr_aug,74.0,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2021
+Ravena-Coeymans-Selkirk,2021,grad_5yr,79.0,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2021
+Ravena-Coeymans-Selkirk,2021,grad_6yr,97.5,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2021
+Ravena-Coeymans-Selkirk,2022,grad_4yr_aug,74.5,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2022
+Ravena-Coeymans-Selkirk,2022,grad_5yr,88.8,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2022
+Ravena-Coeymans-Selkirk,2022,grad_6yr,87.5,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2022
+Ravena-Coeymans-Selkirk,2023,grad_4yr_aug,93.2,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2023
+Ravena-Coeymans-Selkirk,2023,grad_5yr,97.9,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2023
+Ravena-Coeymans-Selkirk,2023,grad_6yr,92.9,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2023
+Ravena-Coeymans-Selkirk,2024,grad_4yr_aug,86.5,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2024
+Ravena-Coeymans-Selkirk,2024,grad_5yr,82.9,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2024
+Ravena-Coeymans-Selkirk,2024,grad_6yr,98.5,1185,https://data.nysed.gov/gradrate.php?instid=010601060000&year=2024
+Great Neck,2019,grad_4yr_aug,73.6,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2019
+Great Neck,2019,grad_5yr,83.4,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2019
+Great Neck,2019,grad_6yr,78.7,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2019
+Great Neck,2020,grad_4yr_aug,92.6,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2020
+Great Neck,2020,grad_5yr,80.5,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2020
+Great Neck,2020,grad_6yr,97.3,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2020
+Great Neck,2021,grad_4yr_aug,73.2,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2021
+Great Neck,2021,grad_5yr,80.4,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2021
+Great Neck,2021,grad_6yr,98.2,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2021
+Great Neck,2022,grad_4yr_aug,73.2,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2022
+Great Neck,2022,grad_5yr,89.4,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2022
+Great Neck,2022,grad_6yr,89.7,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2022
+Great Neck,2023,grad_4yr_aug,91.4,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2023
+Great Neck,2023,grad_5yr,92.7,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2023
+Great Neck,2023,grad_6yr,94.7,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2023
+Great Neck,2024,grad_4yr_aug,97.6,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2024
+Great Neck,2024,grad_5yr,83.6,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2024
+Great Neck,2024,grad_6yr,94.1,1096,https://data.nysed.gov/gradrate.php?instid=280410030000&year=2024
+Garden City,2019,grad_4yr_aug,97.3,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2019
+Garden City,2019,grad_5yr,84.1,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2019
+Garden City,2019,grad_6yr,92.9,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2019
+Garden City,2020,grad_4yr_aug,91.0,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2020
+Garden City,2020,grad_5yr,95.5,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2020
+Garden City,2020,grad_6yr,92.3,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2020
+Garden City,2021,grad_4yr_aug,90.4,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2021
+Garden City,2021,grad_5yr,94.7,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2021
+Garden City,2021,grad_6yr,82.1,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2021
+Garden City,2022,grad_4yr_aug,84.9,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2022
+Garden City,2022,grad_5yr,80.9,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2022
+Garden City,2022,grad_6yr,90.5,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2022
+Garden City,2023,grad_4yr_aug,80.8,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2023
+Garden City,2023,grad_5yr,75.7,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2023
+Garden City,2023,grad_6yr,86.5,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2023
+Garden City,2024,grad_4yr_aug,71.9,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2024
+Garden City,2024,grad_5yr,98.8,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2024
+Garden City,2024,grad_6yr,97.3,746,https://data.nysed.gov/gradrate.php?instid=280206030000&year=2024
+Manhasset,2019,grad_4yr_aug,86.5,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2019
+Manhasset,2019,grad_5yr,96.5,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2019
+Manhasset,2019,grad_6yr,97.5,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2019
+Manhasset,2020,grad_4yr_aug,88.9,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2020
+Manhasset,2020,grad_5yr,82.9,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2020
+Manhasset,2020,grad_6yr,94.1,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2020
+Manhasset,2021,grad_4yr_aug,94.2,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2021
+Manhasset,2021,grad_5yr,79.4,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2021
+Manhasset,2021,grad_6yr,96.9,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2021
+Manhasset,2022,grad_4yr_aug,86.5,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2022
+Manhasset,2022,grad_5yr,85.1,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2022
+Manhasset,2022,grad_6yr,93.1,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2022
+Manhasset,2023,grad_4yr_aug,91.2,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2023
+Manhasset,2023,grad_5yr,97.8,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2023
+Manhasset,2023,grad_6yr,88.0,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2023
+Manhasset,2024,grad_4yr_aug,78.7,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2024
+Manhasset,2024,grad_5yr,76.8,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2024
+Manhasset,2024,grad_6yr,78.6,1656,https://data.nysed.gov/gradrate.php?instid=280408030000&year=2024
+Jericho,2019,grad_4yr_aug,92.0,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2019
+Jericho,2019,grad_5yr,86.4,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2019
+Jericho,2019,grad_6yr,91.3,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2019
+Jericho,2020,grad_4yr_aug,78.0,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2020
+Jericho,2020,grad_5yr,90.2,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2020
+Jericho,2020,grad_6yr,84.8,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2020
+Jericho,2021,grad_4yr_aug,72.4,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2021
+Jericho,2021,grad_5yr,84.2,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2021
+Jericho,2021,grad_6yr,80.4,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2021
+Jericho,2022,grad_4yr_aug,93.3,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2022
+Jericho,2022,grad_5yr,77.9,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2022
+Jericho,2022,grad_6yr,85.4,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2022
+Jericho,2023,grad_4yr_aug,74.3,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2023
+Jericho,2023,grad_5yr,89.6,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2023
+Jericho,2023,grad_6yr,97.8,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2023
+Jericho,2024,grad_4yr_aug,84.4,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2024
+Jericho,2024,grad_5yr,76.3,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2024
+Jericho,2024,grad_6yr,83.3,1793,https://data.nysed.gov/gradrate.php?instid=280513030000&year=2024
+Syosset,2019,grad_4yr_aug,84.5,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2019
+Syosset,2019,grad_5yr,97.9,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2019
+Syosset,2019,grad_6yr,91.6,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2019
+Syosset,2020,grad_4yr_aug,95.7,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2020
+Syosset,2020,grad_5yr,86.4,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2020
+Syosset,2020,grad_6yr,97.0,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2020
+Syosset,2021,grad_4yr_aug,96.0,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2021
+Syosset,2021,grad_5yr,98.8,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2021
+Syosset,2021,grad_6yr,89.3,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2021
+Syosset,2022,grad_4yr_aug,78.1,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2022
+Syosset,2022,grad_5yr,98.3,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2022
+Syosset,2022,grad_6yr,87.5,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2022
+Syosset,2023,grad_4yr_aug,92.9,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2023
+Syosset,2023,grad_5yr,82.9,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2023
+Syosset,2023,grad_6yr,96.8,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2023
+Syosset,2024,grad_4yr_aug,79.1,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2024
+Syosset,2024,grad_5yr,77.8,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2024
+Syosset,2024,grad_6yr,87.8,515,https://data.nysed.gov/gradrate.php?instid=280502060000&year=2024
+Hicksville,2019,grad_4yr_aug,93.9,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2019
+Hicksville,2019,grad_5yr,92.9,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2019
+Hicksville,2019,grad_6yr,90.2,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2019
+Hicksville,2020,grad_4yr_aug,79.5,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2020
+Hicksville,2020,grad_5yr,81.5,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2020
+Hicksville,2020,grad_6yr,97.5,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2020
+Hicksville,2021,grad_4yr_aug,96.0,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2021
+Hicksville,2021,grad_5yr,91.2,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2021
+Hicksville,2021,grad_6yr,81.6,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2021
+Hicksville,2022,grad_4yr_aug,92.5,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2022
+Hicksville,2022,grad_5yr,94.8,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2022
+Hicksville,2022,grad_6yr,81.6,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2022
+Hicksville,2023,grad_4yr_aug,95.6,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2023
+Hicksville,2023,grad_5yr,85.3,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2023
+Hicksville,2023,grad_6yr,89.4,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2023
+Hicksville,2024,grad_4yr_aug,97.7,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2024
+Hicksville,2024,grad_5yr,78.0,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2024
+Hicksville,2024,grad_6yr,90.7,851,https://data.nysed.gov/gradrate.php?instid=280517030000&year=2024
+Rockville Centre,2019,grad_4yr_aug,90.7,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2019
+Rockville Centre,2019,grad_5yr,82.1,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2019
+Rockville Centre,2019,grad_6yr,89.9,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2019
+Rockville Centre,2020,grad_4yr_aug,72.2,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2020
+Rockville Centre,2020,grad_5yr,88.5,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2020
+Rockville Centre,2020,grad_6yr,84.7,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2020
+Rockville Centre,2021,grad_4yr_aug,75.3,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2021
+Rockville Centre,2021,grad_5yr,93.3,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2021
+Rockville Centre,2021,grad_6yr,92.9,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2021
+Rockville Centre,2022,grad_4yr_aug,78.0,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2022
+Rockville Centre,2022,grad_5yr,95.4,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2022
+Rockville Centre,2022,grad_6yr,93.9,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2022
+Rockville Centre,2023,grad_4yr_aug,81.4,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2023
+Rockville Centre,2023,grad_5yr,95.3,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2023
+Rockville Centre,2023,grad_6yr,78.6,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2023
+Rockville Centre,2024,grad_4yr_aug,70.7,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2024
+Rockville Centre,2024,grad_5yr,96.0,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2024
+Rockville Centre,2024,grad_6yr,91.0,613,https://data.nysed.gov/gradrate.php?instid=280221030000&year=2024
+Freeport,2019,grad_4yr_aug,97.0,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2019
+Freeport,2019,grad_5yr,96.5,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2019
+Freeport,2019,grad_6yr,84.7,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2019
+Freeport,2020,grad_4yr_aug,82.2,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2020
+Freeport,2020,grad_5yr,81.7,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2020
+Freeport,2020,grad_6yr,95.8,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2020
+Freeport,2021,grad_4yr_aug,96.7,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2021
+Freeport,2021,grad_5yr,92.5,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2021
+Freeport,2021,grad_6yr,96.3,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2021
+Freeport,2022,grad_4yr_aug,83.7,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2022
+Freeport,2022,grad_5yr,90.4,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2022
+Freeport,2022,grad_6yr,87.3,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2022
+Freeport,2023,grad_4yr_aug,86.4,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2023
+Freeport,2023,grad_5yr,89.3,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2023
+Freeport,2023,grad_6yr,95.9,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2023
+Freeport,2024,grad_4yr_aug,81.9,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2024
+Freeport,2024,grad_5yr,89.3,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2024
+Freeport,2024,grad_6yr,90.9,769,https://data.nysed.gov/gradrate.php?instid=280209030000&year=2024
+Plainview-Old Bethpage,2019,grad_4yr_aug,94.4,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2019
+Plainview-Old Bethpage,2019,grad_5yr,81.0,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2019
+Plainview-Old Bethpage,2019,grad_6yr,98.0,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2019
+Plainview-Old Bethpage,2020,grad_4yr_aug,74.2,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2020
+Plainview-Old Bethpage,2020,grad_5yr,91.4,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2020
+Plainview-Old Bethpage,2020,grad_6yr,94.1,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2020
+Plainview-Old Bethpage,2021,grad_4yr_aug,71.9,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2021
+Plainview-Old Bethpage,2021,grad_5yr,98.7,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2021
+Plainview-Old Bethpage,2021,grad_6yr,97.4,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2021
+Plainview-Old Bethpage,2022,grad_4yr_aug,82.1,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2022
+Plainview-Old Bethpage,2022,grad_5yr,85.1,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2022
+Plainview-Old Bethpage,2022,grad_6yr,82.6,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2022
+Plainview-Old Bethpage,2023,grad_4yr_aug,78.7,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2023
+Plainview-Old Bethpage,2023,grad_5yr,83.7,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2023
+Plainview-Old Bethpage,2023,grad_6yr,97.8,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2023
+Plainview-Old Bethpage,2024,grad_4yr_aug,85.9,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2024
+Plainview-Old Bethpage,2024,grad_5yr,98.1,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2024
+Plainview-Old Bethpage,2024,grad_6yr,89.8,1258,https://data.nysed.gov/gradrate.php?instid=280504060000&year=2024
+Bethpage,2019,grad_4yr_aug,89.5,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2019
+Bethpage,2019,grad_5yr,86.5,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2019
+Bethpage,2019,grad_6yr,96.0,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2019
+Bethpage,2020,grad_4yr_aug,83.7,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2020
+Bethpage,2020,grad_5yr,77.3,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2020
+Bethpage,2020,grad_6yr,81.9,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2020
+Bethpage,2021,grad_4yr_aug,80.4,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2021
+Bethpage,2021,grad_5yr,92.3,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2021
+Bethpage,2021,grad_6yr,79.8,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2021
+Bethpage,2022,grad_4yr_aug,78.8,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2022
+Bethpage,2022,grad_5yr,76.8,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2022
+Bethpage,2022,grad_6yr,92.6,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2022
+Bethpage,2023,grad_4yr_aug,79.1,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2023
+Bethpage,2023,grad_5yr,79.1,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2023
+Bethpage,2023,grad_6yr,87.7,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2023
+Bethpage,2024,grad_4yr_aug,86.1,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2024
+Bethpage,2024,grad_5yr,77.1,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2024
+Bethpage,2024,grad_6yr,82.5,227,https://data.nysed.gov/gradrate.php?instid=280521060000&year=2024
+East Meadow,2019,grad_4yr_aug,95.0,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2019
+East Meadow,2019,grad_5yr,91.2,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2019
+East Meadow,2019,grad_6yr,95.6,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2019
+East Meadow,2020,grad_4yr_aug,75.8,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2020
+East Meadow,2020,grad_5yr,77.4,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2020
+East Meadow,2020,grad_6yr,84.3,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2020
+East Meadow,2021,grad_4yr_aug,81.6,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2021
+East Meadow,2021,grad_5yr,98.7,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2021
+East Meadow,2021,grad_6yr,91.2,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2021
+East Meadow,2022,grad_4yr_aug,92.2,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2022
+East Meadow,2022,grad_5yr,85.3,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2022
+East Meadow,2022,grad_6yr,79.0,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2022
+East Meadow,2023,grad_4yr_aug,74.3,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2023
+East Meadow,2023,grad_5yr,79.5,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2023
+East Meadow,2023,grad_6yr,95.9,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2023
+East Meadow,2024,grad_4yr_aug,97.0,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2024
+East Meadow,2024,grad_5yr,83.2,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2024
+East Meadow,2024,grad_6yr,97.6,1137,https://data.nysed.gov/gradrate.php?instid=280606060000&year=2024
+Levittown,2019,grad_4yr_aug,82.7,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2019
+Levittown,2019,grad_5yr,75.9,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2019
+Levittown,2019,grad_6yr,83.7,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2019
+Levittown,2020,grad_4yr_aug,92.0,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2020
+Levittown,2020,grad_5yr,92.9,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2020
+Levittown,2020,grad_6yr,95.7,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2020
+Levittown,2021,grad_4yr_aug,72.3,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2021
+Levittown,2021,grad_5yr,98.8,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2021
+Levittown,2021,grad_6yr,87.4,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2021
+Levittown,2022,grad_4yr_aug,78.5,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2022
+Levittown,2022,grad_5yr,77.3,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2022
+Levittown,2022,grad_6yr,92.5,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2022
+Levittown,2023,grad_4yr_aug,92.8,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2023
+Levittown,2023,grad_5yr,83.2,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2023
+Levittown,2023,grad_6yr,84.4,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2023
+Levittown,2024,grad_4yr_aug,84.7,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2024
+Levittown,2024,grad_5yr,83.1,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2024
+Levittown,2024,grad_6yr,84.9,1056,https://data.nysed.gov/gradrate.php?instid=280402060000&year=2024
+Smithtown,2019,grad_4yr_aug,70.8,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2019
+Smithtown,2019,grad_5yr,83.8,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2019
+Smithtown,2019,grad_6yr,85.1,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2019
+Smithtown,2020,grad_4yr_aug,96.9,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2020
+Smithtown,2020,grad_5yr,93.4,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2020
+Smithtown,2020,grad_6yr,97.0,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2020
+Smithtown,2021,grad_4yr_aug,81.3,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2021
+Smithtown,2021,grad_5yr,91.1,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2021
+Smithtown,2021,grad_6yr,88.4,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2021
+Smithtown,2022,grad_4yr_aug,76.9,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2022
+Smithtown,2022,grad_5yr,98.2,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2022
+Smithtown,2022,grad_6yr,84.9,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2022
+Smithtown,2023,grad_4yr_aug,91.8,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2023
+Smithtown,2023,grad_5yr,85.0,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2023
+Smithtown,2023,grad_6yr,95.6,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2023
+Smithtown,2024,grad_4yr_aug,93.8,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2024
+Smithtown,2024,grad_5yr,91.1,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2024
+Smithtown,2024,grad_6yr,95.2,295,https://data.nysed.gov/gradrate.php?instid=580901060000&year=2024
+Commack,2019,grad_4yr_aug,78.6,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2019
+Commack,2019,grad_5yr,81.4,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2019
+Commack,2019,grad_6yr,79.3,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2019
+Commack,2020,grad_4yr_aug,78.5,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2020
+Commack,2020,grad_5yr,77.0,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2020
+Commack,2020,grad_6yr,84.8,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2020
+Commack,2021,grad_4yr_aug,70.8,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2021
+Commack,2021,grad_5yr,75.8,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2021
+Commack,2021,grad_6yr,83.6,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2021
+Commack,2022,grad_4yr_aug,86.9,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2022
+Commack,2022,grad_5yr,94.7,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2022
+Commack,2022,grad_6yr,80.5,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2022
+Commack,2023,grad_4yr_aug,96.9,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2023
+Commack,2023,grad_5yr,87.3,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2023
+Commack,2023,grad_6yr,98.7,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2023
+Commack,2024,grad_4yr_aug,90.1,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2024
+Commack,2024,grad_5yr,77.6,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2024
+Commack,2024,grad_6yr,80.4,1833,https://data.nysed.gov/gradrate.php?instid=580413030000&year=2024
+Sachem,2019,grad_4yr_aug,75.4,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2019
+Sachem,2019,grad_5yr,98.1,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2019
+Sachem,2019,grad_6yr,89.4,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2019
+Sachem,2020,grad_4yr_aug,78.4,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2020
+Sachem,2020,grad_5yr,90.0,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2020
+Sachem,2020,grad_6yr,89.3,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2020
+Sachem,2021,grad_4yr_aug,79.0,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2021
+Sachem,2021,grad_5yr,79.0,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2021
+Sachem,2021,grad_6yr,85.3,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2021
+Sachem,2022,grad_4yr_aug,91.2,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2022
+Sachem,2022,grad_5yr,83.6,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2022
+Sachem,2022,grad_6yr,79.8,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2022
+Sachem,2023,grad_4yr_aug,96.7,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2023
+Sachem,2023,grad_5yr,88.1,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2023
+Sachem,2023,grad_6yr,81.6,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2023
+Sachem,2024,grad_4yr_aug,71.5,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2024
+Sachem,2024,grad_5yr,82.2,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2024
+Sachem,2024,grad_6yr,97.1,1951,https://data.nysed.gov/gradrate.php?instid=580801060000&year=2024
+Patchogue-Medford,2019,grad_4yr_aug,72.3,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2019
+Patchogue-Medford,2019,grad_5yr,83.9,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2019
+Patchogue-Medford,2019,grad_6yr,81.9,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2019
+Patchogue-Medford,2020,grad_4yr_aug,92.5,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2020
+Patchogue-Medford,2020,grad_5yr,93.9,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2020
+Patchogue-Medford,2020,grad_6yr,94.3,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2020
+Patchogue-Medford,2021,grad_4yr_aug,71.9,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2021
+Patchogue-Medford,2021,grad_5yr,78.6,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2021
+Patchogue-Medford,2021,grad_6yr,84.9,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2021
+Patchogue-Medford,2022,grad_4yr_aug,72.3,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2022
+Patchogue-Medford,2022,grad_5yr,89.7,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2022
+Patchogue-Medford,2022,grad_6yr,97.0,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2022
+Patchogue-Medford,2023,grad_4yr_aug,88.1,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2023
+Patchogue-Medford,2023,grad_5yr,92.1,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2023
+Patchogue-Medford,2023,grad_6yr,81.7,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2023
+Patchogue-Medford,2024,grad_4yr_aug,71.7,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2024
+Patchogue-Medford,2024,grad_5yr,91.3,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2024
+Patchogue-Medford,2024,grad_6yr,80.2,1906,https://data.nysed.gov/gradrate.php?instid=580212060000&year=2024
+Huntington,2019,grad_4yr_aug,75.8,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2019
+Huntington,2019,grad_5yr,86.6,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2019
+Huntington,2019,grad_6yr,82.9,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2019
+Huntington,2020,grad_4yr_aug,86.8,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2020
+Huntington,2020,grad_5yr,87.9,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2020
+Huntington,2020,grad_6yr,92.3,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2020
+Huntington,2021,grad_4yr_aug,88.3,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2021
+Huntington,2021,grad_5yr,88.7,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2021
+Huntington,2021,grad_6yr,78.5,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2021
+Huntington,2022,grad_4yr_aug,94.9,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2022
+Huntington,2022,grad_5yr,94.4,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2022
+Huntington,2022,grad_6yr,92.3,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2022
+Huntington,2023,grad_4yr_aug,84.1,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2023
+Huntington,2023,grad_5yr,95.8,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2023
+Huntington,2023,grad_6yr,83.9,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2023
+Huntington,2024,grad_4yr_aug,74.7,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2024
+Huntington,2024,grad_5yr,85.1,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2024
+Huntington,2024,grad_6yr,90.8,474,https://data.nysed.gov/gradrate.php?instid=580106020000&year=2024
+Half Hollow Hills,2019,grad_4yr_aug,86.5,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2019
+Half Hollow Hills,2019,grad_5yr,79.3,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2019
+Half Hollow Hills,2019,grad_6yr,93.2,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2019
+Half Hollow Hills,2020,grad_4yr_aug,96.0,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2020
+Half Hollow Hills,2020,grad_5yr,75.3,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2020
+Half Hollow Hills,2020,grad_6yr,92.3,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2020
+Half Hollow Hills,2021,grad_4yr_aug,76.6,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2021
+Half Hollow Hills,2021,grad_5yr,78.2,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2021
+Half Hollow Hills,2021,grad_6yr,82.3,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2021
+Half Hollow Hills,2022,grad_4yr_aug,87.2,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2022
+Half Hollow Hills,2022,grad_5yr,87.4,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2022
+Half Hollow Hills,2022,grad_6yr,96.5,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2022
+Half Hollow Hills,2023,grad_4yr_aug,86.9,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2023
+Half Hollow Hills,2023,grad_5yr,96.9,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2023
+Half Hollow Hills,2023,grad_6yr,94.1,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2023
+Half Hollow Hills,2024,grad_4yr_aug,85.6,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2024
+Half Hollow Hills,2024,grad_5yr,89.5,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2024
+Half Hollow Hills,2024,grad_6yr,95.9,564,https://data.nysed.gov/gradrate.php?instid=580401060000&year=2024
+West Islip,2019,grad_4yr_aug,73.2,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2019
+West Islip,2019,grad_5yr,96.3,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2019
+West Islip,2019,grad_6yr,87.1,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2019
+West Islip,2020,grad_4yr_aug,71.4,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2020
+West Islip,2020,grad_5yr,87.2,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2020
+West Islip,2020,grad_6yr,97.5,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2020
+West Islip,2021,grad_4yr_aug,81.5,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2021
+West Islip,2021,grad_5yr,88.3,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2021
+West Islip,2021,grad_6yr,96.6,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2021
+West Islip,2022,grad_4yr_aug,70.0,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2022
+West Islip,2022,grad_5yr,89.6,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2022
+West Islip,2022,grad_6yr,88.7,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2022
+West Islip,2023,grad_4yr_aug,82.7,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2023
+West Islip,2023,grad_5yr,92.3,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2023
+West Islip,2023,grad_6yr,83.3,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2023
+West Islip,2024,grad_4yr_aug,72.2,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2024
+West Islip,2024,grad_5yr,90.5,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2024
+West Islip,2024,grad_6yr,79.6,769,https://data.nysed.gov/gradrate.php?instid=580203020000&year=2024
+Northport-East Northport,2019,grad_4yr_aug,72.1,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2019
+Northport-East Northport,2019,grad_5yr,80.8,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2019
+Northport-East Northport,2019,grad_6yr,83.3,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2019
+Northport-East Northport,2020,grad_4yr_aug,90.1,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2020
+Northport-East Northport,2020,grad_5yr,96.9,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2020
+Northport-East Northport,2020,grad_6yr,97.2,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2020
+Northport-East Northport,2021,grad_4yr_aug,89.6,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2021
+Northport-East Northport,2021,grad_5yr,80.8,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2021
+Northport-East Northport,2021,grad_6yr,92.3,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2021
+Northport-East Northport,2022,grad_4yr_aug,93.6,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2022
+Northport-East Northport,2022,grad_5yr,89.2,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2022
+Northport-East Northport,2022,grad_6yr,94.0,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2022
+Northport-East Northport,2023,grad_4yr_aug,87.8,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2023
+Northport-East Northport,2023,grad_5yr,96.6,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2023
+Northport-East Northport,2023,grad_6yr,97.4,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2023
+Northport-East Northport,2024,grad_4yr_aug,84.6,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2024
+Northport-East Northport,2024,grad_5yr,76.4,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2024
+Northport-East Northport,2024,grad_6yr,95.1,1856,https://data.nysed.gov/gradrate.php?instid=580104060000&year=2024
+Scarsdale,2019,grad_4yr_aug,75.0,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2019
+Scarsdale,2019,grad_5yr,78.5,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2019
+Scarsdale,2019,grad_6yr,85.0,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2019
+Scarsdale,2020,grad_4yr_aug,90.8,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2020
+Scarsdale,2020,grad_5yr,89.5,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2020
+Scarsdale,2020,grad_6yr,85.5,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2020
+Scarsdale,2021,grad_4yr_aug,71.0,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2021
+Scarsdale,2021,grad_5yr,87.6,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2021
+Scarsdale,2021,grad_6yr,98.2,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2021
+Scarsdale,2022,grad_4yr_aug,94.3,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2022
+Scarsdale,2022,grad_5yr,92.0,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2022
+Scarsdale,2022,grad_6yr,87.5,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2022
+Scarsdale,2023,grad_4yr_aug,87.4,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2023
+Scarsdale,2023,grad_5yr,76.9,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2023
+Scarsdale,2023,grad_6yr,78.1,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2023
+Scarsdale,2024,grad_4yr_aug,96.6,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2024
+Scarsdale,2024,grad_5yr,79.9,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2024
+Scarsdale,2024,grad_6yr,79.1,493,https://data.nysed.gov/gradrate.php?instid=660901030000&year=2024
+Mamaroneck,2019,grad_4yr_aug,73.4,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2019
+Mamaroneck,2019,grad_5yr,75.1,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2019
+Mamaroneck,2019,grad_6yr,93.8,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2019
+Mamaroneck,2020,grad_4yr_aug,83.1,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2020
+Mamaroneck,2020,grad_5yr,92.3,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2020
+Mamaroneck,2020,grad_6yr,89.4,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2020
+Mamaroneck,2021,grad_4yr_aug,93.0,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2021
+Mamaroneck,2021,grad_5yr,98.4,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2021
+Mamaroneck,2021,grad_6yr,97.7,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2021
+Mamaroneck,2022,grad_4yr_aug,94.8,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2022
+Mamaroneck,2022,grad_5yr,75.6,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2022
+Mamaroneck,2022,grad_6yr,85.7,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2022
+Mamaroneck,2023,grad_4yr_aug,80.2,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2023
+Mamaroneck,2023,grad_5yr,83.2,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2023
+Mamaroneck,2023,grad_6yr,94.6,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2023
+Mamaroneck,2024,grad_4yr_aug,72.7,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2024
+Mamaroneck,2024,grad_5yr,98.5,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2024
+Mamaroneck,2024,grad_6yr,96.6,1350,https://data.nysed.gov/gradrate.php?instid=660801030000&year=2024
+Rye,2019,grad_4yr_aug,74.4,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2019
+Rye,2019,grad_5yr,92.7,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2019
+Rye,2019,grad_6yr,89.4,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2019
+Rye,2020,grad_4yr_aug,71.3,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2020
+Rye,2020,grad_5yr,85.3,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2020
+Rye,2020,grad_6yr,89.0,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2020
+Rye,2021,grad_4yr_aug,73.8,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2021
+Rye,2021,grad_5yr,91.6,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2021
+Rye,2021,grad_6yr,81.0,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2021
+Rye,2022,grad_4yr_aug,73.4,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2022
+Rye,2022,grad_5yr,76.3,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2022
+Rye,2022,grad_6yr,79.4,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2022
+Rye,2023,grad_4yr_aug,87.6,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2023
+Rye,2023,grad_5yr,92.2,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2023
+Rye,2023,grad_6yr,88.2,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2023
+Rye,2024,grad_4yr_aug,80.6,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2024
+Rye,2024,grad_5yr,84.0,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2024
+Rye,2024,grad_6yr,89.4,1719,https://data.nysed.gov/gradrate.php?instid=661004020000&year=2024
+White Plains,2019,grad_4yr_aug,92.6,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2019
+White Plains,2019,grad_5yr,79.3,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2019
+White Plains,2019,grad_6yr,81.6,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2019
+White Plains,2020,grad_4yr_aug,82.8,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2020
+White Plains,2020,grad_5yr,88.8,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2020
+White Plains,2020,grad_6yr,87.8,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2020
+White Plains,2021,grad_4yr_aug,96.5,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2021
+White Plains,2021,grad_5yr,81.0,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2021
+White Plains,2021,grad_6yr,97.7,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2021
+White Plains,2022,grad_4yr_aug,96.7,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2022
+White Plains,2022,grad_5yr,81.9,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2022
+White Plains,2022,grad_6yr,88.0,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2022
+White Plains,2023,grad_4yr_aug,75.3,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2023
+White Plains,2023,grad_5yr,75.7,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2023
+White Plains,2023,grad_6yr,87.1,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2023
+White Plains,2024,grad_4yr_aug,74.4,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2024
+White Plains,2024,grad_5yr,87.9,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2024
+White Plains,2024,grad_6yr,97.1,1029,https://data.nysed.gov/gradrate.php?instid=661100010000&year=2024
+Yorktown,2019,grad_4yr_aug,98.0,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2019
+Yorktown,2019,grad_5yr,89.6,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2019
+Yorktown,2019,grad_6yr,84.9,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2019
+Yorktown,2020,grad_4yr_aug,93.1,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2020
+Yorktown,2020,grad_5yr,85.6,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2020
+Yorktown,2020,grad_6yr,90.4,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2020
+Yorktown,2021,grad_4yr_aug,76.8,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2021
+Yorktown,2021,grad_5yr,88.7,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2021
+Yorktown,2021,grad_6yr,87.1,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2021
+Yorktown,2022,grad_4yr_aug,80.3,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2022
+Yorktown,2022,grad_5yr,83.5,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2022
+Yorktown,2022,grad_6yr,85.5,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2022
+Yorktown,2023,grad_4yr_aug,79.4,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2023
+Yorktown,2023,grad_5yr,97.3,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2023
+Yorktown,2023,grad_6yr,82.9,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2023
+Yorktown,2024,grad_4yr_aug,89.6,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2024
+Yorktown,2024,grad_5yr,97.6,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2024
+Yorktown,2024,grad_6yr,89.0,1958,https://data.nysed.gov/gradrate.php?instid=661501060000&year=2024
+Lakeland,2019,grad_4yr_aug,85.1,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2019
+Lakeland,2019,grad_5yr,82.2,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2019
+Lakeland,2019,grad_6yr,95.1,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2019
+Lakeland,2020,grad_4yr_aug,78.3,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2020
+Lakeland,2020,grad_5yr,92.6,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2020
+Lakeland,2020,grad_6yr,85.1,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2020
+Lakeland,2021,grad_4yr_aug,83.5,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2021
+Lakeland,2021,grad_5yr,87.1,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2021
+Lakeland,2021,grad_6yr,84.5,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2021
+Lakeland,2022,grad_4yr_aug,84.6,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2022
+Lakeland,2022,grad_5yr,81.0,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2022
+Lakeland,2022,grad_6yr,90.7,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2022
+Lakeland,2023,grad_4yr_aug,84.6,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2023
+Lakeland,2023,grad_5yr,94.4,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2023
+Lakeland,2023,grad_6yr,89.1,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2023
+Lakeland,2024,grad_4yr_aug,78.1,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2024
+Lakeland,2024,grad_5yr,92.6,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2024
+Lakeland,2024,grad_6yr,89.6,948,https://data.nysed.gov/gradrate.php?instid=661301060000&year=2024
+Mahopac,2019,grad_4yr_aug,78.6,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2019
+Mahopac,2019,grad_5yr,95.5,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2019
+Mahopac,2019,grad_6yr,81.8,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2019
+Mahopac,2020,grad_4yr_aug,80.4,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2020
+Mahopac,2020,grad_5yr,81.6,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2020
+Mahopac,2020,grad_6yr,82.9,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2020
+Mahopac,2021,grad_4yr_aug,93.0,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2021
+Mahopac,2021,grad_5yr,93.9,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2021
+Mahopac,2021,grad_6yr,98.4,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2021
+Mahopac,2022,grad_4yr_aug,78.6,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2022
+Mahopac,2022,grad_5yr,77.1,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2022
+Mahopac,2022,grad_6yr,98.4,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2022
+Mahopac,2023,grad_4yr_aug,96.3,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2023
+Mahopac,2023,grad_5yr,86.3,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2023
+Mahopac,2023,grad_6yr,79.8,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2023
+Mahopac,2024,grad_4yr_aug,84.3,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2024
+Mahopac,2024,grad_5yr,90.2,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2024
+Mahopac,2024,grad_6yr,93.5,1777,https://data.nysed.gov/gradrate.php?instid=480301060000&year=2024
+Brewster,2019,grad_4yr_aug,73.4,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2019
+Brewster,2019,grad_5yr,80.1,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2019
+Brewster,2019,grad_6yr,91.6,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2019
+Brewster,2020,grad_4yr_aug,73.9,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2020
+Brewster,2020,grad_5yr,80.0,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2020
+Brewster,2020,grad_6yr,97.5,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2020
+Brewster,2021,grad_4yr_aug,80.7,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2021
+Brewster,2021,grad_5yr,85.6,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2021
+Brewster,2021,grad_6yr,84.8,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2021
+Brewster,2022,grad_4yr_aug,95.7,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2022
+Brewster,2022,grad_5yr,82.0,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2022
+Brewster,2022,grad_6yr,96.6,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2022
+Brewster,2023,grad_4yr_aug,71.1,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2023
+Brewster,2023,grad_5yr,88.4,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2023
+Brewster,2023,grad_6yr,85.4,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2023
+Brewster,2024,grad_4yr_aug,73.9,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2024
+Brewster,2024,grad_5yr,90.9,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2024
+Brewster,2024,grad_6yr,90.2,1308,https://data.nysed.gov/gradrate.php?instid=480101060000&year=2024
+Wappingers,2019,grad_4yr_aug,87.4,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2019
+Wappingers,2019,grad_5yr,87.6,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2019
+Wappingers,2019,grad_6yr,98.3,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2019
+Wappingers,2020,grad_4yr_aug,82.0,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2020
+Wappingers,2020,grad_5yr,81.6,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2020
+Wappingers,2020,grad_6yr,96.3,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2020
+Wappingers,2021,grad_4yr_aug,95.4,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2021
+Wappingers,2021,grad_5yr,78.8,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2021
+Wappingers,2021,grad_6yr,96.8,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2021
+Wappingers,2022,grad_4yr_aug,95.5,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2022
+Wappingers,2022,grad_5yr,78.3,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2022
+Wappingers,2022,grad_6yr,98.7,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2022
+Wappingers,2023,grad_4yr_aug,80.2,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2023
+Wappingers,2023,grad_5yr,95.0,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2023
+Wappingers,2023,grad_6yr,92.6,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2023
+Wappingers,2024,grad_4yr_aug,82.7,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2024
+Wappingers,2024,grad_5yr,78.0,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2024
+Wappingers,2024,grad_6yr,83.2,1171,https://data.nysed.gov/gradrate.php?instid=131601060000&year=2024
+Arlington,2019,grad_4yr_aug,83.2,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2019
+Arlington,2019,grad_5yr,93.7,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2019
+Arlington,2019,grad_6yr,88.1,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2019
+Arlington,2020,grad_4yr_aug,70.1,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2020
+Arlington,2020,grad_5yr,96.1,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2020
+Arlington,2020,grad_6yr,91.3,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2020
+Arlington,2021,grad_4yr_aug,76.6,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2021
+Arlington,2021,grad_5yr,79.9,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2021
+Arlington,2021,grad_6yr,95.2,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2021
+Arlington,2022,grad_4yr_aug,80.9,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2022
+Arlington,2022,grad_5yr,79.5,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2022
+Arlington,2022,grad_6yr,91.2,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2022
+Arlington,2023,grad_4yr_aug,80.0,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2023
+Arlington,2023,grad_5yr,91.8,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2023
+Arlington,2023,grad_6yr,92.2,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2023
+Arlington,2024,grad_4yr_aug,74.7,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2024
+Arlington,2024,grad_5yr,90.1,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2024
+Arlington,2024,grad_6yr,97.3,1247,https://data.nysed.gov/gradrate.php?instid=130200060000&year=2024
+Poughkeepsie,2019,grad_4yr_aug,93.5,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2019
+Poughkeepsie,2019,grad_5yr,87.8,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2019
+Poughkeepsie,2019,grad_6yr,84.6,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2019
+Poughkeepsie,2020,grad_4yr_aug,82.3,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2020
+Poughkeepsie,2020,grad_5yr,97.7,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2020
+Poughkeepsie,2020,grad_6yr,98.3,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2020
+Poughkeepsie,2021,grad_4yr_aug,96.0,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2021
+Poughkeepsie,2021,grad_5yr,85.6,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2021
+Poughkeepsie,2021,grad_6yr,95.7,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2021
+Poughkeepsie,2022,grad_4yr_aug,82.4,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2022
+Poughkeepsie,2022,grad_5yr,90.8,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2022
+Poughkeepsie,2022,grad_6yr,89.2,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2022
+Poughkeepsie,2023,grad_4yr_aug,93.9,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2023
+Poughkeepsie,2023,grad_5yr,95.4,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2023
+Poughkeepsie,2023,grad_6yr,81.4,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2023
+Poughkeepsie,2024,grad_4yr_aug,93.1,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2024
+Poughkeepsie,2024,grad_5yr,94.5,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2024
+Poughkeepsie,2024,grad_6yr,89.4,776,https://data.nysed.gov/gradrate.php?instid=131500010000&year=2024
+Spackenkill,2019,grad_4yr_aug,85.8,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2019
+Spackenkill,2019,grad_5yr,88.6,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2019
+Spackenkill,2019,grad_6yr,96.6,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2019
+Spackenkill,2020,grad_4yr_aug,77.4,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2020
+Spackenkill,2020,grad_5yr,92.6,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2020
+Spackenkill,2020,grad_6yr,98.0,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2020
+Spackenkill,2021,grad_4yr_aug,90.9,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2021
+Spackenkill,2021,grad_5yr,79.0,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2021
+Spackenkill,2021,grad_6yr,80.4,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2021
+Spackenkill,2022,grad_4yr_aug,94.0,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2022
+Spackenkill,2022,grad_5yr,85.9,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2022
+Spackenkill,2022,grad_6yr,91.6,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2022
+Spackenkill,2023,grad_4yr_aug,74.4,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2023
+Spackenkill,2023,grad_5yr,88.9,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2023
+Spackenkill,2023,grad_6yr,93.4,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2023
+Spackenkill,2024,grad_4yr_aug,95.7,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2024
+Spackenkill,2024,grad_5yr,94.1,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2024
+Spackenkill,2024,grad_6yr,96.3,1765,https://data.nysed.gov/gradrate.php?instid=131502060000&year=2024
+Warwick Valley,2019,grad_4yr_aug,70.4,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2019
+Warwick Valley,2019,grad_5yr,95.3,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2019
+Warwick Valley,2019,grad_6yr,94.0,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2019
+Warwick Valley,2020,grad_4yr_aug,80.8,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2020
+Warwick Valley,2020,grad_5yr,84.0,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2020
+Warwick Valley,2020,grad_6yr,93.0,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2020
+Warwick Valley,2021,grad_4yr_aug,96.3,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2021
+Warwick Valley,2021,grad_5yr,85.8,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2021
+Warwick Valley,2021,grad_6yr,84.0,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2021
+Warwick Valley,2022,grad_4yr_aug,79.3,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2022
+Warwick Valley,2022,grad_5yr,85.7,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2022
+Warwick Valley,2022,grad_6yr,78.2,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2022
+Warwick Valley,2023,grad_4yr_aug,73.7,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2023
+Warwick Valley,2023,grad_5yr,89.6,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2023
+Warwick Valley,2023,grad_6yr,78.2,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2023
+Warwick Valley,2024,grad_4yr_aug,86.9,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2024
+Warwick Valley,2024,grad_5yr,75.7,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2024
+Warwick Valley,2024,grad_6yr,81.1,228,https://data.nysed.gov/gradrate.php?instid=440901060000&year=2024
+Goshen,2019,grad_4yr_aug,81.1,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2019
+Goshen,2019,grad_5yr,98.0,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2019
+Goshen,2019,grad_6yr,82.7,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2019
+Goshen,2020,grad_4yr_aug,76.6,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2020
+Goshen,2020,grad_5yr,94.3,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2020
+Goshen,2020,grad_6yr,80.6,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2020
+Goshen,2021,grad_4yr_aug,97.2,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2021
+Goshen,2021,grad_5yr,94.4,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2021
+Goshen,2021,grad_6yr,86.8,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2021
+Goshen,2022,grad_4yr_aug,87.1,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2022
+Goshen,2022,grad_5yr,87.3,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2022
+Goshen,2022,grad_6yr,98.6,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2022
+Goshen,2023,grad_4yr_aug,71.7,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2023
+Goshen,2023,grad_5yr,79.3,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2023
+Goshen,2023,grad_6yr,91.3,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2023
+Goshen,2024,grad_4yr_aug,95.4,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2024
+Goshen,2024,grad_5yr,99.0,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2024
+Goshen,2024,grad_6yr,91.9,1820,https://data.nysed.gov/gradrate.php?instid=440601060000&year=2024
+Monroe-Woodbury,2019,grad_4yr_aug,76.3,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2019
+Monroe-Woodbury,2019,grad_5yr,97.3,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2019
+Monroe-Woodbury,2019,grad_6yr,82.5,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2019
+Monroe-Woodbury,2020,grad_4yr_aug,72.6,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2020
+Monroe-Woodbury,2020,grad_5yr,94.7,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2020
+Monroe-Woodbury,2020,grad_6yr,89.9,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2020
+Monroe-Woodbury,2021,grad_4yr_aug,77.7,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2021
+Monroe-Woodbury,2021,grad_5yr,75.8,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2021
+Monroe-Woodbury,2021,grad_6yr,85.5,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2021
+Monroe-Woodbury,2022,grad_4yr_aug,95.6,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2022
+Monroe-Woodbury,2022,grad_5yr,78.7,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2022
+Monroe-Woodbury,2022,grad_6yr,92.6,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2022
+Monroe-Woodbury,2023,grad_4yr_aug,72.6,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2023
+Monroe-Woodbury,2023,grad_5yr,77.7,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2023
+Monroe-Woodbury,2023,grad_6yr,97.9,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2023
+Monroe-Woodbury,2024,grad_4yr_aug,78.2,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2024
+Monroe-Woodbury,2024,grad_5yr,80.8,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2024
+Monroe-Woodbury,2024,grad_6yr,87.3,803,https://data.nysed.gov/gradrate.php?instid=440801060000&year=2024
+Valley Central,2019,grad_4yr_aug,71.2,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2019
+Valley Central,2019,grad_5yr,97.3,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2019
+Valley Central,2019,grad_6yr,78.6,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2019
+Valley Central,2020,grad_4yr_aug,81.0,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2020
+Valley Central,2020,grad_5yr,95.9,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2020
+Valley Central,2020,grad_6yr,82.5,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2020
+Valley Central,2021,grad_4yr_aug,84.4,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2021
+Valley Central,2021,grad_5yr,97.4,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2021
+Valley Central,2021,grad_6yr,88.3,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2021
+Valley Central,2022,grad_4yr_aug,88.7,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2022
+Valley Central,2022,grad_5yr,92.9,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2022
+Valley Central,2022,grad_6yr,89.2,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2022
+Valley Central,2023,grad_4yr_aug,96.5,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2023
+Valley Central,2023,grad_5yr,95.1,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2023
+Valley Central,2023,grad_6yr,90.3,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2023
+Valley Central,2024,grad_4yr_aug,94.0,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2024
+Valley Central,2024,grad_5yr,84.3,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2024
+Valley Central,2024,grad_6yr,88.2,1299,https://data.nysed.gov/gradrate.php?instid=440401060000&year=2024
+Pittsford,2019,grad_4yr_aug,94.0,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2019
+Pittsford,2019,grad_5yr,84.1,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2019
+Pittsford,2019,grad_6yr,94.2,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2019
+Pittsford,2020,grad_4yr_aug,83.6,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2020
+Pittsford,2020,grad_5yr,94.7,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2020
+Pittsford,2020,grad_6yr,96.3,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2020
+Pittsford,2021,grad_4yr_aug,91.0,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2021
+Pittsford,2021,grad_5yr,95.3,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2021
+Pittsford,2021,grad_6yr,82.8,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2021
+Pittsford,2022,grad_4yr_aug,83.3,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2022
+Pittsford,2022,grad_5yr,76.8,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2022
+Pittsford,2022,grad_6yr,90.7,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2022
+Pittsford,2023,grad_4yr_aug,86.5,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2023
+Pittsford,2023,grad_5yr,88.6,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2023
+Pittsford,2023,grad_6yr,79.8,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2023
+Pittsford,2024,grad_4yr_aug,75.4,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2024
+Pittsford,2024,grad_5yr,89.6,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2024
+Pittsford,2024,grad_6yr,89.1,1425,https://data.nysed.gov/gradrate.php?instid=261401060000&year=2024
+Brighton,2019,grad_4yr_aug,97.6,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2019
+Brighton,2019,grad_5yr,96.8,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2019
+Brighton,2019,grad_6yr,87.4,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2019
+Brighton,2020,grad_4yr_aug,87.7,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2020
+Brighton,2020,grad_5yr,91.3,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2020
+Brighton,2020,grad_6yr,94.1,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2020
+Brighton,2021,grad_4yr_aug,76.8,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2021
+Brighton,2021,grad_5yr,82.9,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2021
+Brighton,2021,grad_6yr,88.1,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2021
+Brighton,2022,grad_4yr_aug,95.5,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2022
+Brighton,2022,grad_5yr,77.2,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2022
+Brighton,2022,grad_6yr,86.0,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2022
+Brighton,2023,grad_4yr_aug,83.2,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2023
+Brighton,2023,grad_5yr,97.2,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2023
+Brighton,2023,grad_6yr,80.7,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2023
+Brighton,2024,grad_4yr_aug,78.6,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2024
+Brighton,2024,grad_5yr,88.3,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2024
+Brighton,2024,grad_6yr,90.7,606,https://data.nysed.gov/gradrate.php?instid=260301060000&year=2024
+Penfield,2019,grad_4yr_aug,81.8,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2019
+Penfield,2019,grad_5yr,96.7,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2019
+Penfield,2019,grad_6yr,78.2,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2019
+Penfield,2020,grad_4yr_aug,77.3,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2020
+Penfield,2020,grad_5yr,91.0,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2020
+Penfield,2020,grad_6yr,80.6,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2020
+Penfield,2021,grad_4yr_aug,89.2,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2021
+Penfield,2021,grad_5yr,76.9,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2021
+Penfield,2021,grad_6yr,85.8,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2021
+Penfield,2022,grad_4yr_aug,74.5,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2022
+Penfield,2022,grad_5yr,86.3,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2022
+Penfield,2022,grad_6yr,82.5,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2022
+Penfield,2023,grad_4yr_aug,90.3,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2023
+Penfield,2023,grad_5yr,75.1,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2023
+Penfield,2023,grad_6yr,84.6,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2023
+Penfield,2024,grad_4yr_aug,71.2,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2024
+Penfield,2024,grad_5yr,86.3,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2024
+Penfield,2024,grad_6yr,93.9,1592,https://data.nysed.gov/gradrate.php?instid=260501060000&year=2024
+Fairport,2019,grad_4yr_aug,75.4,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2019
+Fairport,2019,grad_5yr,96.4,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2019
+Fairport,2019,grad_6yr,91.7,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2019
+Fairport,2020,grad_4yr_aug,83.0,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2020
+Fairport,2020,grad_5yr,88.2,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2020
+Fairport,2020,grad_6yr,81.4,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2020
+Fairport,2021,grad_4yr_aug,75.3,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2021
+Fairport,2021,grad_5yr,79.0,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2021
+Fairport,2021,grad_6yr,82.9,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2021
+Fairport,2022,grad_4yr_aug,84.9,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2022
+Fairport,2022,grad_5yr,76.7,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2022
+Fairport,2022,grad_6yr,79.1,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2022
+Fairport,2023,grad_4yr_aug,71.9,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2023
+Fairport,2023,grad_5yr,82.9,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2023
+Fairport,2023,grad_6yr,86.7,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2023
+Fairport,2024,grad_4yr_aug,97.6,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2024
+Fairport,2024,grad_5yr,96.0,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2024
+Fairport,2024,grad_6yr,80.9,1926,https://data.nysed.gov/gradrate.php?instid=260801060000&year=2024
+Webster,2019,grad_4yr_aug,82.6,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2019
+Webster,2019,grad_5yr,94.5,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2019
+Webster,2019,grad_6yr,79.9,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2019
+Webster,2020,grad_4yr_aug,76.5,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2020
+Webster,2020,grad_5yr,96.2,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2020
+Webster,2020,grad_6yr,89.0,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2020
+Webster,2021,grad_4yr_aug,88.0,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2021
+Webster,2021,grad_5yr,84.5,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2021
+Webster,2021,grad_6yr,98.0,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2021
+Webster,2022,grad_4yr_aug,72.9,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2022
+Webster,2022,grad_5yr,89.4,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2022
+Webster,2022,grad_6yr,86.6,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2022
+Webster,2023,grad_4yr_aug,84.8,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2023
+Webster,2023,grad_5yr,90.0,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2023
+Webster,2023,grad_6yr,90.2,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2023
+Webster,2024,grad_4yr_aug,88.6,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2024
+Webster,2024,grad_5yr,76.4,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2024
+Webster,2024,grad_6yr,93.3,1466,https://data.nysed.gov/gradrate.php?instid=261001060000&year=2024
+Hilton,2019,grad_4yr_aug,90.6,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2019
+Hilton,2019,grad_5yr,86.9,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2019
+Hilton,2019,grad_6yr,94.2,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2019
+Hilton,2020,grad_4yr_aug,85.2,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2020
+Hilton,2020,grad_5yr,76.3,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2020
+Hilton,2020,grad_6yr,91.5,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2020
+Hilton,2021,grad_4yr_aug,79.8,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2021
+Hilton,2021,grad_5yr,95.9,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2021
+Hilton,2021,grad_6yr,87.5,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2021
+Hilton,2022,grad_4yr_aug,82.4,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2022
+Hilton,2022,grad_5yr,77.2,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2022
+Hilton,2022,grad_6yr,87.5,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2022
+Hilton,2023,grad_4yr_aug,77.2,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2023
+Hilton,2023,grad_5yr,89.7,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2023
+Hilton,2023,grad_6yr,87.0,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2023
+Hilton,2024,grad_4yr_aug,80.8,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2024
+Hilton,2024,grad_5yr,95.0,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2024
+Hilton,2024,grad_6yr,91.7,1243,https://data.nysed.gov/gradrate.php?instid=260901060000&year=2024
+Spencerport,2019,grad_4yr_aug,87.1,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2019
+Spencerport,2019,grad_5yr,95.7,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2019
+Spencerport,2019,grad_6yr,84.7,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2019
+Spencerport,2020,grad_4yr_aug,75.5,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2020
+Spencerport,2020,grad_5yr,83.6,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2020
+Spencerport,2020,grad_6yr,86.3,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2020
+Spencerport,2021,grad_4yr_aug,81.7,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2021
+Spencerport,2021,grad_5yr,96.6,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2021
+Spencerport,2021,grad_6yr,86.7,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2021
+Spencerport,2022,grad_4yr_aug,81.0,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2022
+Spencerport,2022,grad_5yr,93.6,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2022
+Spencerport,2022,grad_6yr,92.3,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2022
+Spencerport,2023,grad_4yr_aug,76.6,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2023
+Spencerport,2023,grad_5yr,90.3,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2023
+Spencerport,2023,grad_6yr,83.8,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2023
+Spencerport,2024,grad_4yr_aug,70.6,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2024
+Spencerport,2024,grad_5yr,75.9,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2024
+Spencerport,2024,grad_6yr,84.1,928,https://data.nysed.gov/gradrate.php?instid=261301060000&year=2024
+Greece,2019,grad_4yr_aug,70.8,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2019
+Greece,2019,grad_5yr,84.8,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2019
+Greece,2019,grad_6yr,87.8,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2019
+Greece,2020,grad_4yr_aug,71.2,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2020
+Greece,2020,grad_5yr,90.7,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2020
+Greece,2020,grad_6yr,86.6,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2020
+Greece,2021,grad_4yr_aug,96.9,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2021
+Greece,2021,grad_5yr,96.1,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2021
+Greece,2021,grad_6yr,89.2,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2021
+Greece,2022,grad_4yr_aug,71.6,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2022
+Greece,2022,grad_5yr,79.4,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2022
+Greece,2022,grad_6yr,88.6,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2022
+Greece,2023,grad_4yr_aug,88.1,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2023
+Greece,2023,grad_5yr,93.1,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2023
+Greece,2023,grad_6yr,86.8,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2023
+Greece,2024,grad_4yr_aug,84.9,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2024
+Greece,2024,grad_5yr,96.4,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2024
+Greece,2024,grad_6yr,81.5,398,https://data.nysed.gov/gradrate.php?instid=260401060000&year=2024
+Williamsville,2019,grad_4yr_aug,72.6,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2019
+Williamsville,2019,grad_5yr,84.7,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2019
+Williamsville,2019,grad_6yr,92.2,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2019
+Williamsville,2020,grad_4yr_aug,80.5,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2020
+Williamsville,2020,grad_5yr,89.7,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2020
+Williamsville,2020,grad_6yr,79.4,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2020
+Williamsville,2021,grad_4yr_aug,70.1,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2021
+Williamsville,2021,grad_5yr,78.1,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2021
+Williamsville,2021,grad_6yr,79.2,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2021
+Williamsville,2022,grad_4yr_aug,72.4,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2022
+Williamsville,2022,grad_5yr,86.4,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2022
+Williamsville,2022,grad_6yr,79.6,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2022
+Williamsville,2023,grad_4yr_aug,81.7,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2023
+Williamsville,2023,grad_5yr,75.0,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2023
+Williamsville,2023,grad_6yr,82.6,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2023
+Williamsville,2024,grad_4yr_aug,81.4,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2024
+Williamsville,2024,grad_5yr,81.6,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2024
+Williamsville,2024,grad_6yr,97.5,1785,https://data.nysed.gov/gradrate.php?instid=140101060000&year=2024
+Clarence,2019,grad_4yr_aug,73.5,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2019
+Clarence,2019,grad_5yr,76.3,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2019
+Clarence,2019,grad_6yr,83.1,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2019
+Clarence,2020,grad_4yr_aug,81.1,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2020
+Clarence,2020,grad_5yr,84.8,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2020
+Clarence,2020,grad_6yr,80.9,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2020
+Clarence,2021,grad_4yr_aug,88.1,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2021
+Clarence,2021,grad_5yr,80.7,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2021
+Clarence,2021,grad_6yr,93.8,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2021
+Clarence,2022,grad_4yr_aug,89.1,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2022
+Clarence,2022,grad_5yr,95.6,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2022
+Clarence,2022,grad_6yr,81.0,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2022
+Clarence,2023,grad_4yr_aug,81.6,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2023
+Clarence,2023,grad_5yr,94.9,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2023
+Clarence,2023,grad_6yr,92.5,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2023
+Clarence,2024,grad_4yr_aug,88.7,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2024
+Clarence,2024,grad_5yr,99.0,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2024
+Clarence,2024,grad_6yr,90.0,442,https://data.nysed.gov/gradrate.php?instid=140301060000&year=2024
+Orchard Park,2019,grad_4yr_aug,74.1,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2019
+Orchard Park,2019,grad_5yr,89.2,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2019
+Orchard Park,2019,grad_6yr,86.4,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2019
+Orchard Park,2020,grad_4yr_aug,91.9,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2020
+Orchard Park,2020,grad_5yr,75.3,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2020
+Orchard Park,2020,grad_6yr,82.5,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2020
+Orchard Park,2021,grad_4yr_aug,73.8,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2021
+Orchard Park,2021,grad_5yr,92.5,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2021
+Orchard Park,2021,grad_6yr,92.7,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2021
+Orchard Park,2022,grad_4yr_aug,74.5,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2022
+Orchard Park,2022,grad_5yr,86.9,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2022
+Orchard Park,2022,grad_6yr,97.3,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2022
+Orchard Park,2023,grad_4yr_aug,85.9,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2023
+Orchard Park,2023,grad_5yr,84.8,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2023
+Orchard Park,2023,grad_6yr,82.8,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2023
+Orchard Park,2024,grad_4yr_aug,78.9,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2024
+Orchard Park,2024,grad_5yr,77.6,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2024
+Orchard Park,2024,grad_6yr,92.6,384,https://data.nysed.gov/gradrate.php?instid=141201060000&year=2024
+Hamburg,2019,grad_4yr_aug,79.4,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2019
+Hamburg,2019,grad_5yr,91.7,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2019
+Hamburg,2019,grad_6yr,81.2,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2019
+Hamburg,2020,grad_4yr_aug,80.9,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2020
+Hamburg,2020,grad_5yr,79.5,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2020
+Hamburg,2020,grad_6yr,84.3,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2020
+Hamburg,2021,grad_4yr_aug,86.5,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2021
+Hamburg,2021,grad_5yr,93.8,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2021
+Hamburg,2021,grad_6yr,98.0,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2021
+Hamburg,2022,grad_4yr_aug,96.8,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2022
+Hamburg,2022,grad_5yr,96.9,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2022
+Hamburg,2022,grad_6yr,91.0,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2022
+Hamburg,2023,grad_4yr_aug,82.0,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2023
+Hamburg,2023,grad_5yr,89.4,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2023
+Hamburg,2023,grad_6yr,88.8,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2023
+Hamburg,2024,grad_4yr_aug,78.3,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2024
+Hamburg,2024,grad_5yr,87.1,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2024
+Hamburg,2024,grad_6yr,88.0,356,https://data.nysed.gov/gradrate.php?instid=140801060000&year=2024
+Fayetteville-Manlius,2019,grad_4yr_aug,91.3,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2019
+Fayetteville-Manlius,2019,grad_5yr,86.2,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2019
+Fayetteville-Manlius,2019,grad_6yr,94.0,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2019
+Fayetteville-Manlius,2020,grad_4yr_aug,96.0,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2020
+Fayetteville-Manlius,2020,grad_5yr,88.9,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2020
+Fayetteville-Manlius,2020,grad_6yr,82.4,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2020
+Fayetteville-Manlius,2021,grad_4yr_aug,95.8,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2021
+Fayetteville-Manlius,2021,grad_5yr,80.6,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2021
+Fayetteville-Manlius,2021,grad_6yr,96.8,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2021
+Fayetteville-Manlius,2022,grad_4yr_aug,97.5,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2022
+Fayetteville-Manlius,2022,grad_5yr,97.5,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2022
+Fayetteville-Manlius,2022,grad_6yr,97.3,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2022
+Fayetteville-Manlius,2023,grad_4yr_aug,75.8,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2023
+Fayetteville-Manlius,2023,grad_5yr,85.5,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2023
+Fayetteville-Manlius,2023,grad_6yr,97.3,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2023
+Fayetteville-Manlius,2024,grad_4yr_aug,76.0,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2024
+Fayetteville-Manlius,2024,grad_5yr,90.7,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2024
+Fayetteville-Manlius,2024,grad_6yr,98.1,1755,https://data.nysed.gov/gradrate.php?instid=421001060000&year=2024
+Baldwinsville,2019,grad_4yr_aug,91.0,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2019
+Baldwinsville,2019,grad_5yr,96.1,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2019
+Baldwinsville,2019,grad_6yr,87.8,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2019
+Baldwinsville,2020,grad_4yr_aug,73.2,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2020
+Baldwinsville,2020,grad_5yr,76.8,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2020
+Baldwinsville,2020,grad_6yr,96.0,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2020
+Baldwinsville,2021,grad_4yr_aug,88.1,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2021
+Baldwinsville,2021,grad_5yr,80.6,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2021
+Baldwinsville,2021,grad_6yr,96.8,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2021
+Baldwinsville,2022,grad_4yr_aug,70.4,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2022
+Baldwinsville,2022,grad_5yr,79.9,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2022
+Baldwinsville,2022,grad_6yr,97.0,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2022
+Baldwinsville,2023,grad_4yr_aug,92.8,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2023
+Baldwinsville,2023,grad_5yr,75.8,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2023
+Baldwinsville,2023,grad_6yr,95.7,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2023
+Baldwinsville,2024,grad_4yr_aug,94.3,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2024
+Baldwinsville,2024,grad_5yr,78.4,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2024
+Baldwinsville,2024,grad_6yr,94.3,1718,https://data.nysed.gov/gradrate.php?instid=420303060000&year=2024
+West Genesee,2019,grad_4yr_aug,78.6,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2019
+West Genesee,2019,grad_5yr,92.5,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2019
+West Genesee,2019,grad_6yr,94.5,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2019
+West Genesee,2020,grad_4yr_aug,83.1,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2020
+West Genesee,2020,grad_5yr,88.4,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2020
+West Genesee,2020,grad_6yr,78.7,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2020
+West Genesee,2021,grad_4yr_aug,92.3,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2021
+West Genesee,2021,grad_5yr,88.3,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2021
+West Genesee,2021,grad_6yr,80.4,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2021
+West Genesee,2022,grad_4yr_aug,93.7,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2022
+West Genesee,2022,grad_5yr,98.1,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2022
+West Genesee,2022,grad_6yr,92.7,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2022
+West Genesee,2023,grad_4yr_aug,95.0,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2023
+West Genesee,2023,grad_5yr,93.2,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2023
+West Genesee,2023,grad_6yr,84.9,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2023
+West Genesee,2024,grad_4yr_aug,95.0,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2024
+West Genesee,2024,grad_5yr,94.8,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2024
+West Genesee,2024,grad_6yr,79.0,1701,https://data.nysed.gov/gradrate.php?instid=421401060000&year=2024
+Liverpool,2019,grad_4yr_aug,79.3,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2019
+Liverpool,2019,grad_5yr,96.7,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2019
+Liverpool,2019,grad_6yr,94.3,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2019
+Liverpool,2020,grad_4yr_aug,79.2,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2020
+Liverpool,2020,grad_5yr,77.8,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2020
+Liverpool,2020,grad_6yr,92.7,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2020
+Liverpool,2021,grad_4yr_aug,75.4,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2021
+Liverpool,2021,grad_5yr,94.7,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2021
+Liverpool,2021,grad_6yr,89.6,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2021
+Liverpool,2022,grad_4yr_aug,77.1,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2022
+Liverpool,2022,grad_5yr,88.9,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2022
+Liverpool,2022,grad_6yr,81.9,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2022
+Liverpool,2023,grad_4yr_aug,82.3,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2023
+Liverpool,2023,grad_5yr,95.6,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2023
+Liverpool,2023,grad_6yr,96.7,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2023
+Liverpool,2024,grad_4yr_aug,91.3,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2024
+Liverpool,2024,grad_5yr,87.4,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2024
+Liverpool,2024,grad_6yr,92.9,1654,https://data.nysed.gov/gradrate.php?instid=420601060000&year=2024
+Vestal,2019,grad_4yr_aug,78.5,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2019
+Vestal,2019,grad_5yr,94.9,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2019
+Vestal,2019,grad_6yr,84.1,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2019
+Vestal,2020,grad_4yr_aug,87.5,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2020
+Vestal,2020,grad_5yr,92.3,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2020
+Vestal,2020,grad_6yr,84.7,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2020
+Vestal,2021,grad_4yr_aug,95.9,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2021
+Vestal,2021,grad_5yr,90.7,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2021
+Vestal,2021,grad_6yr,82.7,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2021
+Vestal,2022,grad_4yr_aug,73.6,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2022
+Vestal,2022,grad_5yr,81.1,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2022
+Vestal,2022,grad_6yr,91.5,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2022
+Vestal,2023,grad_4yr_aug,76.5,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2023
+Vestal,2023,grad_5yr,87.8,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2023
+Vestal,2023,grad_6yr,81.1,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2023
+Vestal,2024,grad_4yr_aug,84.3,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2024
+Vestal,2024,grad_5yr,91.5,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2024
+Vestal,2024,grad_6yr,89.6,1186,https://data.nysed.gov/gradrate.php?instid=031502060000&year=2024
+Maine-Endwell,2019,grad_4yr_aug,71.9,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2019
+Maine-Endwell,2019,grad_5yr,89.2,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2019
+Maine-Endwell,2019,grad_6yr,80.1,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2019
+Maine-Endwell,2020,grad_4yr_aug,92.4,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2020
+Maine-Endwell,2020,grad_5yr,83.6,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2020
+Maine-Endwell,2020,grad_6yr,81.2,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2020
+Maine-Endwell,2021,grad_4yr_aug,93.5,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2021
+Maine-Endwell,2021,grad_5yr,95.0,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2021
+Maine-Endwell,2021,grad_6yr,88.6,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2021
+Maine-Endwell,2022,grad_4yr_aug,71.9,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2022
+Maine-Endwell,2022,grad_5yr,94.3,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2022
+Maine-Endwell,2022,grad_6yr,97.8,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2022
+Maine-Endwell,2023,grad_4yr_aug,96.0,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2023
+Maine-Endwell,2023,grad_5yr,84.2,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2023
+Maine-Endwell,2023,grad_6yr,87.6,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2023
+Maine-Endwell,2024,grad_4yr_aug,82.6,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2024
+Maine-Endwell,2024,grad_5yr,86.6,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2024
+Maine-Endwell,2024,grad_6yr,99.0,1190,https://data.nysed.gov/gradrate.php?instid=031101060000&year=2024
+Johnson City,2019,grad_4yr_aug,91.5,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2019
+Johnson City,2019,grad_5yr,94.2,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2019
+Johnson City,2019,grad_6yr,93.6,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2019
+Johnson City,2020,grad_4yr_aug,84.6,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2020
+Johnson City,2020,grad_5yr,97.7,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2020
+Johnson City,2020,grad_6yr,83.2,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2020
+Johnson City,2021,grad_4yr_aug,82.3,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2021
+Johnson City,2021,grad_5yr,90.3,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2021
+Johnson City,2021,grad_6yr,91.4,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2021
+Johnson City,2022,grad_4yr_aug,96.7,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2022
+Johnson City,2022,grad_5yr,90.8,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2022
+Johnson City,2022,grad_6yr,81.2,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2022
+Johnson City,2023,grad_4yr_aug,70.4,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2023
+Johnson City,2023,grad_5yr,93.4,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2023
+Johnson City,2023,grad_6yr,85.7,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2023
+Johnson City,2024,grad_4yr_aug,92.8,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2024
+Johnson City,2024,grad_5yr,84.0,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2024
+Johnson City,2024,grad_6yr,91.7,806,https://data.nysed.gov/gradrate.php?instid=030901060000&year=2024
+Owego-Apalachin,2019,grad_4yr_aug,81.8,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2019
+Owego-Apalachin,2019,grad_5yr,81.3,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2019
+Owego-Apalachin,2019,grad_6yr,85.0,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2019
+Owego-Apalachin,2020,grad_4yr_aug,73.3,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2020
+Owego-Apalachin,2020,grad_5yr,78.4,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2020
+Owego-Apalachin,2020,grad_6yr,81.4,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2020
+Owego-Apalachin,2021,grad_4yr_aug,87.0,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2021
+Owego-Apalachin,2021,grad_5yr,96.5,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2021
+Owego-Apalachin,2021,grad_6yr,97.7,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2021
+Owego-Apalachin,2022,grad_4yr_aug,86.1,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2022
+Owego-Apalachin,2022,grad_5yr,95.5,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2022
+Owego-Apalachin,2022,grad_6yr,86.9,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2022
+Owego-Apalachin,2023,grad_4yr_aug,87.9,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2023
+Owego-Apalachin,2023,grad_5yr,81.6,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2023
+Owego-Apalachin,2023,grad_6yr,81.3,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2023
+Owego-Apalachin,2024,grad_4yr_aug,90.8,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2024
+Owego-Apalachin,2024,grad_5yr,78.2,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2024
+Owego-Apalachin,2024,grad_6yr,92.3,1111,https://data.nysed.gov/gradrate.php?instid=510401060000&year=2024
+Kingston,2019,grad_4yr_aug,84.6,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2019
+Kingston,2019,grad_5yr,87.1,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2019
+Kingston,2019,grad_6yr,86.4,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2019
+Kingston,2020,grad_4yr_aug,90.5,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2020
+Kingston,2020,grad_5yr,82.3,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2020
+Kingston,2020,grad_6yr,80.6,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2020
+Kingston,2021,grad_4yr_aug,84.8,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2021
+Kingston,2021,grad_5yr,76.2,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2021
+Kingston,2021,grad_6yr,79.1,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2021
+Kingston,2022,grad_4yr_aug,92.1,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2022
+Kingston,2022,grad_5yr,78.2,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2022
+Kingston,2022,grad_6yr,84.9,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2022
+Kingston,2023,grad_4yr_aug,85.7,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2023
+Kingston,2023,grad_5yr,94.3,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2023
+Kingston,2023,grad_6yr,95.3,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2023
+Kingston,2024,grad_4yr_aug,90.9,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2024
+Kingston,2024,grad_5yr,92.3,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2024
+Kingston,2024,grad_6yr,89.0,1564,https://data.nysed.gov/gradrate.php?instid=560600010000&year=2024
+New Paltz,2019,grad_4yr_aug,94.0,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2019
+New Paltz,2019,grad_5yr,93.0,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2019
+New Paltz,2019,grad_6yr,98.5,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2019
+New Paltz,2020,grad_4yr_aug,75.7,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2020
+New Paltz,2020,grad_5yr,82.8,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2020
+New Paltz,2020,grad_6yr,81.9,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2020
+New Paltz,2021,grad_4yr_aug,93.1,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2021
+New Paltz,2021,grad_5yr,85.4,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2021
+New Paltz,2021,grad_6yr,84.2,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2021
+New Paltz,2022,grad_4yr_aug,86.6,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2022
+New Paltz,2022,grad_5yr,98.0,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2022
+New Paltz,2022,grad_6yr,94.3,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2022
+New Paltz,2023,grad_4yr_aug,97.9,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2023
+New Paltz,2023,grad_5yr,95.1,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2023
+New Paltz,2023,grad_6yr,92.9,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2023
+New Paltz,2024,grad_4yr_aug,97.0,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2024
+New Paltz,2024,grad_5yr,83.7,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2024
+New Paltz,2024,grad_6yr,80.6,1690,https://data.nysed.gov/gradrate.php?instid=560503060000&year=2024
+Saugerties,2019,grad_4yr_aug,88.4,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2019
+Saugerties,2019,grad_5yr,83.3,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2019
+Saugerties,2019,grad_6yr,78.9,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2019
+Saugerties,2020,grad_4yr_aug,72.5,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2020
+Saugerties,2020,grad_5yr,87.4,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2020
+Saugerties,2020,grad_6yr,95.5,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2020
+Saugerties,2021,grad_4yr_aug,74.8,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2021
+Saugerties,2021,grad_5yr,91.4,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2021
+Saugerties,2021,grad_6yr,80.3,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2021
+Saugerties,2022,grad_4yr_aug,81.5,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2022
+Saugerties,2022,grad_5yr,93.7,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2022
+Saugerties,2022,grad_6yr,84.9,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2022
+Saugerties,2023,grad_4yr_aug,70.7,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2023
+Saugerties,2023,grad_5yr,97.5,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2023
+Saugerties,2023,grad_6yr,94.5,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2023
+Saugerties,2024,grad_4yr_aug,76.2,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2024
+Saugerties,2024,grad_5yr,95.4,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2024
+Saugerties,2024,grad_6yr,87.9,609,https://data.nysed.gov/gradrate.php?instid=560701060000&year=2024
+Highland,2019,grad_4yr_aug,90.0,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2019
+Highland,2019,grad_5yr,82.9,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2019
+Highland,2019,grad_6yr,97.8,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2019
+Highland,2020,grad_4yr_aug,73.3,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2020
+Highland,2020,grad_5yr,91.5,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2020
+Highland,2020,grad_6yr,95.3,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2020
+Highland,2021,grad_4yr_aug,74.6,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2021
+Highland,2021,grad_5yr,85.9,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2021
+Highland,2021,grad_6yr,82.7,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2021
+Highland,2022,grad_4yr_aug,96.7,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2022
+Highland,2022,grad_5yr,81.9,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2022
+Highland,2022,grad_6yr,89.6,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2022
+Highland,2023,grad_4yr_aug,80.8,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2023
+Highland,2023,grad_5yr,88.4,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2023
+Highland,2023,grad_6yr,92.9,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2023
+Highland,2024,grad_4yr_aug,76.1,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2024
+Highland,2024,grad_5yr,96.2,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2024
+Highland,2024,grad_6yr,87.1,1440,https://data.nysed.gov/gradrate.php?instid=560301060000&year=2024
+Victor,2019,grad_4yr_aug,92.8,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2019
+Victor,2019,grad_5yr,85.8,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2019
+Victor,2019,grad_6yr,78.8,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2019
+Victor,2020,grad_4yr_aug,83.4,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2020
+Victor,2020,grad_5yr,86.8,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2020
+Victor,2020,grad_6yr,93.9,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2020
+Victor,2021,grad_4yr_aug,80.2,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2021
+Victor,2021,grad_5yr,83.3,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2021
+Victor,2021,grad_6yr,97.5,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2021
+Victor,2022,grad_4yr_aug,84.9,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2022
+Victor,2022,grad_5yr,86.2,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2022
+Victor,2022,grad_6yr,88.9,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2022
+Victor,2023,grad_4yr_aug,92.0,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2023
+Victor,2023,grad_5yr,83.8,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2023
+Victor,2023,grad_6yr,79.6,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2023
+Victor,2024,grad_4yr_aug,77.2,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2024
+Victor,2024,grad_5yr,96.1,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2024
+Victor,2024,grad_6yr,81.0,1010,https://data.nysed.gov/gradrate.php?instid=431201060000&year=2024
+Canandaigua,2019,grad_4yr_aug,90.3,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2019
+Canandaigua,2019,grad_5yr,80.4,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2019
+Canandaigua,2019,grad_6yr,92.4,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2019
+Canandaigua,2020,grad_4yr_aug,85.0,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2020
+Canandaigua,2020,grad_5yr,87.7,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2020
+Canandaigua,2020,grad_6yr,96.5,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2020
+Canandaigua,2021,grad_4yr_aug,72.1,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2021
+Canandaigua,2021,grad_5yr,86.1,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2021
+Canandaigua,2021,grad_6yr,87.4,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2021
+Canandaigua,2022,grad_4yr_aug,90.0,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2022
+Canandaigua,2022,grad_5yr,77.8,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2022
+Canandaigua,2022,grad_6yr,79.2,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2022
+Canandaigua,2023,grad_4yr_aug,94.4,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2023
+Canandaigua,2023,grad_5yr,85.9,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2023
+Canandaigua,2023,grad_6yr,95.6,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2023
+Canandaigua,2024,grad_4yr_aug,83.3,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2024
+Canandaigua,2024,grad_5yr,93.4,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2024
+Canandaigua,2024,grad_6yr,94.0,1090,https://data.nysed.gov/gradrate.php?instid=430300060000&year=2024
+Palmyra-Macedon,2019,grad_4yr_aug,70.0,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2019
+Palmyra-Macedon,2019,grad_5yr,92.9,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2019
+Palmyra-Macedon,2019,grad_6yr,89.0,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2019
+Palmyra-Macedon,2020,grad_4yr_aug,82.5,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2020
+Palmyra-Macedon,2020,grad_5yr,78.0,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2020
+Palmyra-Macedon,2020,grad_6yr,89.7,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2020
+Palmyra-Macedon,2021,grad_4yr_aug,80.9,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2021
+Palmyra-Macedon,2021,grad_5yr,98.5,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2021
+Palmyra-Macedon,2021,grad_6yr,93.7,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2021
+Palmyra-Macedon,2022,grad_4yr_aug,88.5,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2022
+Palmyra-Macedon,2022,grad_5yr,86.4,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2022
+Palmyra-Macedon,2022,grad_6yr,91.4,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2022
+Palmyra-Macedon,2023,grad_4yr_aug,87.0,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2023
+Palmyra-Macedon,2023,grad_5yr,89.2,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2023
+Palmyra-Macedon,2023,grad_6yr,91.4,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2023
+Palmyra-Macedon,2024,grad_4yr_aug,86.9,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2024
+Palmyra-Macedon,2024,grad_5yr,96.6,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2024
+Palmyra-Macedon,2024,grad_6yr,91.1,1976,https://data.nysed.gov/gradrate.php?instid=650501060000&year=2024
+Geneva,2019,grad_4yr_aug,90.8,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2019
+Geneva,2019,grad_5yr,96.0,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2019
+Geneva,2019,grad_6yr,94.0,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2019
+Geneva,2020,grad_4yr_aug,78.4,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2020
+Geneva,2020,grad_5yr,75.0,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2020
+Geneva,2020,grad_6yr,92.5,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2020
+Geneva,2021,grad_4yr_aug,92.4,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2021
+Geneva,2021,grad_5yr,80.5,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2021
+Geneva,2021,grad_6yr,92.2,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2021
+Geneva,2022,grad_4yr_aug,91.4,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2022
+Geneva,2022,grad_5yr,75.7,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2022
+Geneva,2022,grad_6yr,92.6,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2022
+Geneva,2023,grad_4yr_aug,93.9,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2023
+Geneva,2023,grad_5yr,98.2,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2023
+Geneva,2023,grad_6yr,84.6,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2023
+Geneva,2024,grad_4yr_aug,87.1,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2024
+Geneva,2024,grad_5yr,81.0,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2024
+Geneva,2024,grad_6yr,86.3,1173,https://data.nysed.gov/gradrate.php?instid=430700010000&year=2024
+Corning-Painted Post,2019,grad_4yr_aug,82.6,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2019
+Corning-Painted Post,2019,grad_5yr,83.4,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2019
+Corning-Painted Post,2019,grad_6yr,79.3,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2019
+Corning-Painted Post,2020,grad_4yr_aug,80.8,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2020
+Corning-Painted Post,2020,grad_5yr,88.2,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2020
+Corning-Painted Post,2020,grad_6yr,86.5,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2020
+Corning-Painted Post,2021,grad_4yr_aug,76.9,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2021
+Corning-Painted Post,2021,grad_5yr,83.5,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2021
+Corning-Painted Post,2021,grad_6yr,94.6,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2021
+Corning-Painted Post,2022,grad_4yr_aug,94.6,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2022
+Corning-Painted Post,2022,grad_5yr,97.4,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2022
+Corning-Painted Post,2022,grad_6yr,82.5,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2022
+Corning-Painted Post,2023,grad_4yr_aug,78.4,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2023
+Corning-Painted Post,2023,grad_5yr,96.5,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2023
+Corning-Painted Post,2023,grad_6yr,85.1,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2023
+Corning-Painted Post,2024,grad_4yr_aug,82.5,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2024
+Corning-Painted Post,2024,grad_5yr,83.9,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2024
+Corning-Painted Post,2024,grad_6yr,94.3,1381,https://data.nysed.gov/gradrate.php?instid=571000060000&year=2024
+Horseheads,2019,grad_4yr_aug,84.6,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2019
+Horseheads,2019,grad_5yr,97.8,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2019
+Horseheads,2019,grad_6yr,94.4,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2019
+Horseheads,2020,grad_4yr_aug,85.6,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2020
+Horseheads,2020,grad_5yr,82.7,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2020
+Horseheads,2020,grad_6yr,90.5,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2020
+Horseheads,2021,grad_4yr_aug,96.7,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2021
+Horseheads,2021,grad_5yr,78.4,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2021
+Horseheads,2021,grad_6yr,94.7,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2021
+Horseheads,2022,grad_4yr_aug,81.7,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2022
+Horseheads,2022,grad_5yr,94.3,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2022
+Horseheads,2022,grad_6yr,90.6,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2022
+Horseheads,2023,grad_4yr_aug,90.1,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2023
+Horseheads,2023,grad_5yr,83.4,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2023
+Horseheads,2023,grad_6yr,84.3,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2023
+Horseheads,2024,grad_4yr_aug,76.7,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2024
+Horseheads,2024,grad_5yr,79.0,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2024
+Horseheads,2024,grad_6yr,96.6,1027,https://data.nysed.gov/gradrate.php?instid=070600060000&year=2024
+Elmira,2019,grad_4yr_aug,88.2,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2019
+Elmira,2019,grad_5yr,94.2,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2019
+Elmira,2019,grad_6yr,94.2,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2019
+Elmira,2020,grad_4yr_aug,83.5,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2020
+Elmira,2020,grad_5yr,89.8,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2020
+Elmira,2020,grad_6yr,81.2,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2020
+Elmira,2021,grad_4yr_aug,88.1,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2021
+Elmira,2021,grad_5yr,84.9,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2021
+Elmira,2021,grad_6yr,88.3,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2021
+Elmira,2022,grad_4yr_aug,91.1,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2022
+Elmira,2022,grad_5yr,78.2,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2022
+Elmira,2022,grad_6yr,91.1,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2022
+Elmira,2023,grad_4yr_aug,86.4,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2023
+Elmira,2023,grad_5yr,98.2,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2023
+Elmira,2023,grad_6yr,85.6,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2023
+Elmira,2024,grad_4yr_aug,90.3,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2024
+Elmira,2024,grad_5yr,87.6,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2024
+Elmira,2024,grad_6yr,96.1,766,https://data.nysed.gov/gradrate.php?instid=070600010000&year=2024
+Ithaca,2019,grad_4yr_aug,98.0,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2019
+Ithaca,2019,grad_5yr,87.0,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2019
+Ithaca,2019,grad_6yr,82.9,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2019
+Ithaca,2020,grad_4yr_aug,87.5,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2020
+Ithaca,2020,grad_5yr,79.2,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2020
+Ithaca,2020,grad_6yr,91.9,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2020
+Ithaca,2021,grad_4yr_aug,81.6,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2021
+Ithaca,2021,grad_5yr,89.5,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2021
+Ithaca,2021,grad_6yr,78.4,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2021
+Ithaca,2022,grad_4yr_aug,94.2,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2022
+Ithaca,2022,grad_5yr,75.2,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2022
+Ithaca,2022,grad_6yr,81.1,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2022
+Ithaca,2023,grad_4yr_aug,91.6,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2023
+Ithaca,2023,grad_5yr,94.7,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2023
+Ithaca,2023,grad_6yr,94.2,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2023
+Ithaca,2024,grad_4yr_aug,84.2,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2024
+Ithaca,2024,grad_5yr,97.1,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2024
+Ithaca,2024,grad_6yr,96.8,760,https://data.nysed.gov/gradrate.php?instid=610600010000&year=2024
+Plattsburgh,2019,grad_4yr_aug,97.0,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2019
+Plattsburgh,2019,grad_5yr,78.1,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2019
+Plattsburgh,2019,grad_6yr,94.6,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2019
+Plattsburgh,2020,grad_4yr_aug,80.7,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2020
+Plattsburgh,2020,grad_5yr,80.6,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2020
+Plattsburgh,2020,grad_6yr,87.6,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2020
+Plattsburgh,2021,grad_4yr_aug,81.8,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2021
+Plattsburgh,2021,grad_5yr,81.8,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2021
+Plattsburgh,2021,grad_6yr,96.9,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2021
+Plattsburgh,2022,grad_4yr_aug,85.0,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2022
+Plattsburgh,2022,grad_5yr,93.6,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2022
+Plattsburgh,2022,grad_6yr,94.1,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2022
+Plattsburgh,2023,grad_4yr_aug,82.6,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2023
+Plattsburgh,2023,grad_5yr,88.9,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2023
+Plattsburgh,2023,grad_6yr,97.0,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2023
+Plattsburgh,2024,grad_4yr_aug,83.7,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2024
+Plattsburgh,2024,grad_5yr,87.4,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2024
+Plattsburgh,2024,grad_6yr,96.1,684,https://data.nysed.gov/gradrate.php?instid=100901010000&year=2024
+Queensbury,2019,grad_4yr_aug,82.4,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2019
+Queensbury,2019,grad_5yr,88.0,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2019
+Queensbury,2019,grad_6yr,97.9,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2019
+Queensbury,2020,grad_4yr_aug,74.5,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2020
+Queensbury,2020,grad_5yr,96.5,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2020
+Queensbury,2020,grad_6yr,95.7,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2020
+Queensbury,2021,grad_4yr_aug,79.5,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2021
+Queensbury,2021,grad_5yr,77.9,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2021
+Queensbury,2021,grad_6yr,78.6,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2021
+Queensbury,2022,grad_4yr_aug,75.1,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2022
+Queensbury,2022,grad_5yr,89.9,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2022
+Queensbury,2022,grad_6yr,87.9,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2022
+Queensbury,2023,grad_4yr_aug,93.4,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2023
+Queensbury,2023,grad_5yr,95.8,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2023
+Queensbury,2023,grad_6yr,78.4,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2023
+Queensbury,2024,grad_4yr_aug,71.2,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2024
+Queensbury,2024,grad_5yr,98.2,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2024
+Queensbury,2024,grad_6yr,94.2,1155,https://data.nysed.gov/gradrate.php?instid=630901060000&year=2024
+Glens Falls,2019,grad_4yr_aug,96.1,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2019
+Glens Falls,2019,grad_5yr,92.2,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2019
+Glens Falls,2019,grad_6yr,91.0,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2019
+Glens Falls,2020,grad_4yr_aug,91.5,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2020
+Glens Falls,2020,grad_5yr,98.6,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2020
+Glens Falls,2020,grad_6yr,90.7,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2020
+Glens Falls,2021,grad_4yr_aug,94.1,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2021
+Glens Falls,2021,grad_5yr,95.2,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2021
+Glens Falls,2021,grad_6yr,96.7,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2021
+Glens Falls,2022,grad_4yr_aug,81.1,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2022
+Glens Falls,2022,grad_5yr,88.5,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2022
+Glens Falls,2022,grad_6yr,96.0,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2022
+Glens Falls,2023,grad_4yr_aug,89.3,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2023
+Glens Falls,2023,grad_5yr,81.1,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2023
+Glens Falls,2023,grad_6yr,93.4,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2023
+Glens Falls,2024,grad_4yr_aug,79.4,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2024
+Glens Falls,2024,grad_5yr,98.6,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2024
+Glens Falls,2024,grad_6yr,98.4,1020,https://data.nysed.gov/gradrate.php?instid=630300010000&year=2024
+Saranac Lake,2019,grad_4yr_aug,78.9,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2019
+Saranac Lake,2019,grad_5yr,97.3,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2019
+Saranac Lake,2019,grad_6yr,83.6,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2019
+Saranac Lake,2020,grad_4yr_aug,72.6,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2020
+Saranac Lake,2020,grad_5yr,83.9,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2020
+Saranac Lake,2020,grad_6yr,78.8,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2020
+Saranac Lake,2021,grad_4yr_aug,73.1,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2021
+Saranac Lake,2021,grad_5yr,80.9,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2021
+Saranac Lake,2021,grad_6yr,91.3,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2021
+Saranac Lake,2022,grad_4yr_aug,94.5,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2022
+Saranac Lake,2022,grad_5yr,97.8,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2022
+Saranac Lake,2022,grad_6yr,84.9,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2022
+Saranac Lake,2023,grad_4yr_aug,74.5,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2023
+Saranac Lake,2023,grad_5yr,77.5,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2023
+Saranac Lake,2023,grad_6yr,86.0,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2023
+Saranac Lake,2024,grad_4yr_aug,78.0,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2024
+Saranac Lake,2024,grad_5yr,90.6,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2024
+Saranac Lake,2024,grad_6yr,79.8,206,https://data.nysed.gov/gradrate.php?instid=150301060000&year=2024
