@@ -477,7 +477,7 @@ class ChartRenderer {
             'text-anchor': 'middle',
             class: 'axis-text',
             'font-size': '16px',
-            fill: '#666'
+            fill: '#666666'
         });
         text.textContent = 'No data available';
         svg.appendChild(text);
@@ -654,7 +654,7 @@ class DashboardApp {
             const warning = document.createElement('p');
             warning.className = 'source-meta';
             warning.textContent = `Note: ${failedSources.length} source(s) failed to fetch`;
-            warning.style.color = '#721c24';
+            warning.style.color = '#FF4D4D';
             container.appendChild(warning);
         }
     }
@@ -805,7 +805,7 @@ class DashboardApp {
 
     showError(message) {
         const container = document.getElementById('charts');
-        container.innerHTML = `<p class="no-data" style="color: #721c24;">${message}</p>`;
+        container.innerHTML = `<p class="no-data" style="color: #FF4D4D;">${message}</p>`;
     }
 }
 
