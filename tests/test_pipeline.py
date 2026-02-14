@@ -131,6 +131,15 @@ class TestFullPipeline:
         assert "districts" in spec
         assert len(spec["districts"]) >= 2
 
+    def test_district_spec_has_graduation_charts(self):
+        with open(self.out_spec / "index.json") as f:
+            index = json.load(f)
+        d = index["districts"][0]
+        with open(self.out_spec / d["spec_file"]) as f:
+            spec = json.load(f)
+        grad_charts = [c for c in spec["charts"] if "Graduation" in c["title"]]
+        assert len(grad_charts) >= 1, f"Expected graduation charts, got titles: {[c['title'] for c in spec['charts']]}"
+
     def test_boces_cluster_proficiency_chart_has_benchmark(self):
         with open(self.out_spec / "index.json") as f:
             index = json.load(f)

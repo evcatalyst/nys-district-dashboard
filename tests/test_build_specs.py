@@ -85,6 +85,34 @@ def builder(tmp_path):
                 })
     pd.DataFrame(exp_rows).to_csv(out_data / "expenditures.csv", index=False)
 
+    # Create sample graduation CSV
+    grad_rows = []
+    for name in ["DistA", "DistB", "DistC", "DistD"]:
+        for year in [2022, 2023, 2024]:
+            for metric in ["grad_4yr_aug", "grad_5yr", "grad_6yr"]:
+                digest = int(hashlib.md5(f"{name}{year}{metric}".encode()).hexdigest(), 16)
+                pct = 70 + digest % 25
+                grad_rows.append({
+                    "district": name, "year": year, "metric": metric,
+                    "value_pct": pct, "cohort_n": 500,
+                    "source_url": "https://example.com"
+                })
+    pd.DataFrame(grad_rows).to_csv(out_data / "graduation.csv", index=False)
+
+    # Create sample pathways CSV
+    pw_rows = []
+    for name in ["DistA", "DistB", "DistC", "DistD"]:
+        for year in [2022, 2023, 2024]:
+            for pw in ["Regents", "Advanced Regents", "Local", "CDOS"]:
+                digest = int(hashlib.md5(f"{name}{year}{pw}".encode()).hexdigest(), 16)
+                pct = 10 + digest % 40
+                pw_rows.append({
+                    "district": name, "year": year, "pathway": pw,
+                    "value_pct": pct, "cohort_n": 500,
+                    "source_url": "https://example.com"
+                })
+    pd.DataFrame(pw_rows).to_csv(out_data / "pathways.csv", index=False)
+
     b = SpecBuilder()
     return b
 
@@ -143,11 +171,51 @@ class TestSpecBuilder:
         chart = builder.build_expenditure_chart("NonExistent")
         assert chart["data"] == []
 
+    def test_build_graduation_chart(self, builder):
+        builder.load_data()
+        chart = builder.build_graduation_chart("DistA")
+        assert chart["type"] == "line"
+        assert "Graduation" in chart["title"]
+        assert len(chart["data"]) > 0
+        assert len(chart["series"]) > 0
+
+    def test_build_graduation_chart_empty_district(self, builder):
+        builder.load_data()
+        chart = builder.build_graduation_chart("NonExistent")
+        assert chart["data"] == []
+
+    def test_build_pathways_chart(self, builder):
+        builder.load_data()
+        chart = builder.build_pathways_chart("DistA")
+        assert chart["type"] == "line"
+        assert "Pathways" in chart["title"]
+        assert len(chart["data"]) > 0
+        assert len(chart["series"]) > 0
+
+    def test_build_pathways_chart_empty_district(self, builder):
+        builder.load_data()
+        chart = builder.build_pathways_chart("NonExistent")
+        assert chart["data"] == []
+
+    def test_district_spec_with_graduation_has_5_charts(self, builder):
+        builder.load_data()
+        spec = builder.build_district_spec("DistA")
+        assert spec["district"] == "DistA"
+        assert len(spec["charts"]) == 5
+        assert "disclaimer" in spec["metadata"]
+
+    def test_graduation_boces_benchmarks(self, builder):
+        builder.load_data()
+        benchmarks = builder.compute_boces_benchmarks()
+        assert "Region Alpha" in benchmarks
+        assert "graduation" in benchmarks["Region Alpha"]
+        assert len(benchmarks["Region Alpha"]["graduation"]) > 0
+
     def test_build_district_spec(self, builder):
         builder.load_data()
         spec = builder.build_district_spec("DistA")
         assert spec["district"] == "DistA"
-        assert len(spec["charts"]) == 3
+        assert len(spec["charts"]) == 5
         assert "disclaimer" in spec["metadata"]
 
     def test_compute_boces_benchmarks(self, builder):

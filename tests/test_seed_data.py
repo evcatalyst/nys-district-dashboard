@@ -113,3 +113,79 @@ class TestSeedSources:
             assert "url" in entry
             assert "status" in entry
             assert "fetched_at" in entry
+
+
+class TestSeedGraduation:
+    """Tests for data/seed/graduation.csv."""
+
+    @pytest.fixture
+    def rows(self):
+        with open(SEED_DIR / "graduation.csv") as f:
+            reader = csv.DictReader(f)
+            return list(reader)
+
+    def test_file_exists(self):
+        assert (SEED_DIR / "graduation.csv").exists()
+
+    def test_has_expected_columns(self, rows):
+        expected = {"district", "year", "metric", "value_pct", "cohort_n", "source_url"}
+        assert expected == set(rows[0].keys())
+
+    def test_has_multiple_districts(self, rows):
+        districts = {r["district"] for r in rows}
+        assert len(districts) >= 50, f"Expected >= 50 districts, got {len(districts)}"
+
+    def test_has_expected_metrics(self, rows):
+        metrics = {r["metric"] for r in rows}
+        assert "grad_4yr_aug" in metrics
+        assert "grad_5yr" in metrics
+        assert "grad_6yr" in metrics
+
+    def test_value_in_range(self, rows):
+        for r in rows:
+            pct = float(r["value_pct"])
+            assert 0 <= pct <= 100, f"Value out of range: {pct} for {r['district']}"
+
+    def test_years_present(self, rows):
+        years = {int(r["year"]) for r in rows}
+        assert 2019 in years
+        assert 2024 in years
+
+    def test_original_districts_present(self, rows):
+        districts = {r["district"] for r in rows}
+        assert "Niskayuna" in districts
+        assert "Bethlehem" in districts
+        assert "Shenendehowa" in districts
+
+
+class TestSeedPathways:
+    """Tests for data/seed/pathways.csv."""
+
+    @pytest.fixture
+    def rows(self):
+        with open(SEED_DIR / "pathways.csv") as f:
+            reader = csv.DictReader(f)
+            return list(reader)
+
+    def test_file_exists(self):
+        assert (SEED_DIR / "pathways.csv").exists()
+
+    def test_has_expected_columns(self, rows):
+        expected = {"district", "year", "pathway", "value_pct", "cohort_n", "source_url"}
+        assert expected == set(rows[0].keys())
+
+    def test_has_multiple_districts(self, rows):
+        districts = {r["district"] for r in rows}
+        assert len(districts) >= 50, f"Expected >= 50 districts, got {len(districts)}"
+
+    def test_has_expected_pathways(self, rows):
+        pathways = {r["pathway"] for r in rows}
+        assert "Regents" in pathways
+        assert "Advanced Regents" in pathways
+        assert "Local" in pathways
+        assert "CDOS" in pathways
+
+    def test_value_in_range(self, rows):
+        for r in rows:
+            pct = float(r["value_pct"])
+            assert 0 <= pct <= 100, f"Value out of range: {pct} for {r['district']}"
