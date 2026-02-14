@@ -43,6 +43,8 @@ class DataNormalizer:
         self.enrollments: List[Dict] = []
         self.levies: List[Dict] = []
         self.expenditures: List[Dict] = []
+        self.graduations: List[Dict] = []
+        self.pathways: List[Dict] = []
 
     def parse_assessment_html(self, filepath: Path, district: str, year: int, subject: str, source_url: str):
         """Parse NYSED assessment HTML page."""
@@ -180,6 +182,102 @@ class DataNormalizer:
                     'source_url': source_url
                 })
         
+        except Exception as e:
+            logger.warning(f"Error parsing {filepath.name}: {e}")
+
+    def parse_gradrate_html(self, filepath: Path, district: str, year: int, source_url: str):
+        """Parse NYSED graduation rate HTML page."""
+        logger.info(f"Parsing graduation rate data: {filepath.name}")
+        try:
+            with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                soup = BeautifulSoup(f.read(), 'lxml')
+            tables = soup.find_all('table')
+            for table in tables:
+                rows = table.find_all('tr')
+                for row in rows:
+                    cells = row.find_all(['td', 'th'])
+                    cell_texts = [cell.get_text(strip=True) for cell in cells]
+                    # Look for cohort graduation rates
+                    for i, text in enumerate(cell_texts):
+                        text_lower = text.lower()
+                        metric = None
+                        if '4' in text_lower and ('year' in text_lower or 'august' in text_lower):
+                            metric = 'grad_4yr_aug'
+                        elif '5' in text_lower and 'year' in text_lower:
+                            metric = 'grad_5yr'
+                        elif '6' in text_lower and 'year' in text_lower:
+                            metric = 'grad_6yr'
+                        if metric:
+                            for j in range(len(cell_texts)):
+                                pct_match = re.search(r'(\d+(?:\.\d+)?)\s*%?', cell_texts[j])
+                                if pct_match and j != i:
+                                    value = float(pct_match.group(1))
+                                    if 0 <= value <= 100:
+                                        cohort_n = None
+                                        for k in range(len(cell_texts)):
+                                            n_match = re.search(r'^(\d+)$', cell_texts[k].replace(',', ''))
+                                            if n_match and int(n_match.group(1)) > 10:
+                                                cohort_n = int(n_match.group(1))
+                                                break
+                                        self.graduations.append({
+                                            'district': district,
+                                            'year': year,
+                                            'metric': metric,
+                                            'value_pct': value,
+                                            'cohort_n': cohort_n or '',
+                                            'source_url': source_url
+                                        })
+                                        break
+                            break
+        except Exception as e:
+            logger.warning(f"Error parsing {filepath.name}: {e}")
+
+    def parse_pathways_html(self, filepath: Path, district: str, year: int, source_url: str):
+        """Parse NYSED graduation pathways HTML page."""
+        logger.info(f"Parsing graduation pathways data: {filepath.name}")
+        try:
+            with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                soup = BeautifulSoup(f.read(), 'lxml')
+            tables = soup.find_all('table')
+            pathway_keywords = {
+                'Advanced Regents': ['advanced regents', 'advanced designation'],
+                'Regents': ['regents diploma', 'regents'],
+                'Local': ['local diploma', 'local'],
+                'CDOS': ['cdos', 'career development', 'cte'],
+            }
+            for table in tables:
+                rows = table.find_all('tr')
+                for row in rows:
+                    cells = row.find_all(['td', 'th'])
+                    cell_texts = [cell.get_text(strip=True) for cell in cells]
+                    for pathway_name, keywords in pathway_keywords.items():
+                        for i, text in enumerate(cell_texts):
+                            text_lower = text.lower()
+                            if any(kw in text_lower for kw in keywords):
+                                # Avoid matching "Advanced Regents" when looking for "Regents"
+                                if pathway_name == 'Regents' and 'advanced' in text_lower:
+                                    continue
+                                for j in range(len(cell_texts)):
+                                    pct_match = re.search(r'(\d+(?:\.\d+)?)\s*%?', cell_texts[j])
+                                    if pct_match and j != i:
+                                        value = float(pct_match.group(1))
+                                        if 0 <= value <= 100:
+                                            cohort_n = None
+                                            for k in range(len(cell_texts)):
+                                                n_match = re.search(r'^(\d+)$', cell_texts[k].replace(',', ''))
+                                                if n_match and int(n_match.group(1)) > 10:
+                                                    cohort_n = int(n_match.group(1))
+                                                    break
+                                            self.pathways.append({
+                                                'district': district,
+                                                'year': year,
+                                                'pathway': pathway_name,
+                                                'value_pct': value,
+                                                'cohort_n': cohort_n or '',
+                                                'source_url': source_url
+                                            })
+                                            break
+                                break
         except Exception as e:
             logger.warning(f"Error parsing {filepath.name}: {e}")
 
@@ -360,6 +458,20 @@ class DataNormalizer:
             elif filepath.suffix == '.xlsx' or ('fiscal-analysis-research' in url and '.xlsx' in url):
                 self.parse_fiscal_profiles_xlsx(filepath, url)
 
+            elif 'gradrate.php' in url and '_gradrate_' in filepath.name:
+                year_match = re.search(r'year=(\d+)', url)
+                if year_match:
+                    district = filepath.stem.split('_gradrate_')[0].replace('_', ' ').title()
+                    year = int(year_match.group(1))
+                    self.parse_gradrate_html(filepath, district, year, url)
+
+            elif 'gradrate.php' in url and '_pathways_' in filepath.name:
+                year_match = re.search(r'year=(\d+)', url)
+                if year_match:
+                    district = filepath.stem.split('_pathways_')[0].replace('_', ' ').title()
+                    year = int(year_match.group(1))
+                    self.parse_pathways_html(filepath, district, year, url)
+
     def save_data(self):
         """Save normalized data to CSV and JSON, falling back to seed data if empty."""
         # Assessments
@@ -433,6 +545,44 @@ class DataNormalizer:
                                      'amount_total', 'per_pupil', 'dcaadm',
                                      'source_url']).to_csv(
                     OUT_DATA_DIR / "expenditures.csv", index=False)
+
+        # Graduations
+        if self.graduations:
+            df = pd.DataFrame(self.graduations)
+            csv_path = OUT_DATA_DIR / "graduation.csv"
+            json_path = OUT_DATA_DIR / "graduation.json"
+            df.to_csv(csv_path, index=False)
+            df.to_json(json_path, orient='records', indent=2)
+            logger.info(f"Saved {len(self.graduations)} graduation records")
+        else:
+            logger.warning("No graduation data parsed from fetched files")
+            seed_csv = SEED_DATA_DIR / "graduation.csv"
+            if seed_csv.exists():
+                logger.info("Copying seed graduation data as fallback")
+                shutil.copy2(seed_csv, OUT_DATA_DIR / "graduation.csv")
+            else:
+                pd.DataFrame(columns=['district', 'year', 'metric', 'value_pct',
+                                     'cohort_n', 'source_url']).to_csv(
+                    OUT_DATA_DIR / "graduation.csv", index=False)
+
+        # Pathways
+        if self.pathways:
+            df = pd.DataFrame(self.pathways)
+            csv_path = OUT_DATA_DIR / "pathways.csv"
+            json_path = OUT_DATA_DIR / "pathways.json"
+            df.to_csv(csv_path, index=False)
+            df.to_json(json_path, orient='records', indent=2)
+            logger.info(f"Saved {len(self.pathways)} pathways records")
+        else:
+            logger.warning("No pathways data parsed from fetched files")
+            seed_csv = SEED_DATA_DIR / "pathways.csv"
+            if seed_csv.exists():
+                logger.info("Copying seed pathways data as fallback")
+                shutil.copy2(seed_csv, OUT_DATA_DIR / "pathways.csv")
+            else:
+                pd.DataFrame(columns=['district', 'year', 'pathway', 'value_pct',
+                                     'cohort_n', 'source_url']).to_csv(
+                    OUT_DATA_DIR / "pathways.csv", index=False)
 
         # Copy sources.json
         sources_src = CACHE_DIR / "sources.json"
