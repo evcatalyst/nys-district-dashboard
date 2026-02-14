@@ -73,6 +73,46 @@
     "boces": "Nassau BOCES"
   },
   {
+    "name": "Syosset",
+    "instid": "280502060000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Hicksville",
+    "instid": "280517030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Rockville Centre",
+    "instid": "280221030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Freeport",
+    "instid": "280209030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Plainview-Old Bethpage",
+    "instid": "280504060000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Bethpage",
+    "instid": "280521060000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "East Meadow",
+    "instid": "280606060000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Levittown",
+    "instid": "280402060000",
+    "boces": "Nassau BOCES"
+  },
+  {
     "name": "Smithtown",
     "instid": "580901060000",
     "boces": "Eastern Suffolk BOCES"

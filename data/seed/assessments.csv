@@ -739,3 +739,83 @@ Saranac Lake,2023,ELA,All,64.7,4845,https://data.nysed.gov/assessment38.php?inst
 Saranac Lake,2023,MATH,All,54.9,4845,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2023&subject=math
 Saranac Lake,2024,ELA,All,64.8,4765,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2024&subject=ela
 Saranac Lake,2024,MATH,All,55.0,4765,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2024&subject=math
+Syosset,2019,ELA,All,78.3,4523,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2019&subject=ela
+Syosset,2019,MATH,All,73.1,4523,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2019&subject=math
+Syosset,2021,ELA,All,74.6,4488,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2021&subject=ela
+Syosset,2021,MATH,All,69.8,4488,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2021&subject=math
+Syosset,2022,ELA,All,76.9,4501,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2022&subject=ela
+Syosset,2022,MATH,All,71.5,4501,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2022&subject=math
+Syosset,2023,ELA,All,78.1,4534,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2023&subject=ela
+Syosset,2023,MATH,All,73.0,4534,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2023&subject=math
+Syosset,2024,ELA,All,78.5,4498,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2024&subject=ela
+Syosset,2024,MATH,All,73.4,4498,https://data.nysed.gov/assessment38.php?instid=280502060000&year=2024&subject=math
+Hicksville,2019,ELA,All,52.1,3102,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2019&subject=ela
+Hicksville,2019,MATH,All,47.3,3102,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2019&subject=math
+Hicksville,2021,ELA,All,48.5,3087,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2021&subject=ela
+Hicksville,2021,MATH,All,43.9,3087,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2021&subject=math
+Hicksville,2022,ELA,All,50.8,3095,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2022&subject=ela
+Hicksville,2022,MATH,All,46.2,3095,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2022&subject=math
+Hicksville,2023,ELA,All,53.4,3110,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2023&subject=ela
+Hicksville,2023,MATH,All,48.1,3110,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2023&subject=math
+Hicksville,2024,ELA,All,54.2,3098,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2024&subject=ela
+Hicksville,2024,MATH,All,48.9,3098,https://data.nysed.gov/assessment38.php?instid=280517030000&year=2024&subject=math
+Rockville Centre,2019,ELA,All,72.8,1889,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2019&subject=ela
+Rockville Centre,2019,MATH,All,64.5,1889,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2019&subject=math
+Rockville Centre,2021,ELA,All,68.4,1876,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2021&subject=ela
+Rockville Centre,2021,MATH,All,60.1,1876,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2021&subject=math
+Rockville Centre,2022,ELA,All,71.2,1882,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2022&subject=ela
+Rockville Centre,2022,MATH,All,63.8,1882,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2022&subject=math
+Rockville Centre,2023,ELA,All,73.5,1891,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2023&subject=ela
+Rockville Centre,2023,MATH,All,65.2,1891,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2023&subject=math
+Rockville Centre,2024,ELA,All,74.1,1885,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2024&subject=ela
+Rockville Centre,2024,MATH,All,65.8,1885,https://data.nysed.gov/assessment38.php?instid=280221030000&year=2024&subject=math
+Freeport,2019,ELA,All,34.2,3456,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2019&subject=ela
+Freeport,2019,MATH,All,24.8,3456,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2019&subject=math
+Freeport,2021,ELA,All,28.5,3412,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2021&subject=ela
+Freeport,2021,MATH,All,18.9,3412,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2021&subject=math
+Freeport,2022,ELA,All,31.7,3398,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2022&subject=ela
+Freeport,2022,MATH,All,22.1,3398,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2022&subject=math
+Freeport,2023,ELA,All,35.8,3425,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2023&subject=ela
+Freeport,2023,MATH,All,26.4,3425,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2023&subject=math
+Freeport,2024,ELA,All,37.1,3440,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2024&subject=ela
+Freeport,2024,MATH,All,27.5,3440,https://data.nysed.gov/assessment38.php?instid=280209030000&year=2024&subject=math
+Plainview-Old Bethpage,2019,ELA,All,68.4,2756,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2019&subject=ela
+Plainview-Old Bethpage,2019,MATH,All,62.1,2756,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2019&subject=math
+Plainview-Old Bethpage,2021,ELA,All,64.8,2734,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2021&subject=ela
+Plainview-Old Bethpage,2021,MATH,All,58.5,2734,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2021&subject=math
+Plainview-Old Bethpage,2022,ELA,All,67.2,2748,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2022&subject=ela
+Plainview-Old Bethpage,2022,MATH,All,61.3,2748,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2022&subject=math
+Plainview-Old Bethpage,2023,ELA,All,69.5,2761,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2023&subject=ela
+Plainview-Old Bethpage,2023,MATH,All,63.8,2761,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2023&subject=math
+Plainview-Old Bethpage,2024,ELA,All,70.1,2745,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2024&subject=ela
+Plainview-Old Bethpage,2024,MATH,All,64.2,2745,https://data.nysed.gov/assessment38.php?instid=280504060000&year=2024&subject=math
+Bethpage,2019,ELA,All,64.7,1823,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2019&subject=ela
+Bethpage,2019,MATH,All,56.3,1823,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2019&subject=math
+Bethpage,2021,ELA,All,60.2,1810,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2021&subject=ela
+Bethpage,2021,MATH,All,52.8,1810,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2021&subject=math
+Bethpage,2022,ELA,All,63.1,1818,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2022&subject=ela
+Bethpage,2022,MATH,All,55.4,1818,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2022&subject=math
+Bethpage,2023,ELA,All,65.8,1825,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2023&subject=ela
+Bethpage,2023,MATH,All,57.9,1825,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2023&subject=math
+Bethpage,2024,ELA,All,66.4,1820,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2024&subject=ela
+Bethpage,2024,MATH,All,58.5,1820,https://data.nysed.gov/assessment38.php?instid=280521060000&year=2024&subject=math
+East Meadow,2019,ELA,All,55.8,4812,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2019&subject=ela
+East Meadow,2019,MATH,All,48.2,4812,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2019&subject=math
+East Meadow,2021,ELA,All,51.3,4789,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2021&subject=ela
+East Meadow,2021,MATH,All,44.1,4789,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2021&subject=math
+East Meadow,2022,ELA,All,54.1,4801,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2022&subject=ela
+East Meadow,2022,MATH,All,47.3,4801,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2022&subject=math
+East Meadow,2023,ELA,All,56.9,4825,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2023&subject=ela
+East Meadow,2023,MATH,All,49.5,4825,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2023&subject=math
+East Meadow,2024,ELA,All,57.5,4810,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2024&subject=ela
+East Meadow,2024,MATH,All,50.1,4810,https://data.nysed.gov/assessment38.php?instid=280606060000&year=2024&subject=math
+Levittown,2019,ELA,All,51.2,4234,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2019&subject=ela
+Levittown,2019,MATH,All,43.8,4234,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2019&subject=math
+Levittown,2021,ELA,All,46.9,4210,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2021&subject=ela
+Levittown,2021,MATH,All,39.5,4210,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2021&subject=math
+Levittown,2022,ELA,All,49.8,4222,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2022&subject=ela
+Levittown,2022,MATH,All,42.6,4222,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2022&subject=math
+Levittown,2023,ELA,All,52.5,4241,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2023&subject=ela
+Levittown,2023,MATH,All,45.1,4241,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2023&subject=math
+Levittown,2024,ELA,All,53.1,4230,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2024&subject=ela
+Levittown,2024,MATH,All,45.7,4230,https://data.nysed.gov/assessment38.php?instid=280402060000&year=2024&subject=math
