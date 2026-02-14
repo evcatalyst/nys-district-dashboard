@@ -17,6 +17,9 @@ This project implements a fully automated pipeline that:
 
 ## Features
 
+- **74 Districts, 18 BOCES Regions**: Comprehensive coverage across New York State
+- **BOCES Clustering**: Filter and compare districts within their BOCES region
+- **Regional Benchmarks**: Dashed benchmark lines showing BOCES regional averages
 - **Automated Data Collection**: Nightly updates from public NYSED sources
 - **Proficiency Trends**: ELA and Math assessment data over time
 - **Budget Analysis**: School district levy percentage changes
@@ -52,11 +55,38 @@ This project implements a fully automated pipeline that:
 
 ## Current Districts
 
-The dashboard currently tracks three Capital Region school districts:
+The dashboard currently tracks **74 school districts** across **18 BOCES regions** in New York State, including:
 
-1. **Niskayuna** (instid: 441101060000)
-2. **Bethlehem** (instid: 010306060000)
-3. **Shenendehowa** (instid: 441201060000)
+- **Capital Region BOCES**: Niskayuna, Shenendehowa, Guilderland, Schenectady, and more
+- **Questar III BOCES**: Bethlehem, East Greenbush, Averill Park, Ravena-Coeymans-Selkirk
+- **Nassau BOCES**: Great Neck, Garden City, Manhasset, Jericho
+- **Monroe 1 BOCES**: Pittsford, Brighton, Penfield, Fairport
+- **Southern Westchester BOCES**: Scarsdale, Mamaroneck, Rye, White Plains
+- And 13 more BOCES regions across the state
+
+### BOCES Clustering & Benchmarking
+
+Districts are organized by their regional BOCES affiliation. The dashboard supports:
+- **Filtering** districts by BOCES region
+- **Cluster comparison** of all districts within a BOCES region
+- **Regional benchmarks** (dashed lines) showing BOCES average proficiency and levy changes
+
+## Running Tests
+
+```bash
+# Install test dependencies
+pip install pytest
+
+# Run all tests
+python -m pytest tests/ -v
+```
+
+The test suite includes:
+- **Configuration tests**: Validate districts.json structure, BOCES assignments, instid format
+- **Seed data tests**: Validate CSV/JSON data files for completeness and correctness
+- **Build specs tests**: Verify BOCES benchmarks, cluster specs, and district spec generation
+- **Pipeline integration tests**: Full normalize → build_specs → build_site pipeline
+- **Frontend tests**: HTML structure, CSS rules, JS code coverage for BOCES features
 
 ## Running Locally
 
