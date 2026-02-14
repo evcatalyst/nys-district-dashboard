@@ -158,6 +158,50 @@ class DataFetcher:
         else:
             self.record_source(url=budget_url, status="failed")
 
+    def fetch_fiscal_profiles(self):
+        """Fetch NYSED School District Fiscal Profiles XLSX (once for all districts)."""
+        page_url = "https://www.nysed.gov/fiscal-analysis-research/school-district-fiscal-profiles"
+        logger.info(f"Fetching Fiscal Profiles page to discover XLSX link: {page_url}")
+
+        xlsx_url = None
+        try:
+            response = self.fetch_url(page_url)
+            if response:
+                # Parse page to find the first .xlsx link
+                from bs4 import BeautifulSoup
+                soup = BeautifulSoup(response.text, "html.parser")
+                for a_tag in soup.find_all("a", href=True):
+                    href = a_tag["href"]
+                    if href.lower().endswith(".xlsx"):
+                        if not href.startswith("http"):
+                            href = "https://www.nysed.gov" + href
+                        xlsx_url = href
+                        break
+        except Exception as e:
+            logger.warning(f"Error parsing Fiscal Profiles page: {e}")
+
+        if not xlsx_url:
+            logger.warning("Could not discover Fiscal Profiles XLSX URL from page")
+            self.record_source(url=page_url, status="failed")
+            return
+
+        logger.info(f"Downloading Fiscal Profiles XLSX: {xlsx_url}")
+        response = self.fetch_url(xlsx_url, timeout=120)
+        if response:
+            filename = "fiscal_profiles.xlsx"
+            filepath = self.save_file(response.content, filename)
+            sha256 = self.compute_sha256(response.content)
+            self.record_source(
+                url=xlsx_url,
+                status="success",
+                filepath=filepath,
+                etag=response.headers.get("ETag"),
+                last_modified=response.headers.get("Last-Modified"),
+                sha256=sha256,
+            )
+        else:
+            self.record_source(url=xlsx_url, status="failed")
+
     def save_sources_metadata(self):
         """Save sources metadata to JSON."""
         SOURCES_JSON.write_text(json.dumps(self.sources, indent=2))
@@ -181,6 +225,9 @@ def main():
     
     # Fetch data for each district
     fetcher = DataFetcher()
+    
+    # Fetch fiscal profiles XLSX once (shared across all districts)
+    fetcher.fetch_fiscal_profiles()
     
     for district in districts:
         name = district["name"]

@@ -31,6 +31,7 @@ logger = logging.getLogger(__name__)
 CACHE_DIR = Path("cache")
 OUT_DATA_DIR = Path("out/data")
 SEED_DATA_DIR = Path("data/seed")
+CONFIG_DIR = Path("config")
 
 
 class DataNormalizer:
@@ -41,6 +42,7 @@ class DataNormalizer:
         self.assessments: List[Dict] = []
         self.enrollments: List[Dict] = []
         self.levies: List[Dict] = []
+        self.expenditures: List[Dict] = []
 
     def parse_assessment_html(self, filepath: Path, district: str, year: int, subject: str, source_url: str):
         """Parse NYSED assessment HTML page."""
@@ -181,6 +183,128 @@ class DataNormalizer:
         except Exception as e:
             logger.warning(f"Error parsing {filepath.name}: {e}")
 
+    def parse_fiscal_profiles_xlsx(self, filepath: Path, source_url: str):
+        """Parse NYSED Fiscal Profiles XLSX for expenditure data."""
+        logger.info(f"Parsing fiscal profiles XLSX: {filepath.name}")
+
+        try:
+            # Load districts config for mapping district_code6 -> display name
+            config_file = CONFIG_DIR / "districts.json"
+            if not config_file.exists():
+                logger.warning("districts.json not found, skipping fiscal profiles")
+                return
+            with open(config_file) as f:
+                config_districts = json.load(f)
+
+            code6_to_name = {}
+            for d in config_districts:
+                code6 = str(d["instid"])[:6].zfill(6)
+                code6_to_name[code6] = d["name"]
+
+            fiscal_df = pd.read_excel(filepath, sheet_name="Data", engine="openpyxl")
+
+            # Normalize district code
+            if "DISTRICT" not in fiscal_df.columns:
+                logger.warning("DISTRICT column not found in fiscal profiles XLSX")
+                return
+            fiscal_df["district_code6"] = fiscal_df["DISTRICT"].astype(str).str.zfill(6)
+
+            # Identify year column
+            year_col = None
+            for col in fiscal_df.columns:
+                if str(col).upper() in ("YEAR", "SCHOOL YEAR", "SCHOOL_YEAR", "SY"):
+                    year_col = col
+                    break
+            if year_col is None:
+                # Try to find a column containing year-like values
+                for col in fiscal_df.columns:
+                    sample = fiscal_df[col].dropna().astype(str)
+                    if sample.str.match(r"^\d{4}-\d{2}$").any():
+                        year_col = col
+                        break
+
+            # Column mapping helpers - find columns by partial match
+            def find_col(patterns):
+                for p in patterns:
+                    for c in fiscal_df.columns:
+                        if p.upper() in str(c).upper():
+                            return c
+                return None
+
+            total_col = find_col(["TOTAL EXPENDITURES"])
+            edu_col = find_col(["IE2", "INSTRUCTIONAL EXPENDITURES INCLUDING FRINGE"])
+            boe_col = find_col(["BOARD OF EDUCATION"])
+            ca_col = find_col(["CENTRAL ADMINISTRATION"])
+            dsp_col = find_col(["DEBT SERVICE PRINC"])
+            dsi_col = find_col(["DEBT SERVICE INTEREST"])
+            cap_transfer_col = find_col(["A9950", "INTERFUND TRANSFERS TO CAPITAL"])
+            dcaadm_col = find_col(["DCAADM"])
+
+            if not total_col or not dcaadm_col:
+                logger.warning("Required columns (TOTAL EXPENDITURES, DCAADM) not found")
+                return
+
+            for _, row in fiscal_df.iterrows():
+                code6 = row["district_code6"]
+                if code6 not in code6_to_name:
+                    continue
+
+                district_name = code6_to_name[code6]
+                school_year = str(row[year_col]) if year_col else ""
+
+                pupils = pd.to_numeric(row.get(dcaadm_col), errors="coerce") if dcaadm_col else None
+                if pupils is None or pd.isna(pupils) or pupils == 0:
+                    continue
+
+                total = pd.to_numeric(row.get(total_col), errors="coerce") if total_col else 0
+                edu = pd.to_numeric(row.get(edu_col), errors="coerce") if edu_col else 0
+                boe = pd.to_numeric(row.get(boe_col), errors="coerce") if boe_col else 0
+                ca = pd.to_numeric(row.get(ca_col), errors="coerce") if ca_col else 0
+                dsp = pd.to_numeric(row.get(dsp_col), errors="coerce") if dsp_col else 0
+                dsi = pd.to_numeric(row.get(dsi_col), errors="coerce") if dsi_col else 0
+                cap_xfer = pd.to_numeric(row.get(cap_transfer_col), errors="coerce") if cap_transfer_col else 0
+
+                # Treat NaN as 0 for components
+                total = 0 if pd.isna(total) else total
+                edu = 0 if pd.isna(edu) else edu
+                boe = 0 if pd.isna(boe) else boe
+                ca = 0 if pd.isna(ca) else ca
+                dsp = 0 if pd.isna(dsp) else dsp
+                dsi = 0 if pd.isna(dsi) else dsi
+                cap_xfer = 0 if pd.isna(cap_xfer) else cap_xfer
+
+                admin = boe + ca
+                capital = dsp + dsi + cap_xfer
+                operational = total - edu - admin - capital
+
+                if operational < -1:  # small epsilon tolerance
+                    logger.warning(
+                        f"Negative operational for {district_name} {school_year}: {operational:.2f}, skipping"
+                    )
+                    continue
+
+                for category, amount_total in [
+                    ("Educational", edu),
+                    ("Administrative", admin),
+                    ("Capital", capital),
+                    ("Operational", operational),
+                ]:
+                    per_pupil = round(amount_total / pupils, 2) if pupils else None
+                    self.expenditures.append({
+                        "district": district_name,
+                        "school_year": school_year,
+                        "category": category,
+                        "amount_total": round(amount_total, 2),
+                        "per_pupil": per_pupil,
+                        "dcaadm": round(pupils, 2),
+                        "source_url": source_url,
+                    })
+
+            logger.info(f"Parsed {len(self.expenditures)} expenditure records")
+
+        except Exception as e:
+            logger.warning(f"Error parsing fiscal profiles XLSX: {e}")
+
     def process_cached_files(self):
         """Process all cached files."""
         # Load sources metadata
@@ -232,6 +356,9 @@ class DataNormalizer:
             elif '_budget.html' in filepath.name:
                 district = filepath.stem.replace('_budget', '').replace('_', ' ').title()
                 self.parse_budget_html(filepath, district, url)
+
+            elif filepath.suffix == '.xlsx' or ('fiscal-analysis-research' in url and '.xlsx' in url):
+                self.parse_fiscal_profiles_xlsx(filepath, url)
 
     def save_data(self):
         """Save normalized data to CSV and JSON, falling back to seed data if empty."""
@@ -287,6 +414,26 @@ class DataNormalizer:
                                      'levy_limit', 'proposed_levy', 'source_url']).to_csv(
                     OUT_DATA_DIR / "levy.csv", index=False)
         
+        # Expenditures
+        if self.expenditures:
+            df = pd.DataFrame(self.expenditures)
+            csv_path = OUT_DATA_DIR / "expenditures.csv"
+            json_path = OUT_DATA_DIR / "expenditures.json"
+            df.to_csv(csv_path, index=False)
+            df.to_json(json_path, orient='records', indent=2)
+            logger.info(f"Saved {len(self.expenditures)} expenditure records")
+        else:
+            logger.warning("No expenditure data parsed from fetched files")
+            seed_csv = SEED_DATA_DIR / "expenditures.csv"
+            if seed_csv.exists():
+                logger.info("Copying seed expenditures data as fallback")
+                shutil.copy2(seed_csv, OUT_DATA_DIR / "expenditures.csv")
+            else:
+                pd.DataFrame(columns=['district', 'school_year', 'category',
+                                     'amount_total', 'per_pupil', 'dcaadm',
+                                     'source_url']).to_csv(
+                    OUT_DATA_DIR / "expenditures.csv", index=False)
+
         # Copy sources.json
         sources_src = CACHE_DIR / "sources.json"
         sources_dst = OUT_DATA_DIR / "sources.json"

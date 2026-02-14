@@ -71,6 +71,20 @@ def builder(tmp_path):
             })
     pd.DataFrame(levy_rows).to_csv(out_data / "levy.csv", index=False)
 
+    # Create sample expenditure CSV
+    exp_rows = []
+    for name in ["DistA", "DistB", "DistC", "DistD"]:
+        for sy in ["2021-22", "2022-23", "2023-24"]:
+            for cat in ["Educational", "Administrative", "Capital", "Operational"]:
+                digest = int(hashlib.md5(f"{name}{sy}{cat}".encode()).hexdigest(), 16)
+                pp = 5000 + digest % 20000
+                exp_rows.append({
+                    "district": name, "school_year": sy, "category": cat,
+                    "amount_total": pp * 3000, "per_pupil": pp,
+                    "dcaadm": 3000.0, "source_url": "https://example.com"
+                })
+    pd.DataFrame(exp_rows).to_csv(out_data / "expenditures.csv", index=False)
+
     b = SpecBuilder()
     return b
 
@@ -114,11 +128,26 @@ class TestSpecBuilder:
         chart = builder.build_levy_chart("NonExistent")
         assert chart["data"] == []
 
+    def test_build_expenditure_chart(self, builder):
+        builder.load_data()
+        chart = builder.build_expenditure_chart("DistA")
+        assert chart["type"] == "line"
+        assert "Per Pupil Expenditures" in chart["title"]
+        assert len(chart["data"]) > 0
+        series_names = [s["name"] for s in chart["series"]]
+        assert len(series_names) == 4
+        assert set(series_names) == {"Educational", "Administrative", "Capital", "Operational"}
+
+    def test_build_expenditure_chart_empty_district(self, builder):
+        builder.load_data()
+        chart = builder.build_expenditure_chart("NonExistent")
+        assert chart["data"] == []
+
     def test_build_district_spec(self, builder):
         builder.load_data()
         spec = builder.build_district_spec("DistA")
         assert spec["district"] == "DistA"
-        assert len(spec["charts"]) == 2
+        assert len(spec["charts"]) == 3
         assert "disclaimer" in spec["metadata"]
 
     def test_compute_boces_benchmarks(self, builder):
