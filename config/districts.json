@@ -2,16 +2,374 @@
   {
     "name": "Niskayuna",
     "instid": "441101060000",
+    "boces": "Capital Region BOCES",
     "budget_url": "https://www.niskyschools.org/domain/96"
-  },
-  {
-    "name": "Bethlehem",
-    "instid": "010306060000",
-    "budget_url": "https://www.bethlehemschools.org/district/budget-vote"
   },
   {
     "name": "Shenendehowa",
     "instid": "441201060000",
+    "boces": "Capital Region BOCES",
     "budget_url": "https://www.shenet.org/domain/58"
+  },
+  {
+    "name": "Burnt Hills-Ballston Lake",
+    "instid": "441301060000",
+    "boces": "Capital Region BOCES"
+  },
+  {
+    "name": "Schenectady",
+    "instid": "530600010000",
+    "boces": "Capital Region BOCES"
+  },
+  {
+    "name": "Mohonasen",
+    "instid": "530501060000",
+    "boces": "Capital Region BOCES"
+  },
+  {
+    "name": "Guilderland",
+    "instid": "010503060000",
+    "boces": "Capital Region BOCES"
+  },
+  {
+    "name": "Bethlehem",
+    "instid": "010306060000",
+    "boces": "Questar III BOCES",
+    "budget_url": "https://www.bethlehemschools.org/district/budget-vote"
+  },
+  {
+    "name": "East Greenbush",
+    "instid": "490301060000",
+    "boces": "Questar III BOCES"
+  },
+  {
+    "name": "Averill Park",
+    "instid": "490601060000",
+    "boces": "Questar III BOCES"
+  },
+  {
+    "name": "Ravena-Coeymans-Selkirk",
+    "instid": "010601060000",
+    "boces": "Questar III BOCES"
+  },
+  {
+    "name": "Great Neck",
+    "instid": "280410030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Garden City",
+    "instid": "280206030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Manhasset",
+    "instid": "280408030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Jericho",
+    "instid": "280513030000",
+    "boces": "Nassau BOCES"
+  },
+  {
+    "name": "Smithtown",
+    "instid": "580901060000",
+    "boces": "Eastern Suffolk BOCES"
+  },
+  {
+    "name": "Commack",
+    "instid": "580413030000",
+    "boces": "Eastern Suffolk BOCES"
+  },
+  {
+    "name": "Sachem",
+    "instid": "580801060000",
+    "boces": "Eastern Suffolk BOCES"
+  },
+  {
+    "name": "Patchogue-Medford",
+    "instid": "580212060000",
+    "boces": "Eastern Suffolk BOCES"
+  },
+  {
+    "name": "Huntington",
+    "instid": "580106020000",
+    "boces": "Western Suffolk BOCES"
+  },
+  {
+    "name": "Half Hollow Hills",
+    "instid": "580401060000",
+    "boces": "Western Suffolk BOCES"
+  },
+  {
+    "name": "West Islip",
+    "instid": "580203020000",
+    "boces": "Western Suffolk BOCES"
+  },
+  {
+    "name": "Northport-East Northport",
+    "instid": "580104060000",
+    "boces": "Western Suffolk BOCES"
+  },
+  {
+    "name": "Scarsdale",
+    "instid": "660901030000",
+    "boces": "Southern Westchester BOCES"
+  },
+  {
+    "name": "Mamaroneck",
+    "instid": "660801030000",
+    "boces": "Southern Westchester BOCES"
+  },
+  {
+    "name": "Rye",
+    "instid": "661004020000",
+    "boces": "Southern Westchester BOCES"
+  },
+  {
+    "name": "White Plains",
+    "instid": "661100010000",
+    "boces": "Southern Westchester BOCES"
+  },
+  {
+    "name": "Yorktown",
+    "instid": "661501060000",
+    "boces": "Putnam/Northern Westchester BOCES"
+  },
+  {
+    "name": "Lakeland",
+    "instid": "661301060000",
+    "boces": "Putnam/Northern Westchester BOCES"
+  },
+  {
+    "name": "Mahopac",
+    "instid": "480301060000",
+    "boces": "Putnam/Northern Westchester BOCES"
+  },
+  {
+    "name": "Brewster",
+    "instid": "480101060000",
+    "boces": "Putnam/Northern Westchester BOCES"
+  },
+  {
+    "name": "Wappingers",
+    "instid": "131601060000",
+    "boces": "Dutchess BOCES"
+  },
+  {
+    "name": "Arlington",
+    "instid": "130200060000",
+    "boces": "Dutchess BOCES"
+  },
+  {
+    "name": "Poughkeepsie",
+    "instid": "131500010000",
+    "boces": "Dutchess BOCES"
+  },
+  {
+    "name": "Spackenkill",
+    "instid": "131502060000",
+    "boces": "Dutchess BOCES"
+  },
+  {
+    "name": "Warwick Valley",
+    "instid": "440901060000",
+    "boces": "Orange-Ulster BOCES"
+  },
+  {
+    "name": "Goshen",
+    "instid": "440601060000",
+    "boces": "Orange-Ulster BOCES"
+  },
+  {
+    "name": "Monroe-Woodbury",
+    "instid": "440801060000",
+    "boces": "Orange-Ulster BOCES"
+  },
+  {
+    "name": "Valley Central",
+    "instid": "440401060000",
+    "boces": "Orange-Ulster BOCES"
+  },
+  {
+    "name": "Pittsford",
+    "instid": "261401060000",
+    "boces": "Monroe 1 BOCES"
+  },
+  {
+    "name": "Brighton",
+    "instid": "260301060000",
+    "boces": "Monroe 1 BOCES"
+  },
+  {
+    "name": "Penfield",
+    "instid": "260501060000",
+    "boces": "Monroe 1 BOCES"
+  },
+  {
+    "name": "Fairport",
+    "instid": "260801060000",
+    "boces": "Monroe 1 BOCES"
+  },
+  {
+    "name": "Webster",
+    "instid": "261001060000",
+    "boces": "Monroe 2-Orleans BOCES"
+  },
+  {
+    "name": "Hilton",
+    "instid": "260901060000",
+    "boces": "Monroe 2-Orleans BOCES"
+  },
+  {
+    "name": "Spencerport",
+    "instid": "261301060000",
+    "boces": "Monroe 2-Orleans BOCES"
+  },
+  {
+    "name": "Greece",
+    "instid": "260401060000",
+    "boces": "Monroe 2-Orleans BOCES"
+  },
+  {
+    "name": "Williamsville",
+    "instid": "140101060000",
+    "boces": "Erie 1 BOCES"
+  },
+  {
+    "name": "Clarence",
+    "instid": "140301060000",
+    "boces": "Erie 1 BOCES"
+  },
+  {
+    "name": "Orchard Park",
+    "instid": "141201060000",
+    "boces": "Erie 1 BOCES"
+  },
+  {
+    "name": "Hamburg",
+    "instid": "140801060000",
+    "boces": "Erie 1 BOCES"
+  },
+  {
+    "name": "Fayetteville-Manlius",
+    "instid": "421001060000",
+    "boces": "Onondaga-Cortland-Madison BOCES"
+  },
+  {
+    "name": "Baldwinsville",
+    "instid": "420303060000",
+    "boces": "Onondaga-Cortland-Madison BOCES"
+  },
+  {
+    "name": "West Genesee",
+    "instid": "421401060000",
+    "boces": "Onondaga-Cortland-Madison BOCES"
+  },
+  {
+    "name": "Liverpool",
+    "instid": "420601060000",
+    "boces": "Onondaga-Cortland-Madison BOCES"
+  },
+  {
+    "name": "Vestal",
+    "instid": "031502060000",
+    "boces": "Broome-Tioga BOCES"
+  },
+  {
+    "name": "Maine-Endwell",
+    "instid": "031101060000",
+    "boces": "Broome-Tioga BOCES"
+  },
+  {
+    "name": "Johnson City",
+    "instid": "030901060000",
+    "boces": "Broome-Tioga BOCES"
+  },
+  {
+    "name": "Owego-Apalachin",
+    "instid": "510401060000",
+    "boces": "Broome-Tioga BOCES"
+  },
+  {
+    "name": "Kingston",
+    "instid": "560600010000",
+    "boces": "Ulster BOCES"
+  },
+  {
+    "name": "New Paltz",
+    "instid": "560503060000",
+    "boces": "Ulster BOCES"
+  },
+  {
+    "name": "Saugerties",
+    "instid": "560701060000",
+    "boces": "Ulster BOCES"
+  },
+  {
+    "name": "Highland",
+    "instid": "560301060000",
+    "boces": "Ulster BOCES"
+  },
+  {
+    "name": "Victor",
+    "instid": "431201060000",
+    "boces": "Wayne-Finger Lakes BOCES"
+  },
+  {
+    "name": "Canandaigua",
+    "instid": "430300060000",
+    "boces": "Wayne-Finger Lakes BOCES"
+  },
+  {
+    "name": "Palmyra-Macedon",
+    "instid": "650501060000",
+    "boces": "Wayne-Finger Lakes BOCES"
+  },
+  {
+    "name": "Geneva",
+    "instid": "430700010000",
+    "boces": "Wayne-Finger Lakes BOCES"
+  },
+  {
+    "name": "Corning-Painted Post",
+    "instid": "571000060000",
+    "boces": "Greater Southern Tier BOCES"
+  },
+  {
+    "name": "Horseheads",
+    "instid": "070600060000",
+    "boces": "Greater Southern Tier BOCES"
+  },
+  {
+    "name": "Elmira",
+    "instid": "070600010000",
+    "boces": "Greater Southern Tier BOCES"
+  },
+  {
+    "name": "Ithaca",
+    "instid": "610600010000",
+    "boces": "Greater Southern Tier BOCES"
+  },
+  {
+    "name": "Plattsburgh",
+    "instid": "100901010000",
+    "boces": "Clinton-Essex-Warren-Washington BOCES"
+  },
+  {
+    "name": "Queensbury",
+    "instid": "630901060000",
+    "boces": "Clinton-Essex-Warren-Washington BOCES"
+  },
+  {
+    "name": "Glens Falls",
+    "instid": "630300010000",
+    "boces": "Clinton-Essex-Warren-Washington BOCES"
+  },
+  {
+    "name": "Saranac Lake",
+    "instid": "150301060000",
+    "boces": "Clinton-Essex-Warren-Washington BOCES"
   }
 ]

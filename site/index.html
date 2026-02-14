@@ -32,9 +32,24 @@
         <section class="controls">
             <h2>Select District</h2>
             <div class="district-selector">
+                <label for="bocesFilter">Filter by BOCES Region:</label>
+                <select id="bocesFilter">
+                    <option value="">All Regions</option>
+                </select>
+            </div>
+            <div class="district-selector">
+                <label for="districtSelect">District:</label>
                 <select id="districtSelect">
                     <option value="">Loading districts...</option>
                 </select>
+            </div>
+            <div class="cluster-controls">
+                <button id="showClusterBtn" class="btn-cluster" disabled>
+                    Show BOCES Cluster Comparison
+                </button>
+                <button id="showDistrictBtn" class="btn-cluster btn-secondary" style="display:none;">
+                    Back to District View
+                </button>
             </div>
         </section>
 
@@ -53,7 +68,9 @@
         <section class="info">
             <h2>How to Use</h2>
             <ul>
-                <li>Select a district from the dropdown above</li>
+                <li>Filter districts by BOCES region using the dropdown above</li>
+                <li>Select a district to view its proficiency trends and levy changes</li>
+                <li>Click "Show BOCES Cluster Comparison" to compare all districts in the selected BOCES region with a regional benchmark</li>
                 <li>View proficiency trends for ELA and Math assessments</li>
                 <li>View budget levy percentage changes over time</li>
                 <li>Check the Data Sources section for upstream data links</li>

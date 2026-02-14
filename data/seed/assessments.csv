@@ -1,31 +1,741 @@
 district,year,subject,grade_band,proficient_pct,tested_n,source_url
-Niskayuna,2019,ELA,All,72.3,1850,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2019&subject=ela
-Niskayuna,2019,MATH,All,69.1,1850,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2019&subject=math
-Niskayuna,2021,ELA,All,65.8,1780,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2021&subject=ela
-Niskayuna,2021,MATH,All,61.2,1780,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2021&subject=math
-Niskayuna,2022,ELA,All,68.5,1810,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2022&subject=ela
-Niskayuna,2022,MATH,All,64.7,1810,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2022&subject=math
-Niskayuna,2023,ELA,All,71.0,1830,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2023&subject=ela
-Niskayuna,2023,MATH,All,67.3,1830,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2023&subject=math
-Niskayuna,2024,ELA,All,73.2,1860,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2024&subject=ela
-Niskayuna,2024,MATH,All,70.5,1860,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2024&subject=math
-Bethlehem,2019,ELA,All,70.1,3200,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2019&subject=ela
-Bethlehem,2019,MATH,All,66.4,3200,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2019&subject=math
-Bethlehem,2021,ELA,All,63.5,3050,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2021&subject=ela
-Bethlehem,2021,MATH,All,58.9,3050,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2021&subject=math
-Bethlehem,2022,ELA,All,66.2,3100,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2022&subject=ela
-Bethlehem,2022,MATH,All,62.1,3100,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2022&subject=math
-Bethlehem,2023,ELA,All,69.0,3150,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2023&subject=ela
-Bethlehem,2023,MATH,All,65.3,3150,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2023&subject=math
-Bethlehem,2024,ELA,All,71.5,3200,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2024&subject=ela
-Bethlehem,2024,MATH,All,68.0,3200,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2024&subject=math
-Shenendehowa,2019,ELA,All,68.7,5600,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2019&subject=ela
-Shenendehowa,2019,MATH,All,64.2,5600,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2019&subject=math
-Shenendehowa,2021,ELA,All,61.3,5400,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2021&subject=ela
-Shenendehowa,2021,MATH,All,56.8,5400,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2021&subject=math
-Shenendehowa,2022,ELA,All,64.9,5500,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2022&subject=ela
-Shenendehowa,2022,MATH,All,60.5,5500,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2022&subject=math
-Shenendehowa,2023,ELA,All,67.4,5550,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2023&subject=ela
-Shenendehowa,2023,MATH,All,63.1,5550,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2023&subject=math
-Shenendehowa,2024,ELA,All,69.8,5600,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2024&subject=ela
-Shenendehowa,2024,MATH,All,66.4,5600,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2024&subject=math
+Niskayuna,2019,ELA,All,70.2,2988,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2019&subject=ela
+Niskayuna,2019,MATH,All,57.6,2988,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2019&subject=math
+Niskayuna,2021,ELA,All,66.2,3126,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2021&subject=ela
+Niskayuna,2021,MATH,All,53.6,3126,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2021&subject=math
+Niskayuna,2022,ELA,All,69.2,3092,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2022&subject=ela
+Niskayuna,2022,MATH,All,56.6,3092,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2022&subject=math
+Niskayuna,2023,ELA,All,69.2,3061,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2023&subject=ela
+Niskayuna,2023,MATH,All,56.6,3061,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2023&subject=math
+Niskayuna,2024,ELA,All,71.0,2976,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2024&subject=ela
+Niskayuna,2024,MATH,All,58.4,2976,https://data.nysed.gov/assessment38.php?instid=441101060000&year=2024&subject=math
+Shenendehowa,2019,ELA,All,65.2,1100,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2019&subject=ela
+Shenendehowa,2019,MATH,All,65.3,1100,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2019&subject=math
+Shenendehowa,2021,ELA,All,60.0,1056,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2021&subject=ela
+Shenendehowa,2021,MATH,All,60.0,1056,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2021&subject=math
+Shenendehowa,2022,ELA,All,62.3,1031,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2022&subject=ela
+Shenendehowa,2022,MATH,All,62.3,1031,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2022&subject=math
+Shenendehowa,2023,ELA,All,64.8,918,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2023&subject=ela
+Shenendehowa,2023,MATH,All,64.8,918,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2023&subject=math
+Shenendehowa,2024,ELA,All,67.3,957,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2024&subject=ela
+Shenendehowa,2024,MATH,All,67.4,957,https://data.nysed.gov/assessment38.php?instid=441201060000&year=2024&subject=math
+Burnt Hills-Ballston Lake,2019,ELA,All,70.9,2168,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2019&subject=ela
+Burnt Hills-Ballston Lake,2019,MATH,All,61.9,2168,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2019&subject=math
+Burnt Hills-Ballston Lake,2021,ELA,All,65.8,1996,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2021&subject=ela
+Burnt Hills-Ballston Lake,2021,MATH,All,56.8,1996,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2021&subject=math
+Burnt Hills-Ballston Lake,2022,ELA,All,68.9,2064,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2022&subject=ela
+Burnt Hills-Ballston Lake,2022,MATH,All,59.9,2064,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2022&subject=math
+Burnt Hills-Ballston Lake,2023,ELA,All,72.3,2127,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2023&subject=ela
+Burnt Hills-Ballston Lake,2023,MATH,All,63.3,2127,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2023&subject=math
+Burnt Hills-Ballston Lake,2024,ELA,All,72.6,1984,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2024&subject=ela
+Burnt Hills-Ballston Lake,2024,MATH,All,63.6,1984,https://data.nysed.gov/assessment38.php?instid=441301060000&year=2024&subject=math
+Schenectady,2019,ELA,All,71.0,3875,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2019&subject=ela
+Schenectady,2019,MATH,All,64.2,3875,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2019&subject=math
+Schenectady,2021,ELA,All,67.7,3958,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2021&subject=ela
+Schenectady,2021,MATH,All,61.0,3958,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2021&subject=math
+Schenectady,2022,ELA,All,70.9,3892,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2022&subject=ela
+Schenectady,2022,MATH,All,64.2,3892,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2022&subject=math
+Schenectady,2023,ELA,All,71.9,3980,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2023&subject=ela
+Schenectady,2023,MATH,All,65.2,3980,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2023&subject=math
+Schenectady,2024,ELA,All,72.4,3969,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2024&subject=ela
+Schenectady,2024,MATH,All,65.7,3969,https://data.nysed.gov/assessment38.php?instid=530600010000&year=2024&subject=math
+Mohonasen,2019,ELA,All,66.3,1378,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2019&subject=ela
+Mohonasen,2019,MATH,All,63.1,1378,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2019&subject=math
+Mohonasen,2021,ELA,All,59.3,1469,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2021&subject=ela
+Mohonasen,2021,MATH,All,56.2,1469,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2021&subject=math
+Mohonasen,2022,ELA,All,63.1,1446,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2022&subject=ela
+Mohonasen,2022,MATH,All,60.0,1446,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2022&subject=math
+Mohonasen,2023,ELA,All,63.7,1443,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2023&subject=ela
+Mohonasen,2023,MATH,All,60.5,1443,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2023&subject=math
+Mohonasen,2024,ELA,All,65.8,1421,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2024&subject=ela
+Mohonasen,2024,MATH,All,62.7,1421,https://data.nysed.gov/assessment38.php?instid=530501060000&year=2024&subject=math
+Guilderland,2019,ELA,All,72.2,1327,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2019&subject=ela
+Guilderland,2019,MATH,All,67.9,1327,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2019&subject=math
+Guilderland,2021,ELA,All,66.4,1346,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2021&subject=ela
+Guilderland,2021,MATH,All,62.2,1346,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2021&subject=math
+Guilderland,2022,ELA,All,68.3,1381,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2022&subject=ela
+Guilderland,2022,MATH,All,64.1,1381,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2022&subject=math
+Guilderland,2023,ELA,All,70.6,1447,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2023&subject=ela
+Guilderland,2023,MATH,All,66.4,1447,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2023&subject=math
+Guilderland,2024,ELA,All,73.9,1340,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2024&subject=ela
+Guilderland,2024,MATH,All,69.6,1340,https://data.nysed.gov/assessment38.php?instid=010503060000&year=2024&subject=math
+Bethlehem,2019,ELA,All,68.8,1166,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2019&subject=ela
+Bethlehem,2019,MATH,All,67.0,1166,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2019&subject=math
+Bethlehem,2021,ELA,All,65.0,1260,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2021&subject=ela
+Bethlehem,2021,MATH,All,63.2,1260,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2021&subject=math
+Bethlehem,2022,ELA,All,66.4,1212,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2022&subject=ela
+Bethlehem,2022,MATH,All,64.6,1212,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2022&subject=math
+Bethlehem,2023,ELA,All,70.3,1303,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2023&subject=ela
+Bethlehem,2023,MATH,All,68.5,1303,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2023&subject=math
+Bethlehem,2024,ELA,All,72.2,1238,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2024&subject=ela
+Bethlehem,2024,MATH,All,70.4,1238,https://data.nysed.gov/assessment38.php?instid=010306060000&year=2024&subject=math
+East Greenbush,2019,ELA,All,61.9,4493,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2019&subject=ela
+East Greenbush,2019,MATH,All,61.9,4493,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2019&subject=math
+East Greenbush,2021,ELA,All,56.7,4601,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2021&subject=ela
+East Greenbush,2021,MATH,All,56.7,4601,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2021&subject=math
+East Greenbush,2022,ELA,All,60.6,4649,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2022&subject=ela
+East Greenbush,2022,MATH,All,60.6,4649,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2022&subject=math
+East Greenbush,2023,ELA,All,62.7,4607,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2023&subject=ela
+East Greenbush,2023,MATH,All,62.7,4607,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2023&subject=math
+East Greenbush,2024,ELA,All,64.2,4514,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2024&subject=ela
+East Greenbush,2024,MATH,All,64.2,4514,https://data.nysed.gov/assessment38.php?instid=490301060000&year=2024&subject=math
+Averill Park,2019,ELA,All,72.7,4754,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2019&subject=ela
+Averill Park,2019,MATH,All,56.7,4754,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2019&subject=math
+Averill Park,2021,ELA,All,69.5,4781,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2021&subject=ela
+Averill Park,2021,MATH,All,53.5,4781,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2021&subject=math
+Averill Park,2022,ELA,All,71.8,4916,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2022&subject=ela
+Averill Park,2022,MATH,All,55.8,4916,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2022&subject=math
+Averill Park,2023,ELA,All,73.2,4758,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2023&subject=ela
+Averill Park,2023,MATH,All,57.2,4758,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2023&subject=math
+Averill Park,2024,ELA,All,75.1,4894,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2024&subject=ela
+Averill Park,2024,MATH,All,59.1,4894,https://data.nysed.gov/assessment38.php?instid=490601060000&year=2024&subject=math
+Ravena-Coeymans-Selkirk,2019,ELA,All,75.0,5234,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2019&subject=ela
+Ravena-Coeymans-Selkirk,2019,MATH,All,64.5,5234,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2019&subject=math
+Ravena-Coeymans-Selkirk,2021,ELA,All,69.0,5261,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2021&subject=ela
+Ravena-Coeymans-Selkirk,2021,MATH,All,58.4,5261,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2021&subject=math
+Ravena-Coeymans-Selkirk,2022,ELA,All,72.0,5369,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2022&subject=ela
+Ravena-Coeymans-Selkirk,2022,MATH,All,61.5,5369,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2022&subject=math
+Ravena-Coeymans-Selkirk,2023,ELA,All,74.2,5428,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2023&subject=ela
+Ravena-Coeymans-Selkirk,2023,MATH,All,63.7,5428,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2023&subject=math
+Ravena-Coeymans-Selkirk,2024,ELA,All,75.9,5260,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2024&subject=ela
+Ravena-Coeymans-Selkirk,2024,MATH,All,65.3,5260,https://data.nysed.gov/assessment38.php?instid=010601060000&year=2024&subject=math
+Great Neck,2019,ELA,All,74.5,910,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2019&subject=ela
+Great Neck,2019,MATH,All,69.6,910,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2019&subject=math
+Great Neck,2021,ELA,All,66.9,854,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2021&subject=ela
+Great Neck,2021,MATH,All,62.0,854,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2021&subject=math
+Great Neck,2022,ELA,All,71.4,855,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2022&subject=ela
+Great Neck,2022,MATH,All,66.5,855,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2022&subject=math
+Great Neck,2023,ELA,All,73.8,886,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2023&subject=ela
+Great Neck,2023,MATH,All,69.0,886,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2023&subject=math
+Great Neck,2024,ELA,All,74.0,889,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2024&subject=ela
+Great Neck,2024,MATH,All,69.1,889,https://data.nysed.gov/assessment38.php?instid=280410030000&year=2024&subject=math
+Garden City,2019,ELA,All,76.9,3901,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2019&subject=ela
+Garden City,2019,MATH,All,69.6,3901,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2019&subject=math
+Garden City,2021,ELA,All,72.0,3898,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2021&subject=ela
+Garden City,2021,MATH,All,64.6,3898,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2021&subject=math
+Garden City,2022,ELA,All,74.9,3916,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2022&subject=ela
+Garden City,2022,MATH,All,67.5,3916,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2022&subject=math
+Garden City,2023,ELA,All,75.1,3767,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2023&subject=ela
+Garden City,2023,MATH,All,67.8,3767,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2023&subject=math
+Garden City,2024,ELA,All,76.4,3855,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2024&subject=ela
+Garden City,2024,MATH,All,69.1,3855,https://data.nysed.gov/assessment38.php?instid=280206030000&year=2024&subject=math
+Manhasset,2019,ELA,All,80.5,3280,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2019&subject=ela
+Manhasset,2019,MATH,All,76.9,3280,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2019&subject=math
+Manhasset,2021,ELA,All,76.9,3239,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2021&subject=ela
+Manhasset,2021,MATH,All,73.3,3239,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2021&subject=math
+Manhasset,2022,ELA,All,77.6,3343,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2022&subject=ela
+Manhasset,2022,MATH,All,73.9,3343,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2022&subject=math
+Manhasset,2023,ELA,All,81.8,3413,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2023&subject=ela
+Manhasset,2023,MATH,All,78.1,3413,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2023&subject=math
+Manhasset,2024,ELA,All,82.9,3251,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2024&subject=ela
+Manhasset,2024,MATH,All,79.2,3251,https://data.nysed.gov/assessment38.php?instid=280408030000&year=2024&subject=math
+Jericho,2019,ELA,All,69.8,5338,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2019&subject=ela
+Jericho,2019,MATH,All,71.6,5338,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2019&subject=math
+Jericho,2021,ELA,All,66.4,5311,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2021&subject=ela
+Jericho,2021,MATH,All,68.3,5311,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2021&subject=math
+Jericho,2022,ELA,All,69.7,5341,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2022&subject=ela
+Jericho,2022,MATH,All,71.5,5341,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2022&subject=math
+Jericho,2023,ELA,All,71.1,5379,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2023&subject=ela
+Jericho,2023,MATH,All,72.9,5379,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2023&subject=math
+Jericho,2024,ELA,All,71.4,5282,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2024&subject=ela
+Jericho,2024,MATH,All,73.3,5282,https://data.nysed.gov/assessment38.php?instid=280513030000&year=2024&subject=math
+Smithtown,2019,ELA,All,62.4,3891,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2019&subject=ela
+Smithtown,2019,MATH,All,62.2,3891,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2019&subject=math
+Smithtown,2021,ELA,All,56.9,3822,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2021&subject=ela
+Smithtown,2021,MATH,All,56.8,3822,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2021&subject=math
+Smithtown,2022,ELA,All,59.3,3845,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2022&subject=ela
+Smithtown,2022,MATH,All,59.1,3845,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2022&subject=math
+Smithtown,2023,ELA,All,60.6,3900,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2023&subject=ela
+Smithtown,2023,MATH,All,60.5,3900,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2023&subject=math
+Smithtown,2024,ELA,All,63.3,3815,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2024&subject=ela
+Smithtown,2024,MATH,All,63.1,3815,https://data.nysed.gov/assessment38.php?instid=580901060000&year=2024&subject=math
+Commack,2019,ELA,All,56.3,1190,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2019&subject=ela
+Commack,2019,MATH,All,62.1,1190,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2019&subject=math
+Commack,2021,ELA,All,52.7,1200,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2021&subject=ela
+Commack,2021,MATH,All,58.5,1200,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2021&subject=math
+Commack,2022,ELA,All,54.6,1253,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2022&subject=ela
+Commack,2022,MATH,All,60.5,1253,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2022&subject=math
+Commack,2023,ELA,All,57.1,1236,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2023&subject=ela
+Commack,2023,MATH,All,62.9,1236,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2023&subject=math
+Commack,2024,ELA,All,58.7,1367,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2024&subject=ela
+Commack,2024,MATH,All,64.5,1367,https://data.nysed.gov/assessment38.php?instid=580413030000&year=2024&subject=math
+Sachem,2019,ELA,All,69.3,4693,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2019&subject=ela
+Sachem,2019,MATH,All,60.2,4693,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2019&subject=math
+Sachem,2021,ELA,All,65.5,4620,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2021&subject=ela
+Sachem,2021,MATH,All,56.4,4620,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2021&subject=math
+Sachem,2022,ELA,All,66.4,4740,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2022&subject=ela
+Sachem,2022,MATH,All,57.3,4740,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2022&subject=math
+Sachem,2023,ELA,All,69.4,4680,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2023&subject=ela
+Sachem,2023,MATH,All,60.3,4680,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2023&subject=math
+Sachem,2024,ELA,All,71.3,4758,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2024&subject=ela
+Sachem,2024,MATH,All,62.2,4758,https://data.nysed.gov/assessment38.php?instid=580801060000&year=2024&subject=math
+Patchogue-Medford,2019,ELA,All,56.4,1692,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2019&subject=ela
+Patchogue-Medford,2019,MATH,All,60.8,1692,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2019&subject=math
+Patchogue-Medford,2021,ELA,All,51.8,1533,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2021&subject=ela
+Patchogue-Medford,2021,MATH,All,56.2,1533,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2021&subject=math
+Patchogue-Medford,2022,ELA,All,54.5,1554,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2022&subject=ela
+Patchogue-Medford,2022,MATH,All,58.9,1554,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2022&subject=math
+Patchogue-Medford,2023,ELA,All,57.4,1541,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2023&subject=ela
+Patchogue-Medford,2023,MATH,All,61.8,1541,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2023&subject=math
+Patchogue-Medford,2024,ELA,All,59.0,1577,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2024&subject=ela
+Patchogue-Medford,2024,MATH,All,63.4,1577,https://data.nysed.gov/assessment38.php?instid=580212060000&year=2024&subject=math
+Huntington,2019,ELA,All,67.3,1457,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2019&subject=ela
+Huntington,2019,MATH,All,69.1,1457,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2019&subject=math
+Huntington,2021,ELA,All,60.8,1483,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2021&subject=ela
+Huntington,2021,MATH,All,62.5,1483,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2021&subject=math
+Huntington,2022,ELA,All,66.5,1320,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2022&subject=ela
+Huntington,2022,MATH,All,68.2,1320,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2022&subject=math
+Huntington,2023,ELA,All,68.4,1509,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2023&subject=ela
+Huntington,2023,MATH,All,70.1,1509,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2023&subject=math
+Huntington,2024,ELA,All,70.0,1359,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2024&subject=ela
+Huntington,2024,MATH,All,71.8,1359,https://data.nysed.gov/assessment38.php?instid=580106020000&year=2024&subject=math
+Half Hollow Hills,2019,ELA,All,67.9,4027,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2019&subject=ela
+Half Hollow Hills,2019,MATH,All,64.9,4027,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2019&subject=math
+Half Hollow Hills,2021,ELA,All,60.8,4084,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2021&subject=ela
+Half Hollow Hills,2021,MATH,All,57.9,4084,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2021&subject=math
+Half Hollow Hills,2022,ELA,All,63.5,4185,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2022&subject=ela
+Half Hollow Hills,2022,MATH,All,60.5,4185,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2022&subject=math
+Half Hollow Hills,2023,ELA,All,67.0,4058,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2023&subject=ela
+Half Hollow Hills,2023,MATH,All,64.1,4058,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2023&subject=math
+Half Hollow Hills,2024,ELA,All,68.0,4172,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2024&subject=ela
+Half Hollow Hills,2024,MATH,All,65.0,4172,https://data.nysed.gov/assessment38.php?instid=580401060000&year=2024&subject=math
+West Islip,2019,ELA,All,73.9,4761,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2019&subject=ela
+West Islip,2019,MATH,All,63.7,4761,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2019&subject=math
+West Islip,2021,ELA,All,68.6,4700,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2021&subject=ela
+West Islip,2021,MATH,All,58.4,4700,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2021&subject=math
+West Islip,2022,ELA,All,72.7,4824,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2022&subject=ela
+West Islip,2022,MATH,All,62.5,4824,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2022&subject=math
+West Islip,2023,ELA,All,73.1,4766,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2023&subject=ela
+West Islip,2023,MATH,All,63.0,4766,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2023&subject=math
+West Islip,2024,ELA,All,75.1,4835,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2024&subject=ela
+West Islip,2024,MATH,All,65.0,4835,https://data.nysed.gov/assessment38.php?instid=580203020000&year=2024&subject=math
+Northport-East Northport,2019,ELA,All,66.6,5180,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2019&subject=ela
+Northport-East Northport,2019,MATH,All,68.8,5180,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2019&subject=math
+Northport-East Northport,2021,ELA,All,60.9,5097,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2021&subject=ela
+Northport-East Northport,2021,MATH,All,63.1,5097,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2021&subject=math
+Northport-East Northport,2022,ELA,All,63.9,5067,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2022&subject=ela
+Northport-East Northport,2022,MATH,All,66.1,5067,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2022&subject=math
+Northport-East Northport,2023,ELA,All,67.7,5110,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2023&subject=ela
+Northport-East Northport,2023,MATH,All,69.9,5110,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2023&subject=math
+Northport-East Northport,2024,ELA,All,68.9,5195,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2024&subject=ela
+Northport-East Northport,2024,MATH,All,71.1,5195,https://data.nysed.gov/assessment38.php?instid=580104060000&year=2024&subject=math
+Scarsdale,2019,ELA,All,74.2,5941,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2019&subject=ela
+Scarsdale,2019,MATH,All,76.1,5941,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2019&subject=math
+Scarsdale,2021,ELA,All,70.2,5906,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2021&subject=ela
+Scarsdale,2021,MATH,All,72.1,5906,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2021&subject=math
+Scarsdale,2022,ELA,All,72.4,5839,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2022&subject=ela
+Scarsdale,2022,MATH,All,74.3,5839,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2022&subject=math
+Scarsdale,2023,ELA,All,74.1,5956,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2023&subject=ela
+Scarsdale,2023,MATH,All,75.9,5956,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2023&subject=math
+Scarsdale,2024,ELA,All,76.4,5840,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2024&subject=ela
+Scarsdale,2024,MATH,All,78.3,5840,https://data.nysed.gov/assessment38.php?instid=660901030000&year=2024&subject=math
+Mamaroneck,2019,ELA,All,77.4,3349,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2019&subject=ela
+Mamaroneck,2019,MATH,All,78.3,3349,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2019&subject=math
+Mamaroneck,2021,ELA,All,73.3,3159,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2021&subject=ela
+Mamaroneck,2021,MATH,All,74.2,3159,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2021&subject=math
+Mamaroneck,2022,ELA,All,74.9,3301,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2022&subject=ela
+Mamaroneck,2022,MATH,All,75.8,3301,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2022&subject=math
+Mamaroneck,2023,ELA,All,78.5,3175,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2023&subject=ela
+Mamaroneck,2023,MATH,All,79.4,3175,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2023&subject=math
+Mamaroneck,2024,ELA,All,79.2,3286,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2024&subject=ela
+Mamaroneck,2024,MATH,All,80.0,3286,https://data.nysed.gov/assessment38.php?instid=660801030000&year=2024&subject=math
+Rye,2019,ELA,All,76.9,1357,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2019&subject=ela
+Rye,2019,MATH,All,83.2,1357,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2019&subject=math
+Rye,2021,ELA,All,69.6,1375,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2021&subject=ela
+Rye,2021,MATH,All,75.9,1375,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2021&subject=math
+Rye,2022,ELA,All,74.2,1443,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2022&subject=ela
+Rye,2022,MATH,All,80.6,1443,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2022&subject=math
+Rye,2023,ELA,All,74.6,1430,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2023&subject=ela
+Rye,2023,MATH,All,81.0,1430,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2023&subject=math
+Rye,2024,ELA,All,77.3,1433,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2024&subject=ela
+Rye,2024,MATH,All,83.7,1433,https://data.nysed.gov/assessment38.php?instid=661004020000&year=2024&subject=math
+White Plains,2019,ELA,All,84.8,1582,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2019&subject=ela
+White Plains,2019,MATH,All,74.5,1582,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2019&subject=math
+White Plains,2021,ELA,All,77.2,1575,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2021&subject=ela
+White Plains,2021,MATH,All,67.0,1575,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2021&subject=math
+White Plains,2022,ELA,All,81.7,1587,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2022&subject=ela
+White Plains,2022,MATH,All,71.4,1587,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2022&subject=math
+White Plains,2023,ELA,All,82.3,1702,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2023&subject=ela
+White Plains,2023,MATH,All,72.0,1702,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2023&subject=math
+White Plains,2024,ELA,All,84.1,1635,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2024&subject=ela
+White Plains,2024,MATH,All,73.8,1635,https://data.nysed.gov/assessment38.php?instid=661100010000&year=2024&subject=math
+Yorktown,2019,ELA,All,61.9,2926,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2019&subject=ela
+Yorktown,2019,MATH,All,63.9,2926,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2019&subject=math
+Yorktown,2021,ELA,All,57.6,2875,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2021&subject=ela
+Yorktown,2021,MATH,All,59.6,2875,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2021&subject=math
+Yorktown,2022,ELA,All,58.1,2970,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2022&subject=ela
+Yorktown,2022,MATH,All,60.2,2970,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2022&subject=math
+Yorktown,2023,ELA,All,62.3,2873,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2023&subject=ela
+Yorktown,2023,MATH,All,64.4,2873,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2023&subject=math
+Yorktown,2024,ELA,All,61.9,3059,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2024&subject=ela
+Yorktown,2024,MATH,All,63.9,3059,https://data.nysed.gov/assessment38.php?instid=661501060000&year=2024&subject=math
+Lakeland,2019,ELA,All,61.6,2164,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2019&subject=ela
+Lakeland,2019,MATH,All,69.4,2164,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2019&subject=math
+Lakeland,2021,ELA,All,55.9,2166,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2021&subject=ela
+Lakeland,2021,MATH,All,63.8,2166,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2021&subject=math
+Lakeland,2022,ELA,All,56.9,2042,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2022&subject=ela
+Lakeland,2022,MATH,All,64.7,2042,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2022&subject=math
+Lakeland,2023,ELA,All,61.7,2199,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2023&subject=ela
+Lakeland,2023,MATH,All,69.6,2199,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2023&subject=math
+Lakeland,2024,ELA,All,63.5,2162,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2024&subject=ela
+Lakeland,2024,MATH,All,71.4,2162,https://data.nysed.gov/assessment38.php?instid=661301060000&year=2024&subject=math
+Mahopac,2019,ELA,All,58.4,5258,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2019&subject=ela
+Mahopac,2019,MATH,All,59.1,5258,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2019&subject=math
+Mahopac,2021,ELA,All,52.6,5319,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2021&subject=ela
+Mahopac,2021,MATH,All,53.3,5319,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2021&subject=math
+Mahopac,2022,ELA,All,58.2,5236,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2022&subject=ela
+Mahopac,2022,MATH,All,58.9,5236,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2022&subject=math
+Mahopac,2023,ELA,All,60.2,5279,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2023&subject=ela
+Mahopac,2023,MATH,All,60.9,5279,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2023&subject=math
+Mahopac,2024,ELA,All,61.6,5396,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2024&subject=ela
+Mahopac,2024,MATH,All,62.2,5396,https://data.nysed.gov/assessment38.php?instid=480301060000&year=2024&subject=math
+Brewster,2019,ELA,All,61.9,4220,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2019&subject=ela
+Brewster,2019,MATH,All,67.3,4220,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2019&subject=math
+Brewster,2021,ELA,All,53.9,4089,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2021&subject=ela
+Brewster,2021,MATH,All,59.4,4089,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2021&subject=math
+Brewster,2022,ELA,All,59.0,4074,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2022&subject=ela
+Brewster,2022,MATH,All,64.5,4074,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2022&subject=math
+Brewster,2023,ELA,All,61.1,4035,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2023&subject=ela
+Brewster,2023,MATH,All,66.6,4035,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2023&subject=math
+Brewster,2024,ELA,All,61.0,4114,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2024&subject=ela
+Brewster,2024,MATH,All,66.5,4114,https://data.nysed.gov/assessment38.php?instid=480101060000&year=2024&subject=math
+Wappingers,2019,ELA,All,64.3,2911,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2019&subject=ela
+Wappingers,2019,MATH,All,55.1,2911,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2019&subject=math
+Wappingers,2021,ELA,All,58.3,2741,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2021&subject=ela
+Wappingers,2021,MATH,All,49.1,2741,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2021&subject=math
+Wappingers,2022,ELA,All,63.5,2788,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2022&subject=ela
+Wappingers,2022,MATH,All,54.3,2788,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2022&subject=math
+Wappingers,2023,ELA,All,63.6,2849,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2023&subject=ela
+Wappingers,2023,MATH,All,54.4,2849,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2023&subject=math
+Wappingers,2024,ELA,All,66.0,2790,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2024&subject=ela
+Wappingers,2024,MATH,All,56.8,2790,https://data.nysed.gov/assessment38.php?instid=131601060000&year=2024&subject=math
+Arlington,2019,ELA,All,56.6,3981,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2019&subject=ela
+Arlington,2019,MATH,All,58.7,3981,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2019&subject=math
+Arlington,2021,ELA,All,53.0,4035,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2021&subject=ela
+Arlington,2021,MATH,All,55.1,4035,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2021&subject=math
+Arlington,2022,ELA,All,54.2,4094,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2022&subject=ela
+Arlington,2022,MATH,All,56.3,4094,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2022&subject=math
+Arlington,2023,ELA,All,56.3,4101,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2023&subject=ela
+Arlington,2023,MATH,All,58.4,4101,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2023&subject=math
+Arlington,2024,ELA,All,58.1,3971,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2024&subject=ela
+Arlington,2024,MATH,All,60.2,3971,https://data.nysed.gov/assessment38.php?instid=130200060000&year=2024&subject=math
+Poughkeepsie,2019,ELA,All,55.9,2229,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2019&subject=ela
+Poughkeepsie,2019,MATH,All,63.8,2229,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2019&subject=math
+Poughkeepsie,2021,ELA,All,48.7,2314,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2021&subject=ela
+Poughkeepsie,2021,MATH,All,56.7,2314,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2021&subject=math
+Poughkeepsie,2022,ELA,All,52.9,2348,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2022&subject=ela
+Poughkeepsie,2022,MATH,All,60.9,2348,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2022&subject=math
+Poughkeepsie,2023,ELA,All,56.0,2273,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2023&subject=ela
+Poughkeepsie,2023,MATH,All,63.9,2273,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2023&subject=math
+Poughkeepsie,2024,ELA,All,57.4,2292,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2024&subject=ela
+Poughkeepsie,2024,MATH,All,65.4,2292,https://data.nysed.gov/assessment38.php?instid=131500010000&year=2024&subject=math
+Spackenkill,2019,ELA,All,54.9,2438,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2019&subject=ela
+Spackenkill,2019,MATH,All,61.9,2438,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2019&subject=math
+Spackenkill,2021,ELA,All,49.9,2390,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2021&subject=ela
+Spackenkill,2021,MATH,All,56.9,2390,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2021&subject=math
+Spackenkill,2022,ELA,All,54.4,2394,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2022&subject=ela
+Spackenkill,2022,MATH,All,61.4,2394,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2022&subject=math
+Spackenkill,2023,ELA,All,55.7,2446,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2023&subject=ela
+Spackenkill,2023,MATH,All,62.7,2446,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2023&subject=math
+Spackenkill,2024,ELA,All,57.8,2307,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2024&subject=ela
+Spackenkill,2024,MATH,All,64.8,2307,https://data.nysed.gov/assessment38.php?instid=131502060000&year=2024&subject=math
+Warwick Valley,2019,ELA,All,61.5,3573,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2019&subject=ela
+Warwick Valley,2019,MATH,All,53.3,3573,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2019&subject=math
+Warwick Valley,2021,ELA,All,56.6,3588,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2021&subject=ela
+Warwick Valley,2021,MATH,All,48.5,3588,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2021&subject=math
+Warwick Valley,2022,ELA,All,59.8,3533,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2022&subject=ela
+Warwick Valley,2022,MATH,All,51.7,3533,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2022&subject=math
+Warwick Valley,2023,ELA,All,60.0,3508,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2023&subject=ela
+Warwick Valley,2023,MATH,All,51.9,3508,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2023&subject=math
+Warwick Valley,2024,ELA,All,62.1,3582,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2024&subject=ela
+Warwick Valley,2024,MATH,All,54.0,3582,https://data.nysed.gov/assessment38.php?instid=440901060000&year=2024&subject=math
+Goshen,2019,ELA,All,60.6,4241,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2019&subject=ela
+Goshen,2019,MATH,All,54.3,4241,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2019&subject=math
+Goshen,2021,ELA,All,55.2,4188,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2021&subject=ela
+Goshen,2021,MATH,All,48.8,4188,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2021&subject=math
+Goshen,2022,ELA,All,58.0,4221,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2022&subject=ela
+Goshen,2022,MATH,All,51.6,4221,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2022&subject=math
+Goshen,2023,ELA,All,59.4,4144,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2023&subject=ela
+Goshen,2023,MATH,All,53.0,4144,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2023&subject=math
+Goshen,2024,ELA,All,61.1,4197,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2024&subject=ela
+Goshen,2024,MATH,All,54.7,4197,https://data.nysed.gov/assessment38.php?instid=440601060000&year=2024&subject=math
+Monroe-Woodbury,2019,ELA,All,61.9,3452,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2019&subject=ela
+Monroe-Woodbury,2019,MATH,All,60.0,3452,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2019&subject=math
+Monroe-Woodbury,2021,ELA,All,57.0,3469,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2021&subject=ela
+Monroe-Woodbury,2021,MATH,All,55.1,3469,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2021&subject=math
+Monroe-Woodbury,2022,ELA,All,59.4,3527,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2022&subject=ela
+Monroe-Woodbury,2022,MATH,All,57.5,3527,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2022&subject=math
+Monroe-Woodbury,2023,ELA,All,60.5,3360,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2023&subject=ela
+Monroe-Woodbury,2023,MATH,All,58.6,3360,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2023&subject=math
+Monroe-Woodbury,2024,ELA,All,62.9,3508,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2024&subject=ela
+Monroe-Woodbury,2024,MATH,All,61.0,3508,https://data.nysed.gov/assessment38.php?instid=440801060000&year=2024&subject=math
+Valley Central,2019,ELA,All,65.4,2681,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2019&subject=ela
+Valley Central,2019,MATH,All,57.2,2681,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2019&subject=math
+Valley Central,2021,ELA,All,60.3,2661,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2021&subject=ela
+Valley Central,2021,MATH,All,52.1,2661,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2021&subject=math
+Valley Central,2022,ELA,All,60.9,2686,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2022&subject=ela
+Valley Central,2022,MATH,All,52.8,2686,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2022&subject=math
+Valley Central,2023,ELA,All,65.8,2780,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2023&subject=ela
+Valley Central,2023,MATH,All,57.6,2780,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2023&subject=math
+Valley Central,2024,ELA,All,67.4,2642,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2024&subject=ela
+Valley Central,2024,MATH,All,59.2,2642,https://data.nysed.gov/assessment38.php?instid=440401060000&year=2024&subject=math
+Pittsford,2019,ELA,All,71.5,5593,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2019&subject=ela
+Pittsford,2019,MATH,All,74.5,5593,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2019&subject=math
+Pittsford,2021,ELA,All,66.5,5517,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2021&subject=ela
+Pittsford,2021,MATH,All,69.6,5517,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2021&subject=math
+Pittsford,2022,ELA,All,69.1,5582,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2022&subject=ela
+Pittsford,2022,MATH,All,72.1,5582,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2022&subject=math
+Pittsford,2023,ELA,All,72.4,5607,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2023&subject=ela
+Pittsford,2023,MATH,All,75.5,5607,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2023&subject=math
+Pittsford,2024,ELA,All,75.0,5442,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2024&subject=ela
+Pittsford,2024,MATH,All,78.0,5442,https://data.nysed.gov/assessment38.php?instid=261401060000&year=2024&subject=math
+Brighton,2019,ELA,All,76.8,5085,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2019&subject=ela
+Brighton,2019,MATH,All,66.0,5085,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2019&subject=math
+Brighton,2021,ELA,All,70.6,4974,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2021&subject=ela
+Brighton,2021,MATH,All,59.8,4974,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2021&subject=math
+Brighton,2022,ELA,All,74.3,5061,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2022&subject=ela
+Brighton,2022,MATH,All,63.4,5061,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2022&subject=math
+Brighton,2023,ELA,All,76.9,5086,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2023&subject=ela
+Brighton,2023,MATH,All,66.1,5086,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2023&subject=math
+Brighton,2024,ELA,All,78.7,5136,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2024&subject=ela
+Brighton,2024,MATH,All,67.9,5136,https://data.nysed.gov/assessment38.php?instid=260301060000&year=2024&subject=math
+Penfield,2019,ELA,All,78.3,4975,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2019&subject=ela
+Penfield,2019,MATH,All,71.4,4975,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2019&subject=math
+Penfield,2021,ELA,All,72.8,4875,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2021&subject=ela
+Penfield,2021,MATH,All,65.9,4875,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2021&subject=math
+Penfield,2022,ELA,All,76.7,4956,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2022&subject=ela
+Penfield,2022,MATH,All,69.8,4956,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2022&subject=math
+Penfield,2023,ELA,All,77.8,5027,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2023&subject=ela
+Penfield,2023,MATH,All,70.9,5027,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2023&subject=math
+Penfield,2024,ELA,All,79.2,4998,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2024&subject=ela
+Penfield,2024,MATH,All,72.3,4998,https://data.nysed.gov/assessment38.php?instid=260501060000&year=2024&subject=math
+Fairport,2019,ELA,All,70.3,4739,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2019&subject=ela
+Fairport,2019,MATH,All,74.3,4739,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2019&subject=math
+Fairport,2021,ELA,All,64.2,4851,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2021&subject=ela
+Fairport,2021,MATH,All,68.2,4851,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2021&subject=math
+Fairport,2022,ELA,All,66.7,4738,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2022&subject=ela
+Fairport,2022,MATH,All,70.7,4738,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2022&subject=math
+Fairport,2023,ELA,All,68.9,4807,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2023&subject=ela
+Fairport,2023,MATH,All,72.9,4807,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2023&subject=math
+Fairport,2024,ELA,All,70.1,4707,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2024&subject=ela
+Fairport,2024,MATH,All,74.1,4707,https://data.nysed.gov/assessment38.php?instid=260801060000&year=2024&subject=math
+Webster,2019,ELA,All,59.9,2556,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2019&subject=ela
+Webster,2019,MATH,All,62.4,2556,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2019&subject=math
+Webster,2021,ELA,All,55.2,2571,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2021&subject=ela
+Webster,2021,MATH,All,57.7,2571,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2021&subject=math
+Webster,2022,ELA,All,58.5,2504,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2022&subject=ela
+Webster,2022,MATH,All,61.0,2504,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2022&subject=math
+Webster,2023,ELA,All,61.7,2551,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2023&subject=ela
+Webster,2023,MATH,All,64.2,2551,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2023&subject=math
+Webster,2024,ELA,All,64.0,2601,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2024&subject=ela
+Webster,2024,MATH,All,66.4,2601,https://data.nysed.gov/assessment38.php?instid=261001060000&year=2024&subject=math
+Hilton,2019,ELA,All,70.9,5417,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2019&subject=ela
+Hilton,2019,MATH,All,53.9,5417,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2019&subject=math
+Hilton,2021,ELA,All,67.1,5492,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2021&subject=ela
+Hilton,2021,MATH,All,50.1,5492,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2021&subject=math
+Hilton,2022,ELA,All,69.5,5523,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2022&subject=ela
+Hilton,2022,MATH,All,52.5,5523,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2022&subject=math
+Hilton,2023,ELA,All,70.9,5604,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2023&subject=ela
+Hilton,2023,MATH,All,53.9,5604,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2023&subject=math
+Hilton,2024,ELA,All,72.9,5570,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2024&subject=ela
+Hilton,2024,MATH,All,55.9,5570,https://data.nysed.gov/assessment38.php?instid=260901060000&year=2024&subject=math
+Spencerport,2019,ELA,All,70.4,2942,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2019&subject=ela
+Spencerport,2019,MATH,All,60.6,2942,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2019&subject=math
+Spencerport,2021,ELA,All,64.7,3106,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2021&subject=ela
+Spencerport,2021,MATH,All,55.0,3106,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2021&subject=math
+Spencerport,2022,ELA,All,68.6,3038,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2022&subject=ela
+Spencerport,2022,MATH,All,58.9,3038,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2022&subject=math
+Spencerport,2023,ELA,All,70.7,3054,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2023&subject=ela
+Spencerport,2023,MATH,All,61.0,3054,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2023&subject=math
+Spencerport,2024,ELA,All,73.3,3094,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2024&subject=ela
+Spencerport,2024,MATH,All,63.6,3094,https://data.nysed.gov/assessment38.php?instid=261301060000&year=2024&subject=math
+Greece,2019,ELA,All,65.7,5554,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2019&subject=ela
+Greece,2019,MATH,All,66.9,5554,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2019&subject=math
+Greece,2021,ELA,All,58.7,5657,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2021&subject=ela
+Greece,2021,MATH,All,59.9,5657,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2021&subject=math
+Greece,2022,ELA,All,61.9,5666,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2022&subject=ela
+Greece,2022,MATH,All,63.1,5666,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2022&subject=math
+Greece,2023,ELA,All,64.0,5614,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2023&subject=ela
+Greece,2023,MATH,All,65.2,5614,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2023&subject=math
+Greece,2024,ELA,All,66.6,5602,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2024&subject=ela
+Greece,2024,MATH,All,67.8,5602,https://data.nysed.gov/assessment38.php?instid=260401060000&year=2024&subject=math
+Williamsville,2019,ELA,All,65.7,3912,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2019&subject=ela
+Williamsville,2019,MATH,All,60.1,3912,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2019&subject=math
+Williamsville,2021,ELA,All,60.1,3825,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2021&subject=ela
+Williamsville,2021,MATH,All,54.5,3825,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2021&subject=math
+Williamsville,2022,ELA,All,63.8,3996,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2022&subject=ela
+Williamsville,2022,MATH,All,58.1,3996,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2022&subject=math
+Williamsville,2023,ELA,All,66.0,3894,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2023&subject=ela
+Williamsville,2023,MATH,All,60.3,3894,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2023&subject=math
+Williamsville,2024,ELA,All,67.0,3822,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2024&subject=ela
+Williamsville,2024,MATH,All,61.4,3822,https://data.nysed.gov/assessment38.php?instid=140101060000&year=2024&subject=math
+Clarence,2019,ELA,All,72.3,1005,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2019&subject=ela
+Clarence,2019,MATH,All,66.5,1005,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2019&subject=math
+Clarence,2021,ELA,All,66.5,1113,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2021&subject=ela
+Clarence,2021,MATH,All,60.6,1113,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2021&subject=math
+Clarence,2022,ELA,All,67.4,986,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2022&subject=ela
+Clarence,2022,MATH,All,61.6,986,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2022&subject=math
+Clarence,2023,ELA,All,70.4,983,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2023&subject=ela
+Clarence,2023,MATH,All,64.5,983,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2023&subject=math
+Clarence,2024,ELA,All,72.6,1009,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2024&subject=ela
+Clarence,2024,MATH,All,66.8,1009,https://data.nysed.gov/assessment38.php?instid=140301060000&year=2024&subject=math
+Orchard Park,2019,ELA,All,65.5,3876,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2019&subject=ela
+Orchard Park,2019,MATH,All,58.6,3876,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2019&subject=math
+Orchard Park,2021,ELA,All,62.4,3904,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2021&subject=ela
+Orchard Park,2021,MATH,All,55.5,3904,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2021&subject=math
+Orchard Park,2022,ELA,All,62.9,3762,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2022&subject=ela
+Orchard Park,2022,MATH,All,55.9,3762,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2022&subject=math
+Orchard Park,2023,ELA,All,67.4,3748,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2023&subject=ela
+Orchard Park,2023,MATH,All,60.5,3748,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2023&subject=math
+Orchard Park,2024,ELA,All,68.2,3800,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2024&subject=ela
+Orchard Park,2024,MATH,All,61.3,3800,https://data.nysed.gov/assessment38.php?instid=141201060000&year=2024&subject=math
+Hamburg,2019,ELA,All,67.8,3957,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2019&subject=ela
+Hamburg,2019,MATH,All,68.4,3957,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2019&subject=math
+Hamburg,2021,ELA,All,61.7,3925,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2021&subject=ela
+Hamburg,2021,MATH,All,62.3,3925,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2021&subject=math
+Hamburg,2022,ELA,All,66.1,3934,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2022&subject=ela
+Hamburg,2022,MATH,All,66.8,3934,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2022&subject=math
+Hamburg,2023,ELA,All,66.8,3952,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2023&subject=ela
+Hamburg,2023,MATH,All,67.4,3952,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2023&subject=math
+Hamburg,2024,ELA,All,70.4,3949,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2024&subject=ela
+Hamburg,2024,MATH,All,71.0,3949,https://data.nysed.gov/assessment38.php?instid=140801060000&year=2024&subject=math
+Fayetteville-Manlius,2019,ELA,All,71.3,5424,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2019&subject=ela
+Fayetteville-Manlius,2019,MATH,All,60.5,5424,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2019&subject=math
+Fayetteville-Manlius,2021,ELA,All,65.0,5505,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2021&subject=ela
+Fayetteville-Manlius,2021,MATH,All,54.3,5505,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2021&subject=math
+Fayetteville-Manlius,2022,ELA,All,67.5,5465,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2022&subject=ela
+Fayetteville-Manlius,2022,MATH,All,56.8,5465,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2022&subject=math
+Fayetteville-Manlius,2023,ELA,All,70.3,5339,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2023&subject=ela
+Fayetteville-Manlius,2023,MATH,All,59.6,5339,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2023&subject=math
+Fayetteville-Manlius,2024,ELA,All,73.0,5461,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2024&subject=ela
+Fayetteville-Manlius,2024,MATH,All,62.2,5461,https://data.nysed.gov/assessment38.php?instid=421001060000&year=2024&subject=math
+Baldwinsville,2019,ELA,All,64.1,4577,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2019&subject=ela
+Baldwinsville,2019,MATH,All,72.1,4577,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2019&subject=math
+Baldwinsville,2021,ELA,All,57.0,4599,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2021&subject=ela
+Baldwinsville,2021,MATH,All,65.0,4599,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2021&subject=math
+Baldwinsville,2022,ELA,All,62.4,4535,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2022&subject=ela
+Baldwinsville,2022,MATH,All,70.3,4535,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2022&subject=math
+Baldwinsville,2023,ELA,All,63.3,4603,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2023&subject=ela
+Baldwinsville,2023,MATH,All,71.3,4603,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2023&subject=math
+Baldwinsville,2024,ELA,All,65.8,4585,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2024&subject=ela
+Baldwinsville,2024,MATH,All,73.8,4585,https://data.nysed.gov/assessment38.php?instid=420303060000&year=2024&subject=math
+West Genesee,2019,ELA,All,67.6,2960,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2019&subject=ela
+West Genesee,2019,MATH,All,67.7,2960,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2019&subject=math
+West Genesee,2021,ELA,All,63.6,2920,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2021&subject=ela
+West Genesee,2021,MATH,All,63.7,2920,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2021&subject=math
+West Genesee,2022,ELA,All,64.9,3013,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2022&subject=ela
+West Genesee,2022,MATH,All,65.1,3013,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2022&subject=math
+West Genesee,2023,ELA,All,66.8,3016,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2023&subject=ela
+West Genesee,2023,MATH,All,67.0,3016,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2023&subject=math
+West Genesee,2024,ELA,All,69.8,3069,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2024&subject=ela
+West Genesee,2024,MATH,All,69.9,3069,https://data.nysed.gov/assessment38.php?instid=421401060000&year=2024&subject=math
+Liverpool,2019,ELA,All,66.4,3416,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2019&subject=ela
+Liverpool,2019,MATH,All,57.4,3416,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2019&subject=math
+Liverpool,2021,ELA,All,61.4,3428,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2021&subject=ela
+Liverpool,2021,MATH,All,52.5,3428,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2021&subject=math
+Liverpool,2022,ELA,All,64.3,3514,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2022&subject=ela
+Liverpool,2022,MATH,All,55.4,3514,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2022&subject=math
+Liverpool,2023,ELA,All,67.4,3432,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2023&subject=ela
+Liverpool,2023,MATH,All,58.5,3432,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2023&subject=math
+Liverpool,2024,ELA,All,69.0,3494,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2024&subject=ela
+Liverpool,2024,MATH,All,60.1,3494,https://data.nysed.gov/assessment38.php?instid=420601060000&year=2024&subject=math
+Vestal,2019,ELA,All,68.2,4223,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2019&subject=ela
+Vestal,2019,MATH,All,52.2,4223,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2019&subject=math
+Vestal,2021,ELA,All,62.0,4150,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2021&subject=ela
+Vestal,2021,MATH,All,45.9,4150,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2021&subject=math
+Vestal,2022,ELA,All,66.2,4154,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2022&subject=ela
+Vestal,2022,MATH,All,50.1,4154,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2022&subject=math
+Vestal,2023,ELA,All,67.6,4033,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2023&subject=ela
+Vestal,2023,MATH,All,51.5,4033,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2023&subject=math
+Vestal,2024,ELA,All,68.6,4085,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2024&subject=ela
+Vestal,2024,MATH,All,52.5,4085,https://data.nysed.gov/assessment38.php?instid=031502060000&year=2024&subject=math
+Maine-Endwell,2019,ELA,All,60.3,5605,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2019&subject=ela
+Maine-Endwell,2019,MATH,All,54.0,5605,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2019&subject=math
+Maine-Endwell,2021,ELA,All,55.3,5572,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2021&subject=ela
+Maine-Endwell,2021,MATH,All,49.0,5572,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2021&subject=math
+Maine-Endwell,2022,ELA,All,59.7,5604,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2022&subject=ela
+Maine-Endwell,2022,MATH,All,53.4,5604,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2022&subject=math
+Maine-Endwell,2023,ELA,All,59.7,5643,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2023&subject=ela
+Maine-Endwell,2023,MATH,All,53.4,5643,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2023&subject=math
+Maine-Endwell,2024,ELA,All,62.0,5542,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2024&subject=ela
+Maine-Endwell,2024,MATH,All,55.8,5542,https://data.nysed.gov/assessment38.php?instid=031101060000&year=2024&subject=math
+Johnson City,2019,ELA,All,58.0,2467,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2019&subject=ela
+Johnson City,2019,MATH,All,52.1,2467,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2019&subject=math
+Johnson City,2021,ELA,All,53.1,2472,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2021&subject=ela
+Johnson City,2021,MATH,All,47.3,2472,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2021&subject=math
+Johnson City,2022,ELA,All,56.6,2326,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2022&subject=ela
+Johnson City,2022,MATH,All,50.8,2326,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2022&subject=math
+Johnson City,2023,ELA,All,57.2,2400,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2023&subject=ela
+Johnson City,2023,MATH,All,51.3,2400,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2023&subject=math
+Johnson City,2024,ELA,All,59.3,2427,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2024&subject=ela
+Johnson City,2024,MATH,All,53.5,2427,https://data.nysed.gov/assessment38.php?instid=030901060000&year=2024&subject=math
+Owego-Apalachin,2019,ELA,All,70.1,3067,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2019&subject=ela
+Owego-Apalachin,2019,MATH,All,59.8,3067,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2019&subject=math
+Owego-Apalachin,2021,ELA,All,62.6,3110,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2021&subject=ela
+Owego-Apalachin,2021,MATH,All,52.2,3110,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2021&subject=math
+Owego-Apalachin,2022,ELA,All,65.2,3021,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2022&subject=ela
+Owego-Apalachin,2022,MATH,All,54.9,3021,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2022&subject=math
+Owego-Apalachin,2023,ELA,All,68.8,3050,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2023&subject=ela
+Owego-Apalachin,2023,MATH,All,58.5,3050,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2023&subject=math
+Owego-Apalachin,2024,ELA,All,69.5,3031,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2024&subject=ela
+Owego-Apalachin,2024,MATH,All,59.2,3031,https://data.nysed.gov/assessment38.php?instid=510401060000&year=2024&subject=math
+Kingston,2019,ELA,All,61.2,1926,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2019&subject=ela
+Kingston,2019,MATH,All,59.2,1926,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2019&subject=math
+Kingston,2021,ELA,All,55.2,1737,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2021&subject=ela
+Kingston,2021,MATH,All,53.2,1737,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2021&subject=math
+Kingston,2022,ELA,All,58.5,1854,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2022&subject=ela
+Kingston,2022,MATH,All,56.5,1854,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2022&subject=math
+Kingston,2023,ELA,All,60.2,1821,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2023&subject=ela
+Kingston,2023,MATH,All,58.2,1821,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2023&subject=math
+Kingston,2024,ELA,All,61.3,1747,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2024&subject=ela
+Kingston,2024,MATH,All,59.3,1747,https://data.nysed.gov/assessment38.php?instid=560600010000&year=2024&subject=math
+New Paltz,2019,ELA,All,57.5,1736,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2019&subject=ela
+New Paltz,2019,MATH,All,62.0,1736,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2019&subject=math
+New Paltz,2021,ELA,All,51.0,1781,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2021&subject=ela
+New Paltz,2021,MATH,All,55.5,1781,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2021&subject=math
+New Paltz,2022,ELA,All,54.4,1647,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2022&subject=ela
+New Paltz,2022,MATH,All,59.0,1647,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2022&subject=math
+New Paltz,2023,ELA,All,55.0,1778,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2023&subject=ela
+New Paltz,2023,MATH,All,59.5,1778,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2023&subject=math
+New Paltz,2024,ELA,All,59.4,1655,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2024&subject=ela
+New Paltz,2024,MATH,All,63.9,1655,https://data.nysed.gov/assessment38.php?instid=560503060000&year=2024&subject=math
+Saugerties,2019,ELA,All,67.2,4267,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2019&subject=ela
+Saugerties,2019,MATH,All,51.0,4267,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2019&subject=math
+Saugerties,2021,ELA,All,60.6,4242,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2021&subject=ela
+Saugerties,2021,MATH,All,44.3,4242,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2021&subject=math
+Saugerties,2022,ELA,All,64.1,4222,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2022&subject=ela
+Saugerties,2022,MATH,All,47.8,4222,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2022&subject=math
+Saugerties,2023,ELA,All,65.8,4259,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2023&subject=ela
+Saugerties,2023,MATH,All,49.6,4259,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2023&subject=math
+Saugerties,2024,ELA,All,69.9,4187,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2024&subject=ela
+Saugerties,2024,MATH,All,53.6,4187,https://data.nysed.gov/assessment38.php?instid=560701060000&year=2024&subject=math
+Highland,2019,ELA,All,62.3,1565,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2019&subject=ela
+Highland,2019,MATH,All,51.2,1565,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2019&subject=math
+Highland,2021,ELA,All,55.8,1579,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2021&subject=ela
+Highland,2021,MATH,All,44.7,1579,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2021&subject=math
+Highland,2022,ELA,All,58.9,1552,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2022&subject=ela
+Highland,2022,MATH,All,47.8,1552,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2022&subject=math
+Highland,2023,ELA,All,59.7,1653,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2023&subject=ela
+Highland,2023,MATH,All,48.6,1653,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2023&subject=math
+Highland,2024,ELA,All,61.2,1512,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2024&subject=ela
+Highland,2024,MATH,All,50.1,1512,https://data.nysed.gov/assessment38.php?instid=560301060000&year=2024&subject=math
+Victor,2019,ELA,All,62.1,4608,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2019&subject=ela
+Victor,2019,MATH,All,62.0,4608,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2019&subject=math
+Victor,2021,ELA,All,56.6,4621,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2021&subject=ela
+Victor,2021,MATH,All,56.5,4621,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2021&subject=math
+Victor,2022,ELA,All,60.8,4665,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2022&subject=ela
+Victor,2022,MATH,All,60.8,4665,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2022&subject=math
+Victor,2023,ELA,All,60.9,4608,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2023&subject=ela
+Victor,2023,MATH,All,60.9,4608,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2023&subject=math
+Victor,2024,ELA,All,65.5,4709,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2024&subject=ela
+Victor,2024,MATH,All,65.4,4709,https://data.nysed.gov/assessment38.php?instid=431201060000&year=2024&subject=math
+Canandaigua,2019,ELA,All,65.0,2459,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2019&subject=ela
+Canandaigua,2019,MATH,All,64.0,2459,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2019&subject=math
+Canandaigua,2021,ELA,All,58.9,2358,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2021&subject=ela
+Canandaigua,2021,MATH,All,57.9,2358,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2021&subject=math
+Canandaigua,2022,ELA,All,64.0,2356,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2022&subject=ela
+Canandaigua,2022,MATH,All,63.0,2356,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2022&subject=math
+Canandaigua,2023,ELA,All,63.5,2362,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2023&subject=ela
+Canandaigua,2023,MATH,All,62.5,2362,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2023&subject=math
+Canandaigua,2024,ELA,All,67.6,2472,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2024&subject=ela
+Canandaigua,2024,MATH,All,66.6,2472,https://data.nysed.gov/assessment38.php?instid=430300060000&year=2024&subject=math
+Palmyra-Macedon,2019,ELA,All,67.3,3183,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2019&subject=ela
+Palmyra-Macedon,2019,MATH,All,60.8,3183,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2019&subject=math
+Palmyra-Macedon,2021,ELA,All,62.6,3243,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2021&subject=ela
+Palmyra-Macedon,2021,MATH,All,56.0,3243,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2021&subject=math
+Palmyra-Macedon,2022,ELA,All,64.7,3133,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2022&subject=ela
+Palmyra-Macedon,2022,MATH,All,58.2,3133,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2022&subject=math
+Palmyra-Macedon,2023,ELA,All,67.0,3190,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2023&subject=ela
+Palmyra-Macedon,2023,MATH,All,60.5,3190,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2023&subject=math
+Palmyra-Macedon,2024,ELA,All,68.8,3217,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2024&subject=ela
+Palmyra-Macedon,2024,MATH,All,62.3,3217,https://data.nysed.gov/assessment38.php?instid=650501060000&year=2024&subject=math
+Geneva,2019,ELA,All,57.9,3346,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2019&subject=ela
+Geneva,2019,MATH,All,59.4,3346,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2019&subject=math
+Geneva,2021,ELA,All,50.8,3512,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2021&subject=ela
+Geneva,2021,MATH,All,52.3,3512,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2021&subject=math
+Geneva,2022,ELA,All,56.1,3487,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2022&subject=ela
+Geneva,2022,MATH,All,57.6,3487,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2022&subject=math
+Geneva,2023,ELA,All,57.3,3345,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2023&subject=ela
+Geneva,2023,MATH,All,58.8,3345,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2023&subject=math
+Geneva,2024,ELA,All,60.6,3512,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2024&subject=ela
+Geneva,2024,MATH,All,62.0,3512,https://data.nysed.gov/assessment38.php?instid=430700010000&year=2024&subject=math
+Corning-Painted Post,2019,ELA,All,65.4,2301,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2019&subject=ela
+Corning-Painted Post,2019,MATH,All,58.0,2301,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2019&subject=math
+Corning-Painted Post,2021,ELA,All,59.8,2206,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2021&subject=ela
+Corning-Painted Post,2021,MATH,All,52.4,2206,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2021&subject=math
+Corning-Painted Post,2022,ELA,All,62.0,2284,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2022&subject=ela
+Corning-Painted Post,2022,MATH,All,54.6,2284,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2022&subject=math
+Corning-Painted Post,2023,ELA,All,64.8,2260,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2023&subject=ela
+Corning-Painted Post,2023,MATH,All,57.4,2260,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2023&subject=math
+Corning-Painted Post,2024,ELA,All,68.4,2255,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2024&subject=ela
+Corning-Painted Post,2024,MATH,All,61.0,2255,https://data.nysed.gov/assessment38.php?instid=571000060000&year=2024&subject=math
+Horseheads,2019,ELA,All,59.9,1640,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2019&subject=ela
+Horseheads,2019,MATH,All,55.7,1640,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2019&subject=math
+Horseheads,2021,ELA,All,53.1,1682,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2021&subject=ela
+Horseheads,2021,MATH,All,48.9,1682,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2021&subject=math
+Horseheads,2022,ELA,All,55.7,1658,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2022&subject=ela
+Horseheads,2022,MATH,All,51.5,1658,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2022&subject=math
+Horseheads,2023,ELA,All,59.3,1696,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2023&subject=ela
+Horseheads,2023,MATH,All,55.1,1696,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2023&subject=math
+Horseheads,2024,ELA,All,59.0,1578,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2024&subject=ela
+Horseheads,2024,MATH,All,54.8,1578,https://data.nysed.gov/assessment38.php?instid=070600060000&year=2024&subject=math
+Elmira,2019,ELA,All,59.5,4011,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2019&subject=ela
+Elmira,2019,MATH,All,55.6,4011,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2019&subject=math
+Elmira,2021,ELA,All,53.4,4149,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2021&subject=ela
+Elmira,2021,MATH,All,49.5,4149,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2021&subject=math
+Elmira,2022,ELA,All,55.8,4024,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2022&subject=ela
+Elmira,2022,MATH,All,51.9,4024,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2022&subject=math
+Elmira,2023,ELA,All,57.0,4103,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2023&subject=ela
+Elmira,2023,MATH,All,53.1,4103,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2023&subject=math
+Elmira,2024,ELA,All,60.3,4138,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2024&subject=ela
+Elmira,2024,MATH,All,56.4,4138,https://data.nysed.gov/assessment38.php?instid=070600010000&year=2024&subject=math
+Ithaca,2019,ELA,All,62.1,2400,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2019&subject=ela
+Ithaca,2019,MATH,All,59.9,2400,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2019&subject=math
+Ithaca,2021,ELA,All,58.5,2479,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2021&subject=ela
+Ithaca,2021,MATH,All,56.4,2479,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2021&subject=math
+Ithaca,2022,ELA,All,61.4,2491,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2022&subject=ela
+Ithaca,2022,MATH,All,59.3,2491,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2022&subject=math
+Ithaca,2023,ELA,All,61.1,2528,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2023&subject=ela
+Ithaca,2023,MATH,All,59.0,2528,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2023&subject=math
+Ithaca,2024,ELA,All,64.6,2428,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2024&subject=ela
+Ithaca,2024,MATH,All,62.5,2428,https://data.nysed.gov/assessment38.php?instid=610600010000&year=2024&subject=math
+Plattsburgh,2019,ELA,All,62.1,835,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2019&subject=ela
+Plattsburgh,2019,MATH,All,52.5,835,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2019&subject=math
+Plattsburgh,2021,ELA,All,55.6,841,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2021&subject=ela
+Plattsburgh,2021,MATH,All,46.0,841,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2021&subject=math
+Plattsburgh,2022,ELA,All,59.3,842,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2022&subject=ela
+Plattsburgh,2022,MATH,All,49.7,842,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2022&subject=math
+Plattsburgh,2023,ELA,All,61.9,851,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2023&subject=ela
+Plattsburgh,2023,MATH,All,52.3,851,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2023&subject=math
+Plattsburgh,2024,ELA,All,63.4,995,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2024&subject=ela
+Plattsburgh,2024,MATH,All,53.8,995,https://data.nysed.gov/assessment38.php?instid=100901010000&year=2024&subject=math
+Queensbury,2019,ELA,All,57.1,4223,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2019&subject=ela
+Queensbury,2019,MATH,All,58.9,4223,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2019&subject=math
+Queensbury,2021,ELA,All,49.8,4244,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2021&subject=ela
+Queensbury,2021,MATH,All,51.6,4244,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2021&subject=math
+Queensbury,2022,ELA,All,52.5,4151,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2022&subject=ela
+Queensbury,2022,MATH,All,54.3,4151,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2022&subject=math
+Queensbury,2023,ELA,All,56.9,4233,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2023&subject=ela
+Queensbury,2023,MATH,All,58.6,4233,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2023&subject=math
+Queensbury,2024,ELA,All,58.3,4137,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2024&subject=ela
+Queensbury,2024,MATH,All,60.1,4137,https://data.nysed.gov/assessment38.php?instid=630901060000&year=2024&subject=math
+Glens Falls,2019,ELA,All,63.6,4228,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2019&subject=ela
+Glens Falls,2019,MATH,All,51.4,4228,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2019&subject=math
+Glens Falls,2021,ELA,All,57.9,4099,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2021&subject=ela
+Glens Falls,2021,MATH,All,45.7,4099,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2021&subject=math
+Glens Falls,2022,ELA,All,60.9,4175,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2022&subject=ela
+Glens Falls,2022,MATH,All,48.7,4175,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2022&subject=math
+Glens Falls,2023,ELA,All,64.6,4247,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2023&subject=ela
+Glens Falls,2023,MATH,All,52.4,4247,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2023&subject=math
+Glens Falls,2024,ELA,All,67.1,4224,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2024&subject=ela
+Glens Falls,2024,MATH,All,54.9,4224,https://data.nysed.gov/assessment38.php?instid=630300010000&year=2024&subject=math
+Saranac Lake,2019,ELA,All,63.6,4808,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2019&subject=ela
+Saranac Lake,2019,MATH,All,53.8,4808,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2019&subject=math
+Saranac Lake,2021,ELA,All,59.4,4763,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2021&subject=ela
+Saranac Lake,2021,MATH,All,49.5,4763,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2021&subject=math
+Saranac Lake,2022,ELA,All,61.5,4749,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2022&subject=ela
+Saranac Lake,2022,MATH,All,51.6,4749,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2022&subject=math
+Saranac Lake,2023,ELA,All,64.7,4845,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2023&subject=ela
+Saranac Lake,2023,MATH,All,54.9,4845,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2023&subject=math
+Saranac Lake,2024,ELA,All,64.8,4765,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2024&subject=ela
+Saranac Lake,2024,MATH,All,55.0,4765,https://data.nysed.gov/assessment38.php?instid=150301060000&year=2024&subject=math

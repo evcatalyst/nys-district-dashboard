@@ -9,7 +9,7 @@
     "sha256": null
   },
   {
-    "url": "https://data.nysed.gov/assessment38.php?instid=010306060000",
+    "url": "https://www.niskyschools.org/domain/96",
     "fetched_at": "2025-01-15T06:00:00+00:00",
     "status": "success",
     "filepath": null,
@@ -27,7 +27,52 @@
     "sha256": null
   },
   {
-    "url": "https://www.niskyschools.org/domain/96",
+    "url": "https://www.shenet.org/domain/58",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=441301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=530600010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=530501060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=010503060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=010306060000",
     "fetched_at": "2025-01-15T06:00:00+00:00",
     "status": "success",
     "filepath": null,
@@ -45,7 +90,601 @@
     "sha256": null
   },
   {
-    "url": "https://www.shenet.org/domain/58",
+    "url": "https://data.nysed.gov/assessment38.php?instid=490301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=490601060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=010601060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=280410030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=280206030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=280408030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=280513030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580901060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580413030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580801060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580212060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580106020000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580401060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580203020000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=580104060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=660901030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=660801030000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=661004020000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=661100010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=661501060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=661301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=480301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=480101060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=131601060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=130200060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=131500010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=131502060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=440901060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=440601060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=440801060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=440401060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=261401060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=260301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=260501060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=260801060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=261001060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=260901060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=261301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=260401060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=140101060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=140301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=141201060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=140801060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=421001060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=420303060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=421401060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=420601060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=031502060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=031101060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=030901060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=510401060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=560600010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=560503060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=560701060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=560301060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=431201060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=430300060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=650501060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=430700010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=571000060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=070600060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=070600010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=610600010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=100901010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=630901060000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=630300010000",
+    "fetched_at": "2025-01-15T06:00:00+00:00",
+    "status": "success",
+    "filepath": null,
+    "etag": null,
+    "last_modified": null,
+    "sha256": null
+  },
+  {
+    "url": "https://data.nysed.gov/assessment38.php?instid=150301060000",
     "fetched_at": "2025-01-15T06:00:00+00:00",
     "status": "success",
     "filepath": null,
