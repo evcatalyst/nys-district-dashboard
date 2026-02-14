@@ -265,10 +265,6 @@ class DataNormalizer:
                 cap_xfer = pd.to_numeric(row.get(cap_transfer_col), errors="coerce") if cap_transfer_col else 0
 
                 # Treat NaN as 0 for components
-                for val_name in ["total", "edu", "boe", "ca", "dsp", "dsi", "cap_xfer"]:
-                    v = locals()[val_name]
-                    if pd.isna(v):
-                        locals()[val_name] = 0
                 total = 0 if pd.isna(total) else total
                 edu = 0 if pd.isna(edu) else edu
                 boe = 0 if pd.isna(boe) else boe
