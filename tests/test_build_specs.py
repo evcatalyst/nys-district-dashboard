@@ -1,5 +1,6 @@
 """Tests for build_specs.py — BOCES clustering and spec generation."""
 
+import hashlib
 import json
 import shutil
 from pathlib import Path
@@ -48,7 +49,8 @@ def builder(tmp_path):
     for name in ["DistA", "DistB", "DistC", "DistD"]:
         for year in [2022, 2023, 2024]:
             for subj in ["ELA", "MATH"]:
-                pct = 60 + hash(f"{name}{year}{subj}") % 30
+                digest = int(hashlib.md5(f"{name}{year}{subj}".encode()).hexdigest(), 16)
+                pct = 60 + digest % 30
                 rows.append({
                     "district": name, "year": year, "subject": subj,
                     "grade_band": "All", "proficient_pct": pct,
@@ -60,7 +62,8 @@ def builder(tmp_path):
     levy_rows = []
     for name in ["DistA", "DistB", "DistC", "DistD"]:
         for fy in ["2022-2023", "2023-2024", "2024-2025"]:
-            pct = 1.0 + hash(f"{name}{fy}") % 20 / 10.0
+            digest = int(hashlib.md5(f"{name}{fy}".encode()).hexdigest(), 16)
+            pct = 1.0 + digest % 20 / 10.0
             levy_rows.append({
                 "district": name, "fiscal_year": fy,
                 "levy_pct_change": pct, "levy_limit": "",
