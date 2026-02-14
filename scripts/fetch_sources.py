@@ -35,9 +35,42 @@ CONFIG_DIR = Path("config")
 DISTRICTS_CONFIG = CONFIG_DIR / "districts.json"
 SOURCES_JSON = CACHE_DIR / "sources.json"
 
-# Years to fetch (recent years)
-YEARS = [2019, 2020, 2021, 2022, 2023, 2024]
+SETTINGS_JSON = CONFIG_DIR / "settings.json"
 SUBJECTS = ["math", "ela"]
+
+# Default year ranges
+DEFAULT_SETTINGS = {
+    "assessments_start_year": 2014,
+    "assessments_end_year": 2024,
+    "graduation_start_year": 2014,
+    "graduation_end_year": 2024,
+    "expenditures_start_year": 2013,
+    "expenditures_end_year": 2024,
+}
+
+
+def load_settings() -> Dict:
+    """Load settings from config/settings.json, falling back to defaults."""
+    if SETTINGS_JSON.exists():
+        try:
+            with open(SETTINGS_JSON) as f:
+                settings = json.load(f)
+            logger.info(f"Loaded settings from {SETTINGS_JSON}")
+            return {**DEFAULT_SETTINGS, **settings}
+        except (json.JSONDecodeError, OSError) as e:
+            logger.warning(f"Error reading {SETTINGS_JSON}: {e}; using defaults")
+    return dict(DEFAULT_SETTINGS)
+
+
+_settings = load_settings()
+ASSESSMENT_YEARS = list(range(
+    _settings["assessments_start_year"],
+    _settings["assessments_end_year"] + 1,
+))
+GRADUATION_YEARS = list(range(
+    _settings["graduation_start_year"],
+    _settings["graduation_end_year"] + 1,
+))
 
 
 class DataFetcher:
@@ -90,7 +123,7 @@ class DataFetcher:
         """Fetch NYSED assessment data for a district."""
         logger.info(f"Fetching assessment data for {district_name} (instid={instid})")
         
-        for year in YEARS:
+        for year in ASSESSMENT_YEARS:
             for subject in SUBJECTS:
                 url = f"https://data.nysed.gov/assessment38.php?instid={instid}&year={year}&subject={subject}"
                 logger.info(f"  Fetching {subject.upper()} {year}: {url}")
@@ -116,7 +149,7 @@ class DataFetcher:
         """Fetch NYSED enrollment data for a district."""
         logger.info(f"Fetching enrollment data for {district_name} (instid={instid})")
         
-        for year in YEARS:
+        for year in ASSESSMENT_YEARS:
             url = f"https://data.nysed.gov/enrollment.php?instid={instid}&year={year}"
             logger.info(f"  Fetching enrollment {year}: {url}")
             
@@ -202,6 +235,63 @@ class DataFetcher:
         else:
             self.record_source(url=xlsx_url, status="failed")
 
+    def fetch_graduation_rate_data(self, instid: str, district_name: str):
+        """Fetch NYSED graduation rate data for a district."""
+        logger.info(f"Fetching graduation rate data for {district_name} (instid={instid})")
+        district_lower = district_name.lower().replace(' ', '_')
+
+        for year in GRADUATION_YEARS:
+            url = f"https://data.nysed.gov/gradrate.php?instid={instid}&year={year}"
+            logger.info(f"  Fetching grad rate {year}: {url}")
+
+            response = self.fetch_url(url)
+            if response:
+                filename = f"{district_lower}_gradrate_{year}.html"
+                filepath = self.save_file(response.content, filename)
+                sha256 = self.compute_sha256(response.content)
+
+                self.record_source(
+                    url=url,
+                    status="success",
+                    filepath=filepath,
+                    etag=response.headers.get('ETag'),
+                    last_modified=response.headers.get('Last-Modified'),
+                    sha256=sha256
+                )
+            else:
+                self.record_source(url=url, status="failed")
+
+    def fetch_graduation_pathways_data(self, instid: str, district_name: str):
+        """Fetch NYSED graduation pathways data for a district."""
+        logger.info(f"Fetching graduation pathways data for {district_name} (instid={instid})")
+        district_lower = district_name.lower().replace(' ', '_')
+
+        for year in GRADUATION_YEARS:
+            url = f"https://data.nysed.gov/gradrate.php?instid={instid}&year={year}"
+            logger.info(f"  Fetching pathways {year}: {url}")
+
+            try:
+                response = self.fetch_url(url)
+                if response:
+                    filename = f"{district_lower}_pathways_{year}.html"
+                    filepath = self.save_file(response.content, filename)
+                    sha256 = self.compute_sha256(response.content)
+
+                    self.record_source(
+                        url=url,
+                        status="success",
+                        filepath=filepath,
+                        etag=response.headers.get('ETag'),
+                        last_modified=response.headers.get('Last-Modified'),
+                        sha256=sha256
+                    )
+                else:
+                    logger.warning(f"  Failed to fetch pathways {year} for {district_name}")
+                    self.record_source(url=url, status="failed")
+            except Exception as e:
+                logger.warning(f"  Error fetching pathways {year} for {district_name}: {e}")
+                self.record_source(url=url, status="failed")
+
     def save_sources_metadata(self):
         """Save sources metadata to JSON."""
         SOURCES_JSON.write_text(json.dumps(self.sources, indent=2))
@@ -243,6 +333,12 @@ def main():
         
         # Fetch enrollment data
         fetcher.fetch_enrollment_data(instid, name)
+        
+        # Fetch graduation rate data
+        fetcher.fetch_graduation_rate_data(instid, name)
+        
+        # Fetch graduation pathways data
+        fetcher.fetch_graduation_pathways_data(instid, name)
         
         # Fetch budget page if URL provided
         if budget_url:
