@@ -298,7 +298,11 @@ class DataFetcher:
                 self.record_source(url=url, status="failed")
 
     def fetch_district_data(self, district: Dict):
-        """Fetch all data for a single district (all fetch types in parallel)."""
+        """Fetch all data for a single district.
+        
+        This method is called in parallel for multiple districts.
+        Within a single district, fetch methods execute sequentially.
+        """
         name = district["name"]
         instid = district["instid"]
         budget_url = district.get("budget_url")
