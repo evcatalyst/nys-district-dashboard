@@ -130,9 +130,13 @@ class DataFetcher:
             existing = by_url.get(url)
             source_ts = self._parse_timestamp(source.get("fetched_at"))
             existing_ts = self._parse_timestamp(existing.get("fetched_at")) if existing else None
-            if not existing or (source_ts and (not existing_ts or source_ts >= existing_ts)):
+            if not existing or self._is_newer_source(source_ts, existing_ts):
                 by_url[url] = source
         return by_url
+
+    def _is_newer_source(self, source_ts: Optional[datetime], existing_ts: Optional[datetime]) -> bool:
+        """Return True when source timestamp should replace existing timestamp."""
+        return bool(source_ts and (not existing_ts or source_ts >= existing_ts))
 
     def _load_previous_sources_by_filename(self) -> Dict[str, Dict]:
         """Index previous successful sources by filename."""

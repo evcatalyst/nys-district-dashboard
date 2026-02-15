@@ -13,6 +13,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import fetch_sources
 
+CACHE_NEVER_EXPIRES_HOURS = 24 * 3650
+
 
 class TestDataFetcherThreadSafety:
     """Test that DataFetcher is thread-safe."""
@@ -174,7 +176,7 @@ class TestFetchCadenceCaching:
         cached_file = cache_dir / "test_district_assessment_math_2024.html"
         cached_file.write_text("<html>cached</html>")
         source_url = "https://data.nysed.gov/assessment38.php?instid=123&year=2024&subject=math"
-        fetched_at = datetime.now(timezone.utc).isoformat()
+        fetched_at = datetime(2024, 1, 1, tzinfo=timezone.utc).isoformat()
         sources_file = cache_dir / "sources.json"
         sources_file.write_text(json.dumps([{
             "url": source_url,
@@ -185,6 +187,7 @@ class TestFetchCadenceCaching:
 
         with patch.object(fetch_sources, "CACHE_DIR", cache_dir), \
              patch.object(fetch_sources, "SOURCES_JSON", sources_file), \
+             patch.object(fetch_sources, "FREQUENT_REFRESH_HOURS", CACHE_NEVER_EXPIRES_HOURS), \
              patch.object(fetch_sources, "ASSESSMENT_YEARS", [2024]), \
              patch.object(fetch_sources, "SUBJECTS", ["math"]):
             fetcher = fetch_sources.DataFetcher()
