@@ -20,7 +20,7 @@ This project implements a fully automated pipeline that:
 - **74 Districts, 18 BOCES Regions**: Comprehensive coverage across New York State
 - **BOCES Clustering**: Filter and compare districts within their BOCES region
 - **Regional Benchmarks**: Dashed benchmark lines showing BOCES regional averages
-- **Automated Data Collection**: Nightly updates from public NYSED sources
+- **Automated Data Collection**: Nightly updates with cache-aware refresh cadence (daily for frequent sources, monthly minimum for background sources)
 - **Proficiency Trends**: ELA and Math assessment data over time
 - **Graduation Rate Trends**: 4-year, 5-year, and 6-year cohort graduation rates over time
 - **Graduation Pathways**: Regents, Advanced Regents, Local, and CDOS diploma breakdowns
@@ -290,6 +290,8 @@ The workflow:
 4. Deploys to GitHub Pages
 
 Data is cached between runs to minimize redundant fetching.
+
+`fetch_sources.py` refreshes high-churn NYSED district endpoints at most once every 24 hours by default, while lower-churn background sources (fiscal profiles and district budget pages) refresh at least every 30 days. These windows can be tuned with `FREQUENT_REFRESH_HOURS` and `BACKGROUND_REFRESH_DAYS`.
 
 ## Technical Stack
 

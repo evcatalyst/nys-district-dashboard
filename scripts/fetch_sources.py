@@ -15,7 +15,7 @@ import logging
 import os
 import hashlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from threading import Lock
 from typing import Dict, List, Optional
@@ -39,6 +39,8 @@ SOURCES_JSON = CACHE_DIR / "sources.json"
 
 SETTINGS_JSON = CONFIG_DIR / "settings.json"
 SUBJECTS = ["math", "ela"]
+FREQUENT_REFRESH_HOURS = int(os.getenv("FREQUENT_REFRESH_HOURS", "24"))
+BACKGROUND_REFRESH_DAYS = int(os.getenv("BACKGROUND_REFRESH_DAYS", "30"))
 
 # Default year ranges
 DEFAULT_SETTINGS = {
@@ -82,10 +84,88 @@ class DataFetcher:
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         self.sources: List[Dict] = []
         self.sources_lock = Lock()  # Thread-safe access to sources list
+        self.frequent_refresh_window = timedelta(hours=FREQUENT_REFRESH_HOURS)
+        self.background_refresh_window = timedelta(days=BACKGROUND_REFRESH_DAYS)
+        self.previous_sources_by_url = self._load_previous_sources_by_url()
+        self.previous_sources_by_filename = self._load_previous_sources_by_filename()
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'NYS-District-Dashboard/1.0 (Educational Research)'
         })
+
+    def _parse_timestamp(self, timestamp: Optional[str]) -> Optional[datetime]:
+        """Parse ISO timestamp and return timezone-aware datetime."""
+        if not timestamp:
+            return None
+        try:
+            parsed = datetime.fromisoformat(timestamp)
+            if parsed.tzinfo is None:
+                return parsed.replace(tzinfo=timezone.utc)
+            return parsed
+        except ValueError:
+            return None
+
+    def _load_previous_sources(self) -> List[Dict]:
+        """Load existing sources metadata if available."""
+        if not SOURCES_JSON.exists():
+            return []
+        try:
+            data = json.loads(SOURCES_JSON.read_text())
+            if isinstance(data, list):
+                return data
+        except (json.JSONDecodeError, OSError):
+            logger.warning(f"Could not read previous sources metadata from {SOURCES_JSON}")
+        return []
+
+    def _load_previous_sources_by_url(self) -> Dict[str, Dict]:
+        """Index previous successful sources by URL."""
+        by_url: Dict[str, Dict] = {}
+        for source in self._load_previous_sources():
+            if source.get("status") != "success":
+                continue
+            url = source.get("url")
+            filepath = source.get("filepath")
+            if not url or not filepath or not Path(filepath).exists():
+                continue
+            existing = by_url.get(url)
+            source_ts = self._parse_timestamp(source.get("fetched_at"))
+            existing_ts = self._parse_timestamp(existing.get("fetched_at")) if existing else None
+            if not existing or (source_ts and (not existing_ts or source_ts >= existing_ts)):
+                by_url[url] = source
+        return by_url
+
+    def _load_previous_sources_by_filename(self) -> Dict[str, Dict]:
+        """Index previous successful sources by filename."""
+        by_filename: Dict[str, Dict] = {}
+        for source in self.previous_sources_by_url.values():
+            filepath = source.get("filepath")
+            if not filepath:
+                continue
+            by_filename[Path(filepath).name] = source
+        return by_filename
+
+    def _get_cached_source(self, url: str, refresh_window: timedelta) -> Optional[Dict]:
+        """Return a valid cached source entry when not stale."""
+        source = self.previous_sources_by_url.get(url)
+        if not source:
+            return None
+        source_ts = self._parse_timestamp(source.get("fetched_at"))
+        if not source_ts:
+            return None
+        if datetime.now(timezone.utc) - source_ts > refresh_window:
+            return None
+        filepath = source.get("filepath")
+        if not filepath or not Path(filepath).exists():
+            return None
+        return source
+
+    def _record_cached_source(self, source: Dict):
+        """Record reuse of cached source while preserving original fetch timestamp."""
+        cached_entry = dict(source)
+        cached_entry["status"] = "success"
+        cached_entry["reused_at"] = datetime.now(timezone.utc).isoformat()
+        with self.sources_lock:
+            self.sources.append(cached_entry)
 
     @retry(stop=stop_after_attempt(3), wait=wait_exponential(multiplier=1, min=2, max=10))
     def fetch_url(self, url: str, timeout: int = 30) -> Optional[requests.Response]:
@@ -132,7 +212,11 @@ class DataFetcher:
             for subject in SUBJECTS:
                 url = f"https://data.nysed.gov/assessment38.php?instid={instid}&year={year}&subject={subject}"
                 logger.info(f"  Fetching {subject.upper()} {year}: {url}")
-                
+                cached_source = self._get_cached_source(url, self.frequent_refresh_window)
+                if cached_source:
+                    logger.info(f"  Using cached {subject.upper()} {year} for {district_name}")
+                    self._record_cached_source(cached_source)
+                    continue
                 response = self.fetch_url(url)
                 if response:
                     filename = f"{district_name.lower().replace(' ', '_')}_assessment_{subject}_{year}.html"
@@ -157,7 +241,11 @@ class DataFetcher:
         for year in ASSESSMENT_YEARS:
             url = f"https://data.nysed.gov/enrollment.php?instid={instid}&year={year}"
             logger.info(f"  Fetching enrollment {year}: {url}")
-            
+            cached_source = self._get_cached_source(url, self.frequent_refresh_window)
+            if cached_source:
+                logger.info(f"  Using cached enrollment {year} for {district_name}")
+                self._record_cached_source(cached_source)
+                continue
             response = self.fetch_url(url)
             if response:
                 filename = f"{district_name.lower().replace(' ', '_')}_enrollment_{year}.html"
@@ -178,7 +266,11 @@ class DataFetcher:
     def fetch_budget_page(self, budget_url: str, district_name: str):
         """Fetch district budget/levy page."""
         logger.info(f"Fetching budget page for {district_name}: {budget_url}")
-        
+        cached_source = self._get_cached_source(budget_url, self.background_refresh_window)
+        if cached_source:
+            logger.info(f"Using cached budget page for {district_name}")
+            self._record_cached_source(cached_source)
+            return
         response = self.fetch_url(budget_url)
         if response:
             filename = f"{district_name.lower().replace(' ', '_')}_budget.html"
@@ -198,6 +290,14 @@ class DataFetcher:
 
     def fetch_fiscal_profiles(self):
         """Fetch NYSED School District Fiscal Profiles XLSX (once for all districts)."""
+        cached_fiscal = self.previous_sources_by_filename.get("fiscal_profiles.xlsx")
+        if cached_fiscal and self._get_cached_source(
+            cached_fiscal.get("url", ""), self.background_refresh_window
+        ):
+            logger.info("Using cached Fiscal Profiles XLSX")
+            self._record_cached_source(cached_fiscal)
+            return
+
         page_url = "https://www.nysed.gov/fiscal-analysis-research/school-district-fiscal-profiles"
         logger.info(f"Fetching Fiscal Profiles page to discover XLSX link: {page_url}")
 
@@ -248,7 +348,11 @@ class DataFetcher:
         for year in GRADUATION_YEARS:
             url = f"https://data.nysed.gov/gradrate.php?instid={instid}&year={year}"
             logger.info(f"  Fetching grad rate {year}: {url}")
-
+            cached_source = self._get_cached_source(url, self.frequent_refresh_window)
+            if cached_source:
+                logger.info(f"  Using cached grad rate {year} for {district_name}")
+                self._record_cached_source(cached_source)
+                continue
             response = self.fetch_url(url)
             if response:
                 filename = f"{district_lower}_gradrate_{year}.html"
@@ -276,6 +380,11 @@ class DataFetcher:
             logger.info(f"  Fetching pathways {year}: {url}")
 
             try:
+                cached_source = self._get_cached_source(url, self.frequent_refresh_window)
+                if cached_source:
+                    logger.info(f"  Using cached pathways {year} for {district_name}")
+                    self._record_cached_source(cached_source)
+                    continue
                 response = self.fetch_url(url)
                 if response:
                     filename = f"{district_lower}_pathways_{year}.html"
