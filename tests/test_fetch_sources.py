@@ -2,6 +2,7 @@
 
 import json
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import MagicMock, Mock, patch
 
@@ -11,6 +12,8 @@ import pytest
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "scripts"))
 
 import fetch_sources
+
+CACHE_NEVER_EXPIRES_HOURS = 24 * 3650
 
 
 class TestDataFetcherThreadSafety:
@@ -160,3 +163,65 @@ class TestMainFunctionParallelization:
         assert len(processed) == 10
         # Verify all districts were processed
         assert set(processed) == {f"District {i}" for i in range(10)}
+
+
+class TestFetchCadenceCaching:
+    """Test cache reuse cadence for data fetching."""
+
+    def test_assessment_uses_fresh_cached_source(self, tmp_path):
+        """Assessment fetch should reuse cache when within frequent refresh window."""
+        cache_dir = tmp_path / "cache"
+        cache_dir.mkdir()
+
+        cached_file = cache_dir / "test_district_assessment_math_2024.html"
+        cached_file.write_text("<html>cached</html>")
+        source_url = "https://data.nysed.gov/assessment38.php?instid=123&year=2024&subject=math"
+        fetched_at = datetime(2024, 1, 1, tzinfo=timezone.utc).isoformat()
+        sources_file = cache_dir / "sources.json"
+        sources_file.write_text(json.dumps([{
+            "url": source_url,
+            "status": "success",
+            "filepath": str(cached_file),
+            "fetched_at": fetched_at
+        }]))
+
+        with patch.object(fetch_sources, "CACHE_DIR", cache_dir), \
+             patch.object(fetch_sources, "SOURCES_JSON", sources_file), \
+             patch.object(fetch_sources, "FREQUENT_REFRESH_HOURS", CACHE_NEVER_EXPIRES_HOURS), \
+             patch.object(fetch_sources, "ASSESSMENT_YEARS", [2024]), \
+             patch.object(fetch_sources, "SUBJECTS", ["math"]):
+            fetcher = fetch_sources.DataFetcher()
+
+            with patch.object(fetcher, "fetch_url") as mock_fetch_url:
+                fetcher.fetch_assessment_data("123", "Test District")
+                mock_fetch_url.assert_not_called()
+                assert len(fetcher.sources) == 1
+                assert fetcher.sources[0]["filepath"] == str(cached_file)
+
+    def test_budget_refetches_when_cache_is_stale(self, tmp_path):
+        """Budget fetch should refetch when cached source is older than monthly window."""
+        cache_dir = tmp_path / "cache"
+        cache_dir.mkdir()
+
+        stale_file = cache_dir / "test_district_budget.html"
+        stale_file.write_text("<html>stale</html>")
+        source_url = "https://district.example/budget"
+        stale_time = (datetime.now(timezone.utc) - timedelta(days=31)).isoformat()
+        sources_file = cache_dir / "sources.json"
+        sources_file.write_text(json.dumps([{
+            "url": source_url,
+            "status": "success",
+            "filepath": str(stale_file),
+            "fetched_at": stale_time
+        }]))
+
+        with patch.object(fetch_sources, "CACHE_DIR", cache_dir), \
+             patch.object(fetch_sources, "SOURCES_JSON", sources_file):
+            fetcher = fetch_sources.DataFetcher()
+            response = Mock()
+            response.content = b"<html>fresh</html>"
+            response.headers = {}
+
+            with patch.object(fetcher, "fetch_url", return_value=response) as mock_fetch_url:
+                fetcher.fetch_budget_page(source_url, "Test District")
+                mock_fetch_url.assert_called_once_with(source_url)
