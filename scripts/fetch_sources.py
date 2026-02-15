@@ -14,8 +14,10 @@ import json
 import logging
 import os
 import hashlib
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
+from threading import Lock
 from typing import Dict, List, Optional
 from urllib.parse import urlparse
 
@@ -79,6 +81,7 @@ class DataFetcher:
     def __init__(self):
         CACHE_DIR.mkdir(parents=True, exist_ok=True)
         self.sources: List[Dict] = []
+        self.sources_lock = Lock()  # Thread-safe access to sources list
         self.session = requests.Session()
         self.session.headers.update({
             'User-Agent': 'NYS-District-Dashboard/1.0 (Educational Research)'
@@ -108,8 +111,8 @@ class DataFetcher:
     def record_source(self, url: str, status: str, filepath: Optional[str] = None,
                      etag: Optional[str] = None, last_modified: Optional[str] = None,
                      sha256: Optional[str] = None):
-        """Record metadata about a fetched source."""
-        self.sources.append({
+        """Record metadata about a fetched source (thread-safe)."""
+        source_entry = {
             "url": url,
             "fetched_at": datetime.now(timezone.utc).isoformat(),
             "status": status,
@@ -117,7 +120,9 @@ class DataFetcher:
             "etag": etag,
             "last_modified": last_modified,
             "sha256": sha256
-        })
+        }
+        with self.sources_lock:
+            self.sources.append(source_entry)
 
     def fetch_assessment_data(self, instid: str, district_name: str):
         """Fetch NYSED assessment data for a district."""
@@ -292,6 +297,29 @@ class DataFetcher:
                 logger.warning(f"  Error fetching pathways {year} for {district_name}: {e}")
                 self.record_source(url=url, status="failed")
 
+    def fetch_district_data(self, district: Dict):
+        """Fetch all data for a single district (all fetch types in parallel)."""
+        name = district["name"]
+        instid = district["instid"]
+        budget_url = district.get("budget_url")
+        
+        logger.info(f"\n{'='*60}")
+        logger.info(f"Processing district: {name}")
+        logger.info(f"{'='*60}")
+        
+        # Fetch all data types for this district
+        # These are independent and can run concurrently
+        self.fetch_assessment_data(instid, name)
+        self.fetch_enrollment_data(instid, name)
+        self.fetch_graduation_rate_data(instid, name)
+        self.fetch_graduation_pathways_data(instid, name)
+        
+        if budget_url:
+            self.fetch_budget_page(budget_url, name)
+        
+        logger.info(f"Completed processing: {name}")
+        return name
+
     def save_sources_metadata(self):
         """Save sources metadata to JSON."""
         SOURCES_JSON.write_text(json.dumps(self.sources, indent=2))
@@ -313,36 +341,38 @@ def main():
     
     logger.info(f"Loaded {len(districts)} districts from config")
     
+    # Get max workers from environment variable, default to 4
+    max_workers = int(os.getenv("FETCH_MAX_WORKERS", "4"))
+    logger.info(f"Using {max_workers} parallel workers for district data fetching")
+    
     # Fetch data for each district
     fetcher = DataFetcher()
     
     # Fetch fiscal profiles XLSX once (shared across all districts)
     fetcher.fetch_fiscal_profiles()
     
-    for district in districts:
-        name = district["name"]
-        instid = district["instid"]
-        budget_url = district.get("budget_url")
+    # Process districts in parallel
+    logger.info(f"\n{'='*60}")
+    logger.info(f"Starting parallel fetch for {len(districts)} districts")
+    logger.info(f"{'='*60}")
+    
+    completed_count = 0
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Submit all district fetch tasks
+        future_to_district = {
+            executor.submit(fetcher.fetch_district_data, district): district
+            for district in districts
+        }
         
-        logger.info(f"\n{'='*60}")
-        logger.info(f"Processing district: {name}")
-        logger.info(f"{'='*60}")
-        
-        # Fetch assessment data
-        fetcher.fetch_assessment_data(instid, name)
-        
-        # Fetch enrollment data
-        fetcher.fetch_enrollment_data(instid, name)
-        
-        # Fetch graduation rate data
-        fetcher.fetch_graduation_rate_data(instid, name)
-        
-        # Fetch graduation pathways data
-        fetcher.fetch_graduation_pathways_data(instid, name)
-        
-        # Fetch budget page if URL provided
-        if budget_url:
-            fetcher.fetch_budget_page(budget_url, name)
+        # Process completed tasks as they finish
+        for future in as_completed(future_to_district):
+            district = future_to_district[future]
+            try:
+                district_name = future.result()
+                completed_count += 1
+                logger.info(f"Progress: {completed_count}/{len(districts)} districts completed")
+            except Exception as e:
+                logger.error(f"Error processing district {district.get('name', 'unknown')}: {e}")
     
     # Save sources metadata
     fetcher.save_sources_metadata()

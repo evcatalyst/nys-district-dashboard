@@ -52,6 +52,8 @@ jobs:
       - name: Fetch data sources
         run: |
           python scripts/fetch_sources.py
+        env:
+          FETCH_MAX_WORKERS: 4  # Number of parallel workers for district data fetching
       
       - name: Normalize data
         run: |
