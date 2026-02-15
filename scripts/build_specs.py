@@ -308,12 +308,21 @@ class SpecBuilder:
                     "color": colors[cat]
                 })
 
+        # Calculate Y-axis range from actual data values
+        if data:
+            all_values = [d['per_pupil'] for d in data]
+            y_min = 0  # Start at 0 for expenditure data
+            y_max = max(all_values) * 1.1  # Add 10% padding at top
+        else:
+            y_min = 0
+            y_max = 100
+
         return {
             "type": "line",
             "title": f"{district} - Per Pupil Expenditures (NYSED Fiscal Profiles)",
             "data": data,
             "xAxis": {"label": "School Year", "field": "school_year"},
-            "yAxis": {"label": "Per Pupil ($)"},
+            "yAxis": {"label": "Per Pupil ($)", "min": y_min, "max": y_max},
             "series": series,
             "annotation": (
                 "Educational = Instructional expenditures incl. fringe (IE2). "
