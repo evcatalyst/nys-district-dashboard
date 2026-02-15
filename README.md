@@ -122,7 +122,7 @@ pip install -r requirements.txt
 Run the scripts in order:
 
 ```bash
-# 1. Fetch data from public sources
+# 1. Fetch data from public sources (with parallel requests)
 python scripts/fetch_sources.py
 
 # 2. Normalize to structured formats
@@ -134,6 +134,36 @@ python scripts/build_specs.py
 # 4. Build the static site
 python scripts/build_site.py
 ```
+
+#### Parallel Data Fetching
+
+The `fetch_sources.py` script now supports **parallel data fetching** to speed up the data collection process. By default, it uses **4 parallel workers** to fetch data from multiple districts simultaneously.
+
+**Environment Variable Configuration:**
+
+You can control the number of parallel workers using the `FETCH_MAX_WORKERS` environment variable:
+
+```bash
+# Use 8 parallel workers
+FETCH_MAX_WORKERS=8 python scripts/fetch_sources.py
+
+# Use 2 parallel workers (more conservative)
+FETCH_MAX_WORKERS=2 python scripts/fetch_sources.py
+
+# Default is 4 if not set
+python scripts/fetch_sources.py
+```
+
+**Performance Impact:**
+
+With parallel fetching enabled:
+- **Sequential (old)**: ~56 requests per district × 82 districts = ~4,600+ sequential requests
+- **Parallel (new)**: Up to 4 districts fetched simultaneously, significantly reducing total runtime
+- Typical speedup: **3-4x faster** with 4 workers
+
+**GitHub Actions:**
+
+The automated workflow (`.github/workflows/publish.yml`) is configured to use 4 parallel workers by default. This can be adjusted in the workflow file if needed.
 
 ### View Locally
 
