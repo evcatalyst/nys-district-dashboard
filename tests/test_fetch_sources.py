@@ -131,9 +131,10 @@ class TestMainFunctionParallelization:
             result = fetch_sources.main()
             assert result == 0
 
-    def test_parallelization_improves_efficiency(self):
-        """Test that parallelization is implemented and can handle multiple districts."""
+    def test_threadpool_processes_multiple_districts(self):
+        """Test that ThreadPoolExecutor can process multiple districts concurrently."""
         from concurrent.futures import ThreadPoolExecutor
+        from threading import Lock
         
         # This test verifies the parallel execution infrastructure exists
         # and can process multiple districts concurrently
@@ -143,9 +144,11 @@ class TestMainFunctionParallelization:
         ]
         
         processed = []
+        processed_lock = Lock()  # Thread-safe access to processed list
         
         def mock_fetch(district):
-            processed.append(district["name"])
+            with processed_lock:
+                processed.append(district["name"])
             return district["name"]
         
         # Test that ThreadPoolExecutor can be used as expected
@@ -155,3 +158,5 @@ class TestMainFunctionParallelization:
         
         assert len(results) == 10
         assert len(processed) == 10
+        # Verify all districts were processed
+        assert set(processed) == {f"District {i}" for i in range(10)}
